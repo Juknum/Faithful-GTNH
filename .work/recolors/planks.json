@@ -1,0 +1,30 @@
+{
+	"origin": "minecraft/textures/blocks/planks_oak.png",
+	"targets": [
+		"forestry/textures/blocks/wood/planks.acacia.png",
+		"forestry/textures/blocks/wood/planks.balsa.png",
+		"forestry/textures/blocks/wood/planks.baobab.png",
+		"forestry/textures/blocks/wood/planks.cherry.png",
+		"forestry/textures/blocks/wood/planks.chestnut.png",
+		"forestry/textures/blocks/wood/planks.citrus.png",
+		"forestry/textures/blocks/wood/planks.ebony.png",
+		"forestry/textures/blocks/wood/planks.greenheart.png",
+		"forestry/textures/blocks/wood/planks.kapok.png",
+		"forestry/textures/blocks/wood/planks.larch.png",
+		"forestry/textures/blocks/wood/planks.lime.png",
+		"forestry/textures/blocks/wood/planks.mahoe.png",
+		"forestry/textures/blocks/wood/planks.mahogany.png",
+		"forestry/textures/blocks/wood/planks.maple.png",
+		"forestry/textures/blocks/wood/planks.padauk.png",
+		"forestry/textures/blocks/wood/planks.palm.png",
+		"forestry/textures/blocks/wood/planks.papaya.png",
+		"forestry/textures/blocks/wood/planks.pine.png",
+		"forestry/textures/blocks/wood/planks.plum.png",
+		"forestry/textures/blocks/wood/planks.poplar.png",
+		"forestry/textures/blocks/wood/planks.sequoia.png",
+		"forestry/textures/blocks/wood/planks.teak.png",
+		"forestry/textures/blocks/wood/planks.walnut.png",
+		"forestry/textures/blocks/wood/planks.wenge.png",
+		"forestry/textures/blocks/wood/planks.willow.png"
+	]
+}
