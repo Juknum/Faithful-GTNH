@@ -10,7 +10,7 @@ This pack aims to enhance the visual experience while maintaining the 1.20+ Mine
 
 ## Resource Pack Progress
 
-Overall Progress: 714/56448 (1.26%)
+Overall Progress: 1551/56448 (2.75%)
 
 | Namespace | Completed | Total | Percentage |
 |-----------|-----------|-------|------------|
@@ -86,14 +86,14 @@ Overall Progress: 714/56448 (1.26%)
 | enderzoo | 0 | 34 | [░░░░░░░░░░] 0% |
 | enhancedlootbags | 0 | 3 | [░░░░░░░░░░] 0% |
 | eternalsingularity | 0 | 71 | [░░░░░░░░░░] 0% |
-| etfuturum | 0 | 140 | [░░░░░░░░░░] 0% |
+| etfuturum | 4 | 140 | [░░░░░░░░░░] 2.86% |
 | extrabees | 0 | 191 | [░░░░░░░░░░] 0% |
-| extratrees | 0 | 1329 | [░░░░░░░░░░] 0% |
+| extratrees | 39 | 1329 | [░░░░░░░░░░] 2.93% |
 | extrautils | 0 | 401 | [░░░░░░░░░░] 0% |
 | findit | 0 | 1 | [░░░░░░░░░░] 0% |
 | floodlights | 0 | 28 | [░░░░░░░░░░] 0% |
 | forbidden | 0 | 146 | [░░░░░░░░░░] 0% |
-| forestry | 0 | 724 | [░░░░░░░░░░] 0% |
+| forestry | 25 | 724 | [░░░░░░░░░░] 3.45% |
 | gadomancy | 0 | 71 | [░░░░░░░░░░] 0% |
 | galacticgreg | 0 | 1 | [░░░░░░░░░░] 0% |
 | galacticraftasteroids | 0 | 142 | [░░░░░░░░░░] 0% |
@@ -137,13 +137,13 @@ Overall Progress: 714/56448 (1.26%)
 | lootgames | 0 | 42 | [░░░░░░░░░░] 0% |
 | magicbees | 0 | 165 | [░░░░░░░░░░] 0% |
 | malisiscore | 0 | 15 | [░░░░░░░░░░] 0% |
-| malisisdoors | 0 | 203 | [░░░░░░░░░░] 0% |
+| malisisdoors | 3 | 203 | [░░░░░░░░░░] 1.48% |
 | mantle | 0 | 14 | [░░░░░░░░░░] 0% |
 | matter-manipulator | 0 | 41 | [░░░░░░░░░░] 0% |
 | mcframes | 0 | 6 | [░░░░░░░░░░] 0% |
 | metalbarrels | 0 | 47 | [░░░░░░░░░░] 0% |
 | microblock | 0 | 5 | [░░░░░░░░░░] 0% |
-| minecraft | 714 | 1960 | [███░░░░░░░] 36.43% |
+| minecraft | 1480 | 1960 | [███████░░░] 75.51% |
 | minetweaker | 0 | 1 | [░░░░░░░░░░] 0% |
 | miscutils | 0 | 1462 | [░░░░░░░░░░] 0% |
 | mobsinfo | 0 | 5 | [░░░░░░░░░░] 0% |
