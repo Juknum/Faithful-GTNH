@@ -9,7 +9,32 @@ permissions:
   contents: write  # Required to push changes to the repository
 
 jobs:
+  check-last-commit:
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.check.outputs.should_run }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      
+      - name: Check last commit date
+        id: check
+        run: |
+          last_commit_timestamp=$(git log -1 --format=%ct)
+          current_timestamp=$(date +%s)
+          hours_diff=$(( (current_timestamp - last_commit_timestamp) / 3600 ))
+          if [[ $hours_diff -lt 25 ]]; then
+            echo "should_run=true" >> $GITHUB_OUTPUT
+          else
+            echo "should_run=false" >> $GITHUB_OUTPUT
+          fi
+          echo "Last commit was $hours_diff hours ago"
+
   update-progress:
+    needs: check-last-commit
+    if: needs.check-last-commit.outputs.should_run == 'true'
     runs-on: windows-latest # Using Windows for PowerShell support
 
     steps:
