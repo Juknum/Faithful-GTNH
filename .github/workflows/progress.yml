@@ -19,6 +19,7 @@ jobs:
           fetch-depth: 0 # Needed to commit and push changes
 
       - name: Set up Git
+        shell: pwsh
         run: |
           git config --global user.name "Github Actions"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -26,15 +27,14 @@ jobs:
       - name: Run Extract Script
         shell: pwsh
         run: |
-          .\.github\extract.ps1
+          .\.github\scripts\extract.ps1
           
       - name: Generate Progress Statistics
         shell: pwsh
         run: |
-          .\.github\progress.ps1
+          .\.github\scripts\progress.ps1
 
       - name: Commit and push changes
         run: |
-          git add README.md
-          git diff --cached --quiet README.md || (git commit -m "Update resource pack progress in README" && git push)
+          .\.github\scripts\push.ps1 -CommitMessage "chore: update progression bars on README"
 

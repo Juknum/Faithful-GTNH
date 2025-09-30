@@ -2,7 +2,7 @@ name: Sync Vanilla 32x Assets
 
 on:
   schedule:
-    - cron: "0 2 * * *" # Runs daily at 2 AM UTC
+    - cron: "0 2 * * *" # Runs daily at 2:00 AM UTC
   workflow_dispatch:    # Allows manual trigger
 
 permissions:
@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   sync-assets:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
       - name: Checkout repository
@@ -19,28 +19,17 @@ jobs:
           fetch-depth: 0 # Needed to commit and push changes
 
       - name: Set up Git
+        shell: pwsh
         run: |
           git config --global user.name "Github Actions"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Clone external repo branch
+        shell: pwsh
         run: |
-          TEMP_DIR=$(mktemp -d)
-          git clone --branch 1.7.10 --single-branch https://github.com/Faithful-Resource-Pack/Faithful-32x-Java "$TEMP_DIR"
-          if [ -d "$TEMP_DIR/assets" ]; then
-            cp -r "$TEMP_DIR/assets" ./ 
-            echo "Assets directory copied."
-          else
-            echo "No assets directory found in branch."
-          fi
-          rm -rf "$TEMP_DIR"
+          .\.github\scripts\sync.ps1
 
       - name: Commit and push changes
+        shell: pwsh
         run: |
-          if [[ -n "$(git status --porcelain)" ]]; then
-            git add assets
-            git commit -m "chore: sync assets from Faithful 32x 1.7.10"
-            git push
-          else
-            echo "No changes to commit."
-          fi
+          .\.github\scripts\push.ps1 -CommitMessage "chore: sync assets from Faithful 32x"

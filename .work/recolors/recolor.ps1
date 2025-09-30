@@ -36,6 +36,8 @@ function Extract-Palette {
 	& magick.exe $texturePath -unique-colors $outputPath
 }
 
+Write-Host "Starting texture recoloring process..."
+
 # Process each JSON file
 foreach ($jsonFile in $jsonFiles) {
 	Write-Host "Processing $($jsonFile.Name)..."
@@ -56,11 +58,13 @@ foreach ($jsonFile in $jsonFiles) {
 		
 		# Extract palette for origin texture
 		$originPalettePath = Join-Path -Path $paletteDir -ChildPath "origin.png"
-		Extract-Palette -texturePath $originTexturePath -outputPath $originPalettePath
+		if (-not (Test-Path $originPalettePath)) {
+			Extract-Palette -texturePath $originTexturePath -outputPath $originPalettePath
+		}
 		
 		# Get the color count from origin texture
 		$originColorCount = (& magick.exe $originTexturePath -format "%k" info:)
-		
+
 		# Extract palettes for all target textures
 		if ($jsonContent.targets -and $jsonContent.targets.Count -gt 0) {
 			for ($i = 0; $i -lt $jsonContent.targets.Count; $i++) {
@@ -73,22 +77,22 @@ foreach ($jsonFile in $jsonFiles) {
 					Extract-Palette -texturePath $targetTexturePath -outputPath $targetPalettePath
 				}
 				
-				# Verify color count matches origin texture (using image width as a proxy for color count)
-				$targetColorCount = (& magick.exe $targetPalettePath -format "%w" info:)
+				# Verify color count matches origin texture
+				$targetColorCount = (& magick.exe $targetPalettePath -format "%k" info:)
 				if ($targetColorCount -ne $originColorCount) {
-					Write-Warning "Color count mismatch for ${targetTexture} #${i}: Has $targetColorCount colors, origin has $originColorCount colors"
+					Write-Host "Color count mismatch for ${targetTexture} #${i}:`nHas $targetColorCount colors, origin has $originColorCount colors" -ForegroundColor Yellow
 				}
 			}
 		}
 
-		Write-Host "Processed $($jsonFile.Name)..."
+		Write-Host "Processed $($jsonFile.Name)..." -ForegroundColor Green
 	}
 	catch {
 		Write-Error "Failed to process $($jsonFile.Name): $_"
 	}
 }
 
-Write-Host "Palettes extraction completed!"
+Write-Host "All palettes extraction completed!" -ForegroundColor Green
 
 Write-Host "Starting texture recoloring process..."
 
@@ -124,14 +128,14 @@ function Recolor-Texture {
 			$color = (& magick.exe $originPalette -format "%[pixel:u.p{$x,0}]" info:)
 			$originColors += $color
 		}
-		Write-Host "Origin Colors: $originColors"
+		# Write-Host "Origin Colors: $originColors"
 
 		$targetColors = @()
 		for ($x = 0; $x -lt $width; $x++) {
 			$color = (& magick.exe $targetPalette -format "%[pixel:u.p{$x,0}]" info:)
 			$targetColors += $color
 		}
-		write-Host "Target Colors: $targetColors"
+		# Write-Host "Target Colors: $targetColors"
 		
 		# Check if color count matches
 		if ($originColors.Count -ne $targetColors.Count) {
@@ -151,13 +155,28 @@ function Recolor-Texture {
 			& magick.exe $tempTexture -fill $targetColor -opaque $originColor $tempTexture
 		}
 		
-		# Save the final result
-		Move-Item -Path $tempTexture -Destination $outputTexture -Force
-		return $true
+		# Check if output texture exists and compare pixels with new texture
+		if (Test-Path $outputTexture) {
+			$compareResult = & magick.exe compare -metric AE $tempTexture $outputTexture NULL: 2>&1
+			$diffPixels = [regex]::Match($compareResult, "^(\d+)").Groups[1].Value
+			
+			if ($diffPixels -eq "0") {
+				# Images are identical - no changes needed
+				Remove-Item -Path $tempTexture -Force
+				Write-Host "    No changes detected" -ForegroundColor DarkGray
+			} else {
+				# Images are different - update the file
+				Move-Item -Path $tempTexture -Destination $outputTexture -Force
+				Write-Host "    Updated texture ($compareResult different pixels)" -ForegroundColor Cyan
+			}
+		} else {
+			# If output doesn't exist yet, just move it
+			Move-Item -Path $tempTexture -Destination $outputTexture -Force
+			Write-Host "    Created new texture" -ForegroundColor Cyan
+		}
 	}
 	catch {
 		Write-Warning "Failed to recolor texture: $_"
-		return $false
 	}
 }
 
@@ -188,17 +207,23 @@ foreach ($jsonFile in $jsonFiles) {
 				# Only attempt recoloring if both palettes exist
 				if ((Test-Path $targetPalette) -and (Test-Path $originTexturePath)) {
 					Write-Host "  Recoloring $targetTexture..."
-					$success = Recolor-Texture -sourceTexture $originTexturePath `
-												-originPalette $originPalette `
-												-targetPalette $targetPalette `
-												-outputTexture $outputTexturePath
 					
-					if ($success) {
-						Write-Host "  Successfully recolored $targetTexture" -ForegroundColor Green
+					# Check if both palettes have the same number of colors
+					$originColorCount = [int](& magick.exe $originPalette -format "%w" info:)
+					$targetColorCount = [int](& magick.exe $targetPalette -format "%w" info:)
+					
+					if ($originColorCount -eq $targetColorCount) {
+						Recolor-Texture -sourceTexture $originTexturePath `
+														-originPalette $originPalette `
+														-targetPalette $targetPalette `
+														-outputTexture $outputTexturePath
+					}
+					else {
+						Write-Host "    Color count mismatch for $targetTexture :`n    Origin ($originColorCount) vs Target ($targetColorCount), skipping" -ForegroundColor Yellow
 					}
 				}
 				else {
-					Write-Warning "  Missing palette or texture for $targetTexture, skipping"
+					Write-Host "  Missing palette or texture for $targetTexture, skipping" -ForegroundColor Red
 				}
 			}
 		}
