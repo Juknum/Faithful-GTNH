@@ -12,9 +12,9 @@ param(
 # Define URLs and paths
 $MinecraftUrl = "https://launcher.mojang.com/v1/objects/e80d9b3bf5085002218d4be59e668bac718abbc6/client.jar"
 $DownloadUrl = "https://downloads.gtnewhorizons.com/Multi_mc_downloads/GT_New_Horizons_${VERSION}_Java_17-25.zip"
-$ZipFile = "$PSScriptRoot\GTNH_${VERSION}.zip"
-$MinecraftJar = "$PSScriptRoot\client.jar"
-$OutputPath = Join-Path $PSScriptRoot "..\.default"
+$ZipFile = "$PSScriptRoot\..\..\GTNH_${VERSION}.zip"
+$MinecraftJar = "$PSScriptRoot\..\..\client.jar"
+$OutputPath = "$PSScriptRoot\..\..\.default"
 
 ## Vanilla Minecraft assets
 

@@ -3,7 +3,8 @@ $totalItemsAll = 0
 $completedItemsAll = 0
 
 # Get all directories in assets
-$assetDirs = Get-ChildItem -Path ".default" -Directory
+$defaultPath = Join-Path $PSScriptRoot "..\..\.default"
+$assetDirs = Get-ChildItem -Path $defaultPath -Directory
 
 foreach ($dir in $assetDirs) {
 	$dirName = $dir.Name
@@ -23,7 +24,6 @@ foreach ($dir in $assetDirs) {
 			
 			if (Test-Path $assetFilePath) {
 				$completedItems++
-				Write-Host "Found: $assetFilePath"
 			}
 		}
 
