@@ -1,4 +1,7 @@
 # Script to extract color palettes from texture files defined in JSON files
+param (
+	[switch]$Fast
+)
 
 # Ensure ImageMagick is installed (required for palette extraction)
 if (-not (Get-Command "magick.exe" -ErrorAction SilentlyContinue)) {
@@ -104,11 +107,16 @@ function Recolor-Texture {
 		[string]$targetPalette,
 		[string]$outputTexture
 	)
+
+	if ($Fast -and (Test-Path $outputTexture)) {
+		Write-Host "    Fast mode enabled and output exists, skipping recolor" -ForegroundColor DarkGray
+		return
+	}
 	
 	# Check if all required files exist
 	if (-not (Test-Path $sourceTexture) -or -not (Test-Path $originPalette) -or -not (Test-Path $targetPalette)) {
 		Write-Warning "Missing required files for recoloring: $sourceTexture, $originPalette, or $targetPalette"
-		return $false
+		return
 	}
 	
 	# Create output directory if it doesn't exist
@@ -136,12 +144,6 @@ function Recolor-Texture {
 			$targetColors += $color
 		}
 		# Write-Host "Target Colors: $targetColors"
-		
-		# Check if color count matches
-		if ($originColors.Count -ne $targetColors.Count) {
-			Write-Warning "Color count mismatch: Origin ($($originColors.Count)) vs Target ($($targetColors.Count))"
-			return $false
-		}
 		
 		# Create a temporary copy of the source texture
 		$tempTexture = "$env:TEMP\temp_texture_$(Get-Random).png"
@@ -219,7 +221,7 @@ foreach ($jsonFile in $jsonFiles) {
 														-outputTexture $outputTexturePath
 					}
 					else {
-						Write-Host "    Color count mismatch for $targetTexture :`n    Origin ($originColorCount) vs Target ($targetColorCount), skipping" -ForegroundColor Yellow
+						Write-Host "    Color count mismatch for $targetTexture :`n    Origin ($originColorCount) vs Target ($targetColorCount)`n$targetPalette`nSkipping" -ForegroundColor Yellow
 					}
 				}
 				else {

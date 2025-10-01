@@ -64,6 +64,25 @@
 		"extratrees/textures/blocks/planks/Sweetgum.png",
 		"extratrees/textures/blocks/planks/Syzgium.png",
 		"extratrees/textures/blocks/planks/Whitebeam.png",
-		"extratrees/textures/blocks/planks/Yew.png"
+		"extratrees/textures/blocks/planks/Yew.png",
+		"biomesoplenty/textures/blocks/plank_mangrove.png",
+		"biomesoplenty/textures/blocks/plank_ethereal.png",
+		"biomesoplenty/textures/blocks/plank_mahogany.png",
+		"biomesoplenty/textures/blocks/plank_jacaranda.png",
+		"bloodarsenal/textures/blocks/blood_infused_planks.png",
+		"galaxyspace/textures/blocks/barnarda2/barnarda2planks_oak.png",
+		"natura/textures/blocks/ghostwood_planks.png",
+		"natura/textures/blocks/sakura_planks.png",
+		"natura/textures/blocks/maple_planks.png",
+		"natura/textures/blocks/silverbell_planks.png",
+		"natura/textures/blocks/darkwood_planks.png",
+		"natura/textures/blocks/willow_planks.png",
+		"natura/textures/blocks/fusewood_planks.png",
+		"natura/textures/blocks/purpleheart_planks.png",
+		"witchery/textures/blocks/planks_rowan.png",
+		"witchery/textures/blocks/planks_alder.png",
+		"witchery/textures/blocks/planks_hawthorn.png",
+		"amunra/textures/blocks/planks_pod.png",
+		"amunra/textures/blocks/planks_methane.png"
 	]
 }
