@@ -6,10 +6,14 @@ $completedItemsAll = 0
 $defaultPath = Join-Path $PSScriptRoot "..\..\.default"
 $assetDirs = Get-ChildItem -Path $defaultPath -Directory
 
+$root = (Get-Item -Path $PWD).FullName
+
+$blacklistJsonPath = Join-Path -Path $root -ChildPath ".work\progress.jsonc"
+$blacklistJson = Get-Content -Path $blacklistJsonPath -Raw | ConvertFrom-Json
+
 foreach ($dir in $assetDirs) {
 	$dirName = $dir.Name
 	$defaultPath = ".default/$dirName"
-	$assetPath = "assets/$dirName"
 
 	if (Test-Path $defaultPath) {
 		# Count files in default directory
@@ -20,9 +24,13 @@ foreach ($dir in $assetDirs) {
 		$completedItems = 0
 		foreach ($file in $defaultFiles) {
 			$relativePath = $file.FullName.Replace("$pwd\.default\$dirName\", "")
-			$assetFilePath = Join-Path -Path $assetPath -ChildPath $relativePath
+			$assetFilePath = Join-Path -Path $dirName -ChildPath $relativePath
 			
-			if (Test-Path $assetFilePath) {
+			if (Test-Path "assets/$($assetFilePath)") {
+				$completedItems++
+			}
+			# If the file is blacklisted, consider it as completed
+			elseif ($blacklistJson.blacklist.Contains($assetFilePath.Replace("\", "/"))) {
 				$completedItems++
 			}
 		}
@@ -56,11 +64,14 @@ $progressSection += "|-----------|-----------|-------|------------|`n"
 
 foreach ($key in ($progressData.Keys | Sort-Object)) {
 	$item = $progressData[$key]
-	$bar = "[" + ("█" * [math]::Floor($item.Percentage / 10)) + ("░" * (10 - [math]::Floor($item.Percentage / 10))) + "]"
+	$bar = ("█" * [math]::Floor($item.Percentage / 10)) + ("░" * (10 - [math]::Floor($item.Percentage / 10)))
 	$progressSection += "| $key | $($item.Completed) | $($item.Total) | $bar $($item.Percentage)% |`n"
 }
 
 $progressSection += "`n"
+$progressSection += "> See [ignored items](https://github.com/Juknum/Faithful-GTNH/blob/2.8.0/.work/progress.jsonc)  "
+$progressSection += "`n"
+
 # Update or add the progress section in README
 if ($readmeContent -match "\#\# Resource Pack Progress(\r?\n[\s\S]*?)(?=^\#\#|\z)") {
 	# Create a pattern that captures only the progress section while preserving what comes after

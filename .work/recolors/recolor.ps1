@@ -10,7 +10,7 @@ if (-not (Get-Command "magick.exe" -ErrorAction SilentlyContinue)) {
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Definition
 
 # Get all JSON files in the script directory
-$jsonFiles = Get-ChildItem -Path $scriptDir -Filter "*.json"
+$jsonFiles = Get-ChildItem -Path $scriptDir -Filter "*.jsonc"
 
 # Function to extract palette from a texture file and save it
 function Extract-Palette {
