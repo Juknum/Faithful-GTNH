@@ -10,7 +10,7 @@ This pack aims to enhance the visual experience while maintaining the 1.20+ Mine
 
 ## Resource Pack Progress
 
-Overall Progress: 3359/56448 (5.95%)
+Overall Progress: 3378/56448 (5.98%)
 
 | Namespace | Completed | Total | Percentage |
 |-----------|-----------|-------|------------|
@@ -24,7 +24,7 @@ Overall Progress: 3359/56448 (5.95%)
 | alchemicalwizardry | 65 | 423 | █░░░░░░░░░ 15.37% |
 | alchgrate | 0 | 1 | ░░░░░░░░░░ 0% |
 | amazingtrophies | 0 | 1 | ░░░░░░░░░░ 0% |
-| amunra | 60 | 206 | ██░░░░░░░░ 29.13% |
+| amunra | 62 | 206 | ███░░░░░░░ 30.1% |
 | angelica | 0 | 5 | ░░░░░░░░░░ 0% |
 | angermod | 1 | 1 | ██████████ 100% |
 | applecore | 0 | 1 | ░░░░░░░░░░ 0% |
@@ -48,9 +48,9 @@ Overall Progress: 3359/56448 (5.95%)
 | betterquesting | 4 | 16 | ██░░░░░░░░ 25% |
 | bibliocraft | 44 | 420 | █░░░░░░░░░ 10.48% |
 | binniecore | 0 | 80 | ░░░░░░░░░░ 0% |
-| biomesoplenty | 8 | 575 | ░░░░░░░░░░ 1.39% |
+| biomesoplenty | 12 | 575 | ░░░░░░░░░░ 2.09% |
 | blockrenderer6343 | 1 | 1 | ██████████ 100% |
-| bloodarsenal | 4 | 208 | ░░░░░░░░░░ 1.92% |
+| bloodarsenal | 5 | 208 | ░░░░░░░░░░ 2.4% |
 | bogosorter | 0 | 6 | ░░░░░░░░░░ 0% |
 | botania | 112 | 1168 | ░░░░░░░░░░ 9.59% |
 | botanichorizons | 1 | 8 | █░░░░░░░░░ 12.5% |
@@ -100,7 +100,7 @@ Overall Progress: 3359/56448 (5.95%)
 | galacticraftcore | 180 | 407 | ████░░░░░░ 44.23% |
 | galacticraftmars | 19 | 97 | █░░░░░░░░░ 19.59% |
 | galacticraftmoon | 1 | 24 | ░░░░░░░░░░ 4.17% |
-| galaxyspace | 217 | 632 | ███░░░░░░░ 34.34% |
+| galaxyspace | 218 | 632 | ███░░░░░░░ 34.49% |
 | gcewing_projectblue | 0 | 36 | ░░░░░░░░░░ 0% |
 | gendustry | 71 | 119 | █████░░░░░ 59.66% |
 | genetics | 2 | 134 | ░░░░░░░░░░ 1.49% |
@@ -151,7 +151,7 @@ Overall Progress: 3359/56448 (5.95%)
 | modularui | 0 | 29 | ░░░░░░░░░░ 0% |
 | modularui2 | 0 | 31 | ░░░░░░░░░░ 0% |
 | mrtjpcore | 0 | 3 | ░░░░░░░░░░ 0% |
-| natura | 0 | 494 | ░░░░░░░░░░ 0% |
+| natura | 8 | 494 | ░░░░░░░░░░ 1.62% |
 | naturescompass | 0 | 32 | ░░░░░░░░░░ 0% |
 | navigator | 0 | 1 | ░░░░░░░░░░ 0% |
 | neenergistics | 0 | 4 | ░░░░░░░░░░ 0% |
@@ -216,7 +216,7 @@ Overall Progress: 3359/56448 (5.95%)
 | visualprospecting | 0 | 6 | ░░░░░░░░░░ 0% |
 | waila | 0 | 4 | ░░░░░░░░░░ 0% |
 | warptheory | 0 | 19 | ░░░░░░░░░░ 0% |
-| witchery | 0 | 698 | ░░░░░░░░░░ 0% |
+| witchery | 3 | 698 | ░░░░░░░░░░ 0.43% |
 | witchinggadgets | 0 | 240 | ░░░░░░░░░░ 0% |
 | wrcbe_addons | 0 | 11 | ░░░░░░░░░░ 0% |
 | wrcbe_core | 0 | 13 | ░░░░░░░░░░ 0% |
