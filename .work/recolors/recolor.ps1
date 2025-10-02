@@ -1,6 +1,8 @@
 # Script to extract color palettes from texture files defined in JSON files
 param (
-	[switch]$Fast
+	[switch]$Fast,
+
+	[string]$Files = @()  # Comma-separated list of JSON files names to process (optional)
 )
 
 # Ensure ImageMagick is installed (required for palette extraction)
@@ -13,7 +15,21 @@ if (-not (Get-Command "magick.exe" -ErrorAction SilentlyContinue)) {
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Definition
 
 # Get all JSON files in the script directory
-$jsonFiles = Get-ChildItem -Path $scriptDir -Filter "*.jsonc"
+if ($Files.Count -gt 0) {
+	# If specific JSON files are provided, use them
+	$jsonFiles = @()
+	foreach ($file in $Files) {
+		$fullPath = Join-Path -Path $scriptDir -ChildPath $file
+		if (Test-Path $fullPath) {
+			$jsonFiles += Get-Item -Path $fullPath
+		} else {
+			Write-Warning "Specified JSON file not found: $fullPath"
+		}
+	}
+} else {
+	# Otherwise, get all JSON files in the directory
+	$jsonFiles = Get-ChildItem -Path $scriptDir -Filter "*.jsonc"
+}
 
 # Function to extract palette from a texture file and save it
 function Extract-Palette {

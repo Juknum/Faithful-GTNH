@@ -1,0 +1,6 @@
+{
+	"origin": "minecraft/textures/blocks/vine.png",
+	"targets": [
+		"natura/textures/blocks/thornvine.png"
+	]
+}
