@@ -6,6 +6,7 @@ This pack aims to enhance the visual experience while maintaining the 1.20+ Mine
 ## License
 
 - Most if not all vanilla textures are under the [Faithful license](https://github.com/Faithful-Resource-Pack/Faithful-32x-Java/tree/main?tab=License-1-ov-file#readme).
+- Some textures are based on/taken from the Programmer Art version: https://github.com/Ethryan/GTNH-Faithful-Textures
 - Everything else is licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license unless otherwise noted.
 
 ## Resource Pack Progress
