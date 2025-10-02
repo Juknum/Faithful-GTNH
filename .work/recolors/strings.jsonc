@@ -1,0 +1,11 @@
+{
+	"origin": "minecraft/textures/items/string.png",
+	"targets": [
+		"bloodarsenal/textures/items/blood_burned_string.png",
+		"botania/textures/items/redString.png",
+		"botania/textures/items/manaString.png",
+		"natura/textures/items/flamestring.png",
+		"dreamcraft/textures/items/itemTungstenString.png",
+		"dreamcraft/textures/items/itemMeteoricIronString.png"
+	]
+}
