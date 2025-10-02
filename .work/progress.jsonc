@@ -1792,6 +1792,7 @@
 		"kubatech/textures/items/defc_schematic_t4.png",
 		"kubatech/textures/items/defc_schematic_t1.png",
 		"kubatech/textures/items/defc_schematic_t2.png",
-		"kubatech/textures/items/defc_schematic_t3.png"
+		"kubatech/textures/items/defc_schematic_t3.png",
+		"modularui/textures/gui/background/background_border_1px.png"
 	]
 }
