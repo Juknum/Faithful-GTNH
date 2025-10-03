@@ -1793,6 +1793,9 @@
 		"kubatech/textures/items/defc_schematic_t1.png",
 		"kubatech/textures/items/defc_schematic_t2.png",
 		"kubatech/textures/items/defc_schematic_t3.png",
-		"modularui/textures/gui/background/background_border_1px.png"
+		"modularui/textures/gui/background/background_border_1px.png",
+		"waila/textures/config_template.png",
+		"waila/textures/test_solar.png",
+		"waila/textures/test.png"
 	]
 }
