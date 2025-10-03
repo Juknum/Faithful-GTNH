@@ -11,7 +11,7 @@ This pack aims to enhance the visual experience while maintaining the 1.20+ Mine
 
 ## Resource Pack Progress
 
-Overall Progress: 3378/56448 (5.98%)
+Overall Progress: 3532/56448 (6.26%)
 
 | Namespace | Completed | Total | Percentage |
 |-----------|-----------|-------|------------|
@@ -24,11 +24,11 @@ Overall Progress: 3378/56448 (5.98%)
 | akashictome | 0 | 2 | ░░░░░░░░░░ 0% |
 | alchemicalwizardry | 65 | 423 | █░░░░░░░░░ 15.37% |
 | alchgrate | 0 | 1 | ░░░░░░░░░░ 0% |
-| amazingtrophies | 0 | 1 | ░░░░░░░░░░ 0% |
+| amazingtrophies | 1 | 1 | ██████████ 100% |
 | amunra | 62 | 206 | ███░░░░░░░ 30.1% |
 | angelica | 0 | 5 | ░░░░░░░░░░ 0% |
 | angermod | 1 | 1 | ██████████ 100% |
-| applecore | 0 | 1 | ░░░░░░░░░░ 0% |
+| applecore | 1 | 1 | ██████████ 100% |
 | appliedenergistics2 | 11 | 549 | ░░░░░░░░░░ 2% |
 | architecturecraft | 4 | 12 | ███░░░░░░░ 33.33% |
 | asielib | 0 | 2 | ░░░░░░░░░░ 0% |
@@ -51,13 +51,13 @@ Overall Progress: 3378/56448 (5.98%)
 | binniecore | 0 | 80 | ░░░░░░░░░░ 0% |
 | biomesoplenty | 12 | 575 | ░░░░░░░░░░ 2.09% |
 | blockrenderer6343 | 1 | 1 | ██████████ 100% |
-| bloodarsenal | 5 | 208 | ░░░░░░░░░░ 2.4% |
-| bogosorter | 0 | 6 | ░░░░░░░░░░ 0% |
-| botania | 112 | 1168 | ░░░░░░░░░░ 9.59% |
+| bloodarsenal | 6 | 208 | ░░░░░░░░░░ 2.88% |
+| bogosorter | 6 | 6 | ██████████ 100% |
+| botania | 114 | 1168 | ░░░░░░░░░░ 9.76% |
 | botanichorizons | 1 | 8 | █░░░░░░░░░ 12.5% |
 | botany | 1 | 991 | ░░░░░░░░░░ 0.1% |
 | bpp | 0 | 253 | ░░░░░░░░░░ 0% |
-| bq_standard | 2 | 3 | ██████░░░░ 66.67% |
+| bq_standard | 3 | 3 | ██████████ 100% |
 | brandonscore | 0 | 1 | ░░░░░░░░░░ 0% |
 | buildcraft | 1 | 1 | ██████████ 100% |
 | buildcraftbuilders | 0 | 70 | ░░░░░░░░░░ 0% |
@@ -79,7 +79,7 @@ Overall Progress: 3378/56448 (5.98%)
 | creativecore | 0 | 3 | ░░░░░░░░░░ 0% |
 | custommainmenu | 0 | 3 | ░░░░░░░░░░ 0% |
 | draconicevolution | 70 | 282 | ██░░░░░░░░ 24.82% |
-| dreamcraft | 38 | 706 | ░░░░░░░░░░ 5.38% |
+| dreamcraft | 40 | 706 | ░░░░░░░░░░ 5.67% |
 | emt | 86 | 185 | ████░░░░░░ 46.49% |
 | endercore | 0 | 1 | ░░░░░░░░░░ 0% |
 | enderio | 225 | 816 | ██░░░░░░░░ 27.57% |
@@ -124,12 +124,12 @@ Overall Progress: 3378/56448 (5.98%)
 | iguanatweakstconstruct | 0 | 77 | ░░░░░░░░░░ 0% |
 | infernalmobs | 2 | 2 | ██████████ 100% |
 | iris | 0 | 1 | ░░░░░░░░░░ 0% |
-| ironchest | 0 | 64 | ░░░░░░░░░░ 0% |
+| ironchest | 7 | 64 | █░░░░░░░░░ 10.94% |
 | ironchestminecarts | 0 | 8 | ░░░░░░░░░░ 0% |
 | ironshulkerbox | 0 | 128 | ░░░░░░░░░░ 0% |
 | irontank | 0 | 43 | ░░░░░░░░░░ 0% |
 | irontankminecarts | 0 | 20 | ░░░░░░░░░░ 0% |
-| jabba | 1 | 113 | ░░░░░░░░░░ 0.88% |
+| jabba | 73 | 113 | ██████░░░░ 64.6% |
 | journeymap | 0 | 291 | ░░░░░░░░░░ 0% |
 | kekztech | 16 | 74 | ██░░░░░░░░ 21.62% |
 | kubatech | 5 | 73 | ░░░░░░░░░░ 6.85% |
@@ -149,20 +149,20 @@ Overall Progress: 3378/56448 (5.98%)
 | miscutils | 0 | 1462 | ░░░░░░░░░░ 0% |
 | mobsinfo | 0 | 5 | ░░░░░░░░░░ 0% |
 | modernmarkings | 0 | 148 | ░░░░░░░░░░ 0% |
-| modularui | 0 | 29 | ░░░░░░░░░░ 0% |
+| modularui | 29 | 29 | ██████████ 100% |
 | modularui2 | 0 | 31 | ░░░░░░░░░░ 0% |
-| mrtjpcore | 0 | 3 | ░░░░░░░░░░ 0% |
-| natura | 8 | 494 | ░░░░░░░░░░ 1.62% |
+| mrtjpcore | 2 | 3 | ██████░░░░ 66.67% |
+| natura | 10 | 494 | ░░░░░░░░░░ 2.02% |
 | naturescompass | 0 | 32 | ░░░░░░░░░░ 0% |
 | navigator | 0 | 1 | ░░░░░░░░░░ 0% |
 | neenergistics | 0 | 4 | ░░░░░░░░░░ 0% |
-| nei | 0 | 8 | ░░░░░░░░░░ 0% |
+| nei | 7 | 8 | ████████░░ 87.5% |
 | neiaddons | 0 | 5 | ░░░░░░░░░░ 0% |
-| neicustomdiagram | 0 | 1 | ░░░░░░░░░░ 0% |
-| neiintegration | 0 | 9 | ░░░░░░░░░░ 0% |
+| neicustomdiagram | 1 | 1 | ██████████ 100% |
+| neiintegration | 7 | 9 | ███████░░░ 77.78% |
 | nodalmechanics | 0 | 1 | ░░░░░░░░░░ 0% |
 | nuclearcontrol | 0 | 574 | ░░░░░░░░░░ 0% |
-| nutrition | 0 | 4 | ░░░░░░░░░░ 0% |
+| nutrition | 4 | 4 | ██████████ 100% |
 | openblocks | 0 | 250 | ░░░░░░░░░░ 0% |
 | opencomputers | 0 | 372 | ░░░░░░░░░░ 0% |
 | openglasses | 0 | 5 | ░░░░░░░░░░ 0% |
@@ -183,7 +183,7 @@ Overall Progress: 3378/56448 (5.98%)
 | sleepingbag | 0 | 7 | ░░░░░░░░░░ 0% |
 | sodium | 0 | 1 | ░░░░░░░░░░ 0% |
 | specialmobs | 0 | 142 | ░░░░░░░░░░ 0% |
-| spiceoflife | 0 | 12 | ░░░░░░░░░░ 0% |
+| spiceoflife | 9 | 12 | ███████░░░ 75% |
 | stevesaddons | 0 | 9 | ░░░░░░░░░░ 0% |
 | stevescarts | 0 | 421 | ░░░░░░░░░░ 0% |
 | stevesfactory | 0 | 32 | ░░░░░░░░░░ 0% |
