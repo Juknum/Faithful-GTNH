@@ -1,15 +1,22 @@
-$progressData = @{}
-$totalItemsAll = 0
+##############################################################
+# PowerShell script to calculate and update resource pack progress
+# in the README.md file based on extracted assets and a blacklist.
+#
+# Usage:
+#   .\progress.ps1
+#
+##############################################################
+
+$progressData      = @{}
+$totalItemsAll     = 0
 $completedItemsAll = 0
 
 # Get all directories in assets
 $defaultPath = Join-Path $PSScriptRoot "..\..\.default"
-$assetDirs = Get-ChildItem -Path $defaultPath -Directory
+$assetDirs   = Get-ChildItem -Path $defaultPath -Directory
 
-$root = (Get-Item -Path $PWD).FullName
-
-$blacklistJsonPath = Join-Path -Path $root -ChildPath ".work\progress.jsonc"
-$blacklistJson = Get-Content -Path $blacklistJsonPath -Raw | ConvertFrom-Json
+$blacklistJsonPath = Join-Path $PSScriptRoot "..\configs\progress.jsonc"
+$blacklistJson     = Get-Content -Path $blacklistJsonPath -Raw | ConvertFrom-Json
 
 foreach ($dir in $assetDirs) {
 	$dirName = $dir.Name

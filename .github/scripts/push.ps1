@@ -1,3 +1,10 @@
+##############################################################
+# PowerShell script to add, commit, and push changes to the Git repository.
+#
+# Usage:
+#   .\push.ps1 -CommitMessage "Your commit message here"
+#
+##############################################################
 
 param(
 	[Parameter(Mandatory)]

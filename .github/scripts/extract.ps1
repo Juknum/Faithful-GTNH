@@ -1,6 +1,17 @@
-# Define version variable (default: 2.8.0)
+##############################################################
+# PowerShell script to extract Minecraft and mod assets
+# from the GT New Horizons modpack for use in a resource pack.
+#
+# Usage:
+#   .\extract.ps1 -VERSION 2.8.0
+#
+# If no version is specified, it will attempt to use the current
+# Git branch name or default to 2.8.0.
+#
+##############################################################
+
 param(
-	[string]$VERSION = $(if ($env:GITHUB_REF_NAME) { 
+	[string]$Version = $(if ($env:GITHUB_REF_NAME) { 
 		# Use GitHub's branch name if available
 		$env:GITHUB_REF_NAME 
 	} elseif (Get-Command "git" -ErrorAction SilentlyContinue) {
@@ -11,10 +22,10 @@ param(
 
 # Define URLs and paths
 $MinecraftUrl = "https://launcher.mojang.com/v1/objects/e80d9b3bf5085002218d4be59e668bac718abbc6/client.jar"
-$DownloadUrl = "https://downloads.gtnewhorizons.com/Multi_mc_downloads/GT_New_Horizons_${VERSION}_Java_17-25.zip"
-$ZipFile = "$PSScriptRoot\..\..\GTNH_${VERSION}.zip"
+$DownloadUrl  = "https://downloads.gtnewhorizons.com/Multi_mc_downloads/GT_New_Horizons_${VERSION}_Java_17-25.zip"
+$ZipFile      = "$PSScriptRoot\..\..\GTNH_${VERSION}.zip"
 $MinecraftJar = "$PSScriptRoot\..\..\client.jar"
-$OutputPath = "$PSScriptRoot\..\..\.default"
+$OutputPath   = "$PSScriptRoot\..\..\.default"
 
 ## Vanilla Minecraft assets
 
@@ -54,10 +65,10 @@ Write-Host "Vanilla Minecraft assets extracted to $OutputPath"
 ## Mods assets from GTNH
 
 if (-Not (Test-Path $ZipFile)) {
-	Write-Host "Downloading GT New Horizons version $VERSION..."
+	Write-Host "Downloading GT New Horizons version $Version..."
 	# Use BITS transfer for faster download with resume capability
 	Import-Module BitsTransfer
-	Start-BitsTransfer -Source $DownloadUrl -Destination $ZipFile -DisplayName "Downloading GTNH $VERSION" -Priority High
+	Start-BitsTransfer -Source $DownloadUrl -Destination $ZipFile -DisplayName "Downloading GTNH $Version" -Priority High
 	
 	# Verify the zip file isn't corrupted
 	try {
@@ -80,7 +91,7 @@ if (-Not (Test-Path $ZipFile)) {
 		Remove-Item -Path $ZipFile -Force
 		# Use BITS transfer for faster download with resume capability
 		Import-Module BitsTransfer
-		Start-BitsTransfer -Source $DownloadUrl -Destination $ZipFile -DisplayName "Downloading GTNH $VERSION" -Priority High
+		Start-BitsTransfer -Source $DownloadUrl -Destination $ZipFile -DisplayName "Downloading GTNH $Version" -Priority High
 		
 		# Verify the new download
 		try {
