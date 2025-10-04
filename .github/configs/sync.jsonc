@@ -935,7 +935,8 @@
 			"minecraft/textures/particle/soul_8.png": ["minecraft/textures/particle/soul_8.png"],
 			"minecraft/textures/particle/soul_9.png": ["minecraft/textures/particle/soul_9.png"],
 			"minecraft/textures/particle/soul_10.png": ["minecraft/textures/particle/soul_10.png"],
-			"minecraft/textures/particle/soul_fire_flame.png": ["minecraft/textures/particle/soul_fire_flame.png"]
+			"minecraft/textures/particle/soul_fire_flame.png": ["minecraft/textures/particle/soul_fire_flame.png"],
+			"minecraft/textures/gui/sprites/gamemode_switcher/slot.png": ["backhand/textures/gui/offhand_slot.png"]
 		}
 	}
 }
