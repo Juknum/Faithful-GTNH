@@ -1,9 +1,10 @@
 name: Update Progress Bar on README
 
 on:
-  schedule:
-    - cron: "5 2 * * *" # Runs daily at 2:05 AM UTC
-  workflow_dispatch:    # Allows manual trigger
+  workflow_dispatch: # Allows manual trigger
+  workflow_run:      # Triggered after the sync workflow completes
+    workflows: ["Sync Vanilla 32x Assets"]
+    types: [completed]
 
 permissions:
   contents: write  # Required to push changes to the repository
