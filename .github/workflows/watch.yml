@@ -1,9 +1,9 @@
-name: Update Progress Bar on README
+name: Watch textures changes
 
 on:
   workflow_dispatch: # Allows manual trigger
   workflow_run:      # Triggered after the sync workflow completes
-    workflows: ["Watch textures changes"]
+    workflows: ["Sync Vanilla 32x Assets"]
     types: [completed]
 
 permissions:
@@ -33,10 +33,10 @@ jobs:
           fi
           echo "Last commit was $hours_diff hours ago"
 
-  update-progress:
+  watch-assets:
     needs: check-last-commit
     if: needs.check-last-commit.outputs.should_run == 'true'
-    runs-on: windows-latest # Using Windows for PowerShell support
+    runs-on: windows-latest
 
     steps:
       - name: Checkout repository
@@ -50,17 +50,12 @@ jobs:
           git config --global user.name "Github Actions"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Run Extract Script
+      - name: Update assets under watch
         shell: pwsh
         run: |
-          .\.github\scripts\extract.ps1
-          
-      - name: Generate Progress Statistics
-        shell: pwsh
-        run: |
-          .\.github\scripts\progress.ps1
+          .\.github\scripts\watcher.ps1
 
       - name: Commit and push changes
+        shell: pwsh
         run: |
-          .\.github\scripts\push.ps1 -CommitMessage "update progression bars on README"
-
+          .\.github\scripts\push.ps1 -CommitMessage "update assets under watch"

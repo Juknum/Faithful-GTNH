@@ -24,7 +24,7 @@ jobs:
           git config --global user.name "Github Actions"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Clone external repo branch
+      - name: Sync assets from Faithful 32x repository
         shell: pwsh
         run: |
           .\.github\scripts\sync.ps1
