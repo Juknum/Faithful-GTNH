@@ -1,0 +1,11 @@
+{
+	"origin": "minecraft/textures/items/iron_ingot.png",
+	"targets": [
+		"advancedsolarpanel/textures/items/IridiumIgnot.png",
+		"enderio/textures/items/conductiveIron.png",
+		"gregtech/textures/items/materialicons/METALLIC/ingotHot_OVERLAY.png",
+		"gregtech/textures/items/materialicons/METALLIC/ingot.png",
+		"gregtech/textures/items/materialicons/METALLIC/ingotHot.png",
+		"enderio/textures/items/ingotEnderiumBase.png"
+	]
+}

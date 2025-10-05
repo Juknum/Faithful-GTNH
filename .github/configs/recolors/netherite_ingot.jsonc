@@ -1,0 +1,8 @@
+{
+	"origin": "minecraft/textures/items/netherite_ingot.png",
+	"targets": [
+		"enderio/textures/items/soularium.png",
+		"enderio/textures/items/darkSteel.png",
+		"enderio/textures/items/electricalSteel.png"
+	]
+}
