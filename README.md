@@ -11,7 +11,7 @@ This pack aims to enhance the visual experience while maintaining the 1.20+ Mine
 
 ## Resource Pack Progress
 
-Overall Progress: 3532/56448 (6.26%)
+Overall Progress: 3540/56448 (6.27%)
 
 | Namespace | Completed | Total | Percentage |
 |-----------|-----------|-------|------------|
@@ -35,7 +35,7 @@ Overall Progress: 3532/56448 (6.26%)
 | automagy | 26 | 223 | █░░░░░░░░░ 11.66% |
 | avaritia | 15 | 168 | ░░░░░░░░░░ 8.93% |
 | avaritiaddons | 0 | 18 | ░░░░░░░░░░ 0% |
-| backhand | 0 | 1 | ░░░░░░░░░░ 0% |
+| backhand | 1 | 1 | ██████████ 100% |
 | backpack | 0 | 58 | ░░░░░░░░░░ 0% |
 | bartworks | 2 | 159 | ░░░░░░░░░░ 1.26% |
 | bartworkscrossmod | 0 | 4 | ░░░░░░░░░░ 0% |
@@ -94,7 +94,7 @@ Overall Progress: 3532/56448 (6.26%)
 | findit | 0 | 1 | ░░░░░░░░░░ 0% |
 | floodlights | 1 | 28 | ░░░░░░░░░░ 3.57% |
 | forbidden | 19 | 146 | █░░░░░░░░░ 13.01% |
-| forestry | 26 | 724 | ░░░░░░░░░░ 3.59% |
+| forestry | 28 | 724 | ░░░░░░░░░░ 3.87% |
 | gadomancy | 23 | 71 | ███░░░░░░░ 32.39% |
 | galacticgreg | 1 | 1 | ██████████ 100% |
 | galacticraftasteroids | 68 | 142 | ████░░░░░░ 47.89% |
@@ -208,14 +208,14 @@ Overall Progress: 3532/56448 (6.26%)
 | thaumichorizons | 0 | 304 | ░░░░░░░░░░ 0% |
 | thaumicinsurgence | 0 | 127 | ░░░░░░░░░░ 0% |
 | thaumicmachina | 0 | 31 | ░░░░░░░░░░ 0% |
-| tinker | 0 | 5029 | ░░░░░░░░░░ 0% |
+| tinker | 1 | 5029 | ░░░░░░░░░░ 0.02% |
 | tinkersdefense | 0 | 27 | ░░░░░░░░░░ 0% |
 | tmechworks | 0 | 43 | ░░░░░░░░░░ 0% |
 | translocator | 0 | 5 | ░░░░░░░░░░ 0% |
 | ttinkerer | 0 | 310 | ░░░░░░░░░░ 0% |
 | twilightforest | 0 | 635 | ░░░░░░░░░░ 0% |
 | visualprospecting | 0 | 6 | ░░░░░░░░░░ 0% |
-| waila | 0 | 4 | ░░░░░░░░░░ 0% |
+| waila | 4 | 4 | ██████████ 100% |
 | warptheory | 0 | 19 | ░░░░░░░░░░ 0% |
 | witchery | 3 | 698 | ░░░░░░░░░░ 0.43% |
 | witchinggadgets | 0 | 240 | ░░░░░░░░░░ 0% |
