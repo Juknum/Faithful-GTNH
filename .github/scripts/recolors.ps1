@@ -21,10 +21,12 @@ $recolorsDirectory = "$PSScriptRoot/../configs/recolors"
 
 # Get all jsonc files in the recolors directory
 
-if ($files.Count -gt 0) {
+if ($files) {
 	# If specific JSON files are provided, use them
 	$recolorFiles = @()
-	foreach ($file in $files) {
+	$splitFiles = $files -split " " | ForEach-Object { $_.Trim() }
+
+	foreach ($file in $splitFiles) {
 		$fullPath = Join-Path -Path $recolorsDirectory -ChildPath $file
 		if (Test-Path $fullPath) {
 			$recolorFiles += Get-Item -Path $fullPath

@@ -30,9 +30,40 @@ $palettesDirectory = "$PSScriptRoot/../configs/palettes"
 $assetsDirectory   = "$PSScriptRoot/../../assets"
 $defaultDirectory  = "$PSScriptRoot/../../.default"
 
+$escape = [Char]0x1B
+
+function RenderPalette([array]$Palette) {
+	[Console]::CursorVisible = $false
+	
+	$squareSize = 1
+	$colorsPerRow = 10
+	$rows = [Math]::Ceiling($Palette.Count / $colorsPerRow)
+	
+	for ($row = 0; $row -lt $rows; $row++) {
+		for ($y = 0; $y -lt $squareSize; $y++) {
+			$pixelStrings = for ($col = 0; $col -lt $colorsPerRow; $col++) {
+				$index = $row * $colorsPerRow + $col
+				if ($index -lt $Palette.Count) {
+					$colorStr = $Palette[$index]
+					if ($colorStr -match '^#([0-9a-fA-F]{2})([0-9a-fA-F]{2})([0-9a-fA-F]{2})') {
+						$r = [Convert]::ToInt32($matches[1], 16)
+						$g = [Convert]::ToInt32($matches[2], 16)
+						$b = [Convert]::ToInt32($matches[3], 16)
+						
+						"$escape[48;2;$r;$g;${b}m" + (" " * 3)
+					}
+				}
+			}
+			[String]::Join('', $pixelStrings + "$escape[0m")
+		}
+	}
+	[Console]::CursorVisible = $true
+}
+
 function Get-Palette(
 	[string] $asset,
-	[switch] $isDefault = $false
+	[switch] $isDefault = $false,
+	[int]    $maxColors = 1024 # 32x32
 ) {
 	$paletteFilename = "$palettesDirectory/$($asset -replace '\.png$', '.jsonc')"
 	$textureFilename = if ($isDefault) { "$defaultDirectory/$asset" } else { "$assetsDirectory/$asset" }
@@ -55,8 +86,8 @@ function Get-Palette(
 	foreach ($h in 1..$BitMap.Height) {
 		foreach ($w in 1..$BitMap.Width) {
 			$color = $BitMap.GetPixel($w - 1, $h - 1)
-			# Only add the color to the palette if it's not fully transparent
-			if ($color.A -ne 0) {
+			# Only add the color to the palette if it's not too transparent
+			if ($color.A -eq 255) {
 				$hexColor = "#{0:X2}{1:X2}{2:X2}{3:X2}" -f $color.R, $color.G, $color.B, $color.A
 				$table[$hexColor] = $true
 			}
@@ -85,6 +116,15 @@ function Get-Palette(
 	# Sort by luminance (darkest to brightest)
 	$palette = $colorObjects | Sort-Object Luminance | Select-Object -ExpandProperty Color
 	# Write-Host $palette
+
+	if ($palette.Count -gt $maxColors) {
+		Write-Warning "Palette has $($palette.Count) colors, reducing to $maxColors colors."
+		$step = $palette.Count / $maxColors
+		
+		$palette = for ($i = 0; $i -lt $maxColors; $i++) {
+			$palette[[Math]::Floor($i * $step)]
+		}
+	}
 	
 	# Ensure the palette directory exists
 	if (!(Test-Path -Path (Split-Path -Path $paletteFilename -Parent))) {
@@ -127,6 +167,10 @@ function Recolor-Texture(
 	for ($i = 0; $i -lt $targetPalettes.Length; $i++) {
 		$targetPalettePath = $targetPalettes[$i]
 		$targetOutputPath = "$assetsDirectory/$($targetPaths[$i])"
+
+		Write-Host "$($targetPaths[$i])" -ForegroundColor Green
+		& "$($PSScriptRoot)/display.ps1" -Path "$defaultDirectory/$($targetPaths[$i])"
+		Write-Host ""
 		
 		# Ensure directory exists for output file
 		$targetDir = Split-Path -Path $targetOutputPath -Parent
@@ -136,6 +180,10 @@ function Recolor-Texture(
 		
 		# Load target palette
 		$targetPalette = Get-Content $targetPalettePath -Raw | ConvertFrom-Json
+
+		Write-Host "Palette $($targetPalette)" -ForegroundColor Green
+		RenderPalette $targetPalette
+		Write-Host ""
 		
 		# Create color mapping (source to target)
 		$colorMap = @{}
@@ -144,10 +192,6 @@ function Recolor-Texture(
 			for ($j = 0; $j -lt $sourcePalette.Count; $j++) {
 				$colorMap[$sourcePalette[$j]] = $targetPalette[$j]
 			}
-		}
-		else {
-			Write-Warning "Palette sizes don't match for $($targetPaths[$i]). Skipping this target."
-			continue
 		}
 		
 		# Create new bitmap with same dimensions
@@ -206,7 +250,11 @@ function Recolor-Texture(
 		$newBitmap.Save($targetOutputPath, [System.Drawing.Imaging.ImageFormat]::Png)
 		$newBitmap.Dispose()
 		
-		Write-Host "INFO: Recolored target $($targetPaths[$i])" -ForegroundColor Green
+		Write-Host "Recolored:" -ForegroundColor Green
+		& "$($PSScriptRoot)/display.ps1" -Path $targetOutputPath
+
+		Write-Host ""
+		Write-Host ""
 	}
 	
 	# Dispose of source bitmap
@@ -218,6 +266,16 @@ $sourcePalette = Get-Palette $src
 $validTargets  = @()
 $validPalettes = @()
 
+Write-Host "Source Palette:" -ForegroundColor Green
+$jsonPalette = Get-Content $sourcePalette -Raw | ConvertFrom-Json
+RenderPalette $jsonPalette
+Write-Host ""
+Write-Host "Source:" -ForegroundColor Green
+
+& "$($PSScriptRoot)/display.ps1" -Path "$assetsDirectory/$src"
+Write-Host ""
+Write-Host ""
+
 # Process each output target
 foreach ($target in $out) {
 	if (-not $forceRecolor -and (Test-Path "$assetsDirectory/$target" -PathType Leaf)) {
@@ -226,7 +284,7 @@ foreach ($target in $out) {
 	}
 
 	# Get/Generate palette for default version of target
-	$targetPalette = Get-Palette $target -isDefault
+	$targetPalette = Get-Palette $target -isDefault -maxColors $jsonPalette.Count
 	
 	# Skip if either palette couldn't be generated
 	if (-not $sourcePalette -or -not $targetPalette) {
