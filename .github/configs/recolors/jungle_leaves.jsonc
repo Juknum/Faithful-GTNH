@@ -1,0 +1,8 @@
+{
+	"origin": "minecraft/textures/blocks/leaves_jungle.png",
+	"targets": [
+		"forestry/textures/blocks/leaves/jungle.fancy.png",
+		"thaumicbases/textures/blocks/enderTree/leaves.png",
+		"forbidden/textures/blocks/taint_leaves.png"
+	]
+}
