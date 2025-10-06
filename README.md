@@ -11,11 +11,11 @@ This pack aims to enhance the visual experience while maintaining the 1.20+ Mine
 
 ## Resource Pack Progress
 
-Overall Progress: 3540/56448 (6.27%)
+Overall Progress: 3549/56448 (6.29%)
 
 | Namespace | Completed | Total | Percentage |
 |-----------|-----------|-------|------------|
-| advancedsolarpanel | 2 | 42 | ░░░░░░░░░░ 4.76% |
+| advancedsolarpanel | 3 | 42 | ░░░░░░░░░░ 7.14% |
 | adventurebackpack | 0 | 161 | ░░░░░░░░░░ 0% |
 | ae2fc | 2 | 110 | ░░░░░░░░░░ 1.82% |
 | ae2stuff | 0 | 85 | ░░░░░░░░░░ 0% |
@@ -82,7 +82,7 @@ Overall Progress: 3540/56448 (6.27%)
 | dreamcraft | 40 | 706 | ░░░░░░░░░░ 5.67% |
 | emt | 86 | 185 | ████░░░░░░ 46.49% |
 | endercore | 0 | 1 | ░░░░░░░░░░ 0% |
-| enderio | 225 | 816 | ██░░░░░░░░ 27.57% |
+| enderio | 230 | 816 | ██░░░░░░░░ 28.19% |
 | enderstorage | 0 | 5 | ░░░░░░░░░░ 0% |
 | enderzoo | 0 | 34 | ░░░░░░░░░░ 0% |
 | enhancedlootbags | 0 | 3 | ░░░░░░░░░░ 0% |
@@ -109,7 +109,7 @@ Overall Progress: 3540/56448 (6.27%)
 | goodgenerator | 9 | 206 | ░░░░░░░░░░ 4.37% |
 | gravisuite | 3 | 32 | ░░░░░░░░░░ 9.38% |
 | gravisuiteneo | 0 | 108 | ░░░░░░░░░░ 0% |
-| gregtech | 12 | 14853 | ░░░░░░░░░░ 0.08% |
+| gregtech | 15 | 14853 | ░░░░░░░░░░ 0.1% |
 | gtneioreplugin | 258 | 266 | █████████░ 96.99% |
 | gtnhintergalactic | 0 | 238 | ░░░░░░░░░░ 0% |
 | gtnhlanth | 0 | 56 | ░░░░░░░░░░ 0% |
