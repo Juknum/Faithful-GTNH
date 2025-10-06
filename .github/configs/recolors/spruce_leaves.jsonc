@@ -1,0 +1,13 @@
+{
+	"origin": "minecraft/textures/blocks/leaves_spruce.png",
+	"targets": [
+		"biomesoplenty/textures/blocks/leaves_persimmon0_fancy.png",
+		"biomesoplenty/textures/blocks/leaves_ethereal_fancy.png",
+		"biomesoplenty/textures/blocks/leaves_redwood_fancy.png",
+		"biomesoplenty/textures/blocks/leaves_pine_fancy.png",
+		"natura/textures/blocks/fusewood_leaves_fancy.png",
+		"natura/textures/blocks/tiger_leaves_fancy.png",
+		"forestry/textures/blocks/leaves/conifers.fancy.png",
+		"ic2/textures/blocks/blockRubLeaves.png"
+	]
+}
