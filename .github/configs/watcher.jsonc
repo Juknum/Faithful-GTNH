@@ -1,10 +1,132 @@
 {
+	"assets/minecraft/textures/blocks/leaves_birch.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["birch_leaves.jsonc"],
+					"forceRecolor": true
+				}
+			},
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "persimmon.jsonc"
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/sapling_birch.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["birch_sapling.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/items/brick.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["brick_ingot.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/items/gold_ingot.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["gold_ingot.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/items/iron_ingot.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["iron_ingot.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/leaves_jungle.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["jungle_leaves.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/items/netherite_ingot.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["netherite_ingot.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/leaves_oak.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["oak_leaves.jsonc"],
+					"forceRecolor": true
+				}
+			},
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "persimmon.jsonc"
+				}
+			}
+		]
+	},
 	"assets/minecraft/textures/blocks/planks_oak.png": {
 		"scripts": [
 			{
 				"name": "recolors.ps1",
 				"args": {
-					"files": ["planks.jsonc"],
+					"files": ["oak_planks.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/sapling_oak.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["oak_sapling.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/leaves_spruce.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["oak_sapling.jsonc"],
 					"forceRecolor": true
 				}
 			}
