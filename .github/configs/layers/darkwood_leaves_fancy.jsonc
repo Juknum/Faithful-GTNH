@@ -1,0 +1,12 @@
+[
+	{
+		"layer0Path": "assets/natura/textures/blocks/darkwood_leaves_fancy.png",
+		"layer1Path":  ".work/natura/textures/blocks/darkwood_flowering_leaves_fancy.png",
+		"outPath":    "assets/natura/textures/blocks/darkwood_flowering_leaves_fancy.png"
+	},
+	{
+		"layer0Path": "assets/natura/textures/blocks/darkwood_leaves_fancy.png",
+		"layer1Path":  ".work/natura/textures/blocks/darkwood_fruit_leaves_fancy.png",
+		"outPath":    "assets/natura/textures/blocks/darkwood_fruit_leaves_fancy.png"
+	},
+]
