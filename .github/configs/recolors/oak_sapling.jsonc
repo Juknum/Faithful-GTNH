@@ -1,0 +1,6 @@
+{
+	"origin": "minecraft/textures/blocks/sapling_oak.png",
+	"targets": [
+		"thaumicbases/textures/blocks/goldenOak/sapling.png"
+	]
+}
