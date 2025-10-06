@@ -1,0 +1,11 @@
+{
+	"origin": "minecraft/textures/blocks/leaves_birch.png",
+	"targets": [
+		"biomesoplenty/textures/blocks/leaves_mangrove_fancy.png",
+		"natura/textures/blocks/eucalyptus_leaves_fancy.png",
+		"natura/textures/blocks/hopseed_leaves_fancy.png",
+		"natura/textures/blocks/sakura_leaves_fancy.png",
+		"biomesoplenty/textures/blocks/leaves_dark_fancy.png",
+		"thaumicbases/textures/blocks/richBirch/leaves.png"
+	]
+}
