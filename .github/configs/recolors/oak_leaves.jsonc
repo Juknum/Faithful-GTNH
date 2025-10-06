@@ -1,0 +1,21 @@
+{
+	"origin": "minecraft/textures/blocks/leaves_oak.png",
+	"targets": [
+		"forestry/textures/blocks/leaves/deciduous.fancy.png",
+		"natura/textures/blocks/ghostwood_leaves_fancy.png",
+		"natura/textures/blocks/darkwood_leaves_fancy.png",
+		"thaumicbases/textures/blocks/goldenOak/leaves.png",
+		"thaumicbases/textures/blocks/peacefullTree/leaves.png",
+		"thaumcraft/textures/blocks/silverwoodleaves.png",
+		"thaumcraft/textures/blocks/greatwoodleaves.png",
+		"biomesoplenty/textures/blocks/leaves_jacaranda_fancy.png",
+		"biomesoplenty/textures/blocks/leaves_maple_fancy.png",
+		"biomesoplenty/textures/blocks/leaves_orangeautumn_fancy.png",
+		"biomesoplenty/textures/blocks/leaves_origin_fancy.png",
+		"biomesoplenty/textures/blocks/leaves_yellowautumn_fancy.png",
+		"biomesoplenty/textures/blocks/leaves_apple0_fancy.png",
+		"biomesoplenty/textures/blocks/leaves_dead_fancy.png",
+		"biomesoplenty/textures/blocks/leaves_flowering_fancy.png",
+		"galaxyspace/textures/blocks/barnarda2/barnarda2leaves_violet_leaves.png"
+	]
+}
