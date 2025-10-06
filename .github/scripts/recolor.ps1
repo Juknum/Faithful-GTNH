@@ -87,7 +87,7 @@ function Get-Palette(
 		foreach ($w in 1..$BitMap.Width) {
 			$color = $BitMap.GetPixel($w - 1, $h - 1)
 			# Only add the color to the palette if it's not too transparent
-			if ($color.A -eq 255) {
+			if ($color.A -gt 180) {
 				$hexColor = "#{0:X2}{1:X2}{2:X2}{3:X2}" -f $color.R, $color.G, $color.B, $color.A
 				$table[$hexColor] = $true
 			}
