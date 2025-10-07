@@ -11,7 +11,7 @@ This pack aims to enhance the visual experience while maintaining the 1.20+ Mine
 
 ## Resource Pack Progress
 
-Overall Progress: 3549/56448 (6.29%)
+Overall Progress: 3596/56448 (6.37%)
 
 | Namespace | Completed | Total | Percentage |
 |-----------|-----------|-------|------------|
@@ -49,7 +49,7 @@ Overall Progress: 3549/56448 (6.29%)
 | betterquesting | 4 | 16 | ██░░░░░░░░ 25% |
 | bibliocraft | 44 | 420 | █░░░░░░░░░ 10.48% |
 | binniecore | 0 | 80 | ░░░░░░░░░░ 0% |
-| biomesoplenty | 12 | 575 | ░░░░░░░░░░ 2.09% |
+| biomesoplenty | 31 | 575 | ░░░░░░░░░░ 5.39% |
 | blockrenderer6343 | 1 | 1 | ██████████ 100% |
 | bloodarsenal | 6 | 208 | ░░░░░░░░░░ 2.88% |
 | bogosorter | 6 | 6 | ██████████ 100% |
@@ -93,15 +93,15 @@ Overall Progress: 3549/56448 (6.29%)
 | extrautils | 2 | 401 | ░░░░░░░░░░ 0.5% |
 | findit | 0 | 1 | ░░░░░░░░░░ 0% |
 | floodlights | 1 | 28 | ░░░░░░░░░░ 3.57% |
-| forbidden | 19 | 146 | █░░░░░░░░░ 13.01% |
-| forestry | 28 | 724 | ░░░░░░░░░░ 3.87% |
+| forbidden | 20 | 146 | █░░░░░░░░░ 13.7% |
+| forestry | 36 | 724 | ░░░░░░░░░░ 4.97% |
 | gadomancy | 23 | 71 | ███░░░░░░░ 32.39% |
 | galacticgreg | 1 | 1 | ██████████ 100% |
 | galacticraftasteroids | 68 | 142 | ████░░░░░░ 47.89% |
 | galacticraftcore | 180 | 407 | ████░░░░░░ 44.23% |
 | galacticraftmars | 19 | 97 | █░░░░░░░░░ 19.59% |
 | galacticraftmoon | 1 | 24 | ░░░░░░░░░░ 4.17% |
-| galaxyspace | 218 | 632 | ███░░░░░░░ 34.49% |
+| galaxyspace | 219 | 632 | ███░░░░░░░ 34.65% |
 | gcewing_projectblue | 0 | 36 | ░░░░░░░░░░ 0% |
 | gendustry | 71 | 119 | █████░░░░░ 59.66% |
 | genetics | 2 | 134 | ░░░░░░░░░░ 1.49% |
@@ -118,7 +118,7 @@ Overall Progress: 3549/56448 (6.29%)
 | harvestthenether | 0 | 54 | ░░░░░░░░░░ 0% |
 | holoinventory | 2 | 3 | ██████░░░░ 66.67% |
 | hydroenergy | 0 | 2 | ░░░░░░░░░░ 0% |
-| ic2 | 0 | 1211 | ░░░░░░░░░░ 0% |
+| ic2 | 1 | 1211 | ░░░░░░░░░░ 0.08% |
 | ic2nei | 0 | 2 | ░░░░░░░░░░ 0% |
 | ifu | 0 | 6 | ░░░░░░░░░░ 0% |
 | iguanatweakstconstruct | 0 | 77 | ░░░░░░░░░░ 0% |
@@ -152,7 +152,7 @@ Overall Progress: 3549/56448 (6.29%)
 | modularui | 29 | 29 | ██████████ 100% |
 | modularui2 | 0 | 31 | ░░░░░░░░░░ 0% |
 | mrtjpcore | 2 | 3 | ██████░░░░ 66.67% |
-| natura | 10 | 494 | ░░░░░░░░░░ 2.02% |
+| natura | 19 | 494 | ░░░░░░░░░░ 3.85% |
 | naturescompass | 0 | 32 | ░░░░░░░░░░ 0% |
 | navigator | 0 | 1 | ░░░░░░░░░░ 0% |
 | neenergistics | 0 | 4 | ░░░░░░░░░░ 0% |
@@ -200,8 +200,8 @@ Overall Progress: 3549/56448 (6.29%)
 | tcnodetracker | 0 | 7 | ░░░░░░░░░░ 0% |
 | tectech | 0 | 220 | ░░░░░░░░░░ 0% |
 | tgregworks | 0 | 1 | ░░░░░░░░░░ 0% |
-| thaumcraft | 0 | 924 | ░░░░░░░░░░ 0% |
-| thaumicbases | 0 | 341 | ░░░░░░░░░░ 0% |
+| thaumcraft | 2 | 924 | ░░░░░░░░░░ 0.22% |
+| thaumicbases | 6 | 341 | ░░░░░░░░░░ 1.76% |
 | thaumicboots | 0 | 184 | ░░░░░░░░░░ 0% |
 | thaumicenergistics | 0 | 115 | ░░░░░░░░░░ 0% |
 | thaumicexploration | 0 | 191 | ░░░░░░░░░░ 0% |
