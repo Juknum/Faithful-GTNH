@@ -153,5 +153,27 @@
 				}
 			}
 		]
+	},
+	"assets/minecraft/textures/blocks/iron_block.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["iron_block.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/emerald_block.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["emerald_block.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
 	}
 }
