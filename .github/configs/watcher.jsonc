@@ -234,5 +234,50 @@
 				}
 			}
 		]
+	},
+	"assets/minecraft/textures/blocks/tnt_side.png": {
+		"scripts": [
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "tnts.jsonc"
+				}
+			},
+			{
+				"name": "stitches.ps1",
+				"args": {
+					"files": [
+						"blockITNT.jsonc",
+						"blockNuke.jsonc"
+					]
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/tnt_top.png": {
+		"scripts": [
+			{
+				"name": "stitches.ps1",
+				"args": {
+					"files": [
+						"blockITNT.jsonc",
+						"blockNuke.jsonc"
+					]
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/tnt_bottom.png": {
+		"scripts": [
+			{
+				"name": "stitches.ps1",
+				"args": {
+					"files": [
+						"blockITNT.jsonc",
+						"blockNuke.jsonc"
+					]
+				}
+			}
+		]
 	}
 }

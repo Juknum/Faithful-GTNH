@@ -26,6 +26,9 @@ function Merge-Images {
 		[int]$y
 	)
 	
+	Write-Host $backgroundPath -ForegroundColor Yellow
+	Write-Host $overlayPath -ForegroundColor Yellow
+
 	try {
 		# Load the background image
 		$background = [System.Drawing.Image]::FromFile($backgroundPath)

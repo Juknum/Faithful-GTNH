@@ -1,0 +1,11 @@
+{
+	"output": "ic2/textures/blocks/blockNuke.png",
+	"textures": [
+		"minecraft/textures/blocks/tnt_bottom.png",
+		"minecraft/textures/blocks/tnt_top.png",
+		".work/.assets/blockNuke.png",
+		".work/.assets/blockNuke.png",
+		".work/.assets/blockNuke.png",
+		".work/.assets/blockNuke.png"
+	]
+}

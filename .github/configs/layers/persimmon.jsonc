@@ -1,17 +1,17 @@
 [
 	{
 		"layer0Path": "assets/biomesoplenty/textures/blocks/leaves_persimmon0_fancy.png",
-		"layer1Path":  ".work/.assets/leaves_persimmon1_fancy.png",
+		"layer1Path": ".work/.assets/leaves_persimmon1_fancy.png",
 		"outPath":    "assets/biomesoplenty/textures/blocks/leaves_persimmon1_fancy.png"
 	},
 	{
 		"layer0Path": "assets/biomesoplenty/textures/blocks/leaves_persimmon0_fancy.png",
-		"layer1Path":  ".work/.assets/leaves_persimmon2_fancy.png",
+		"layer1Path": ".work/.assets/leaves_persimmon2_fancy.png",
 		"outPath":    "assets/biomesoplenty/textures/blocks/leaves_persimmon2_fancy.png"
 	},
 	{
 		"layer0Path": "assets/biomesoplenty/textures/blocks/leaves_persimmon0_fancy.png",
-		"layer1Path":  ".work/.assets/leaves_persimmon3_fancy.png",
+		"layer1Path": ".work/.assets/leaves_persimmon3_fancy.png",
 		"outPath":    "assets/biomesoplenty/textures/blocks/leaves_persimmon3_fancy.png"
 	}
 ]

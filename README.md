@@ -225,6 +225,6 @@ Overall Progress: 4012/56448 (7.11%)
 | yamcore | 0 | 1 | ░░░░░░░░░░ 0% |
 | ztones | 0 | 561 | ░░░░░░░░░░ 0% |
 
-> See [ignored items](https://github.com/Juknum/Faithful-GTNH/blob/2.8.0/.work/progress.jsonc)  
+> See [ignored items](https://github.com/Juknum/Faithful-GTNH/blob/2.8.0/.github/configs/progress.jsonc)  
 
 

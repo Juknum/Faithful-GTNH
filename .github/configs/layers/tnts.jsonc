@@ -1,0 +1,12 @@
+[
+	{
+		"layer0Path": "assets/minecraft/textures/blocks/tnt_side.png",
+		"layer1Path": ".work/.assets/blockITNT_overlay.png",
+		"outPath":    ".work/.assets/blockITNT.png"
+	},
+	{
+		"layer0Path": "assets/minecraft/textures/blocks/tnt_side.png",
+		"layer1Path": ".work/.assets/blockNuke_overlay.png",
+		"outPath":    ".work/.assets/blockNuke.png"
+	}
+]
