@@ -1,0 +1,6 @@
+{
+	"origin": "minecraft/textures/items/iron_shovel.png",
+	"targets": [
+		"ic2/textures/items/itemToolBronzeSpade.png"
+	]
+}

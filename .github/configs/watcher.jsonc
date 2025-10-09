@@ -279,5 +279,60 @@
 				}
 			}
 		]
+	},
+	"assets/minecraft/textures/items/iron_axe.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["iron_axe.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/items/iron_hoe.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["iron_hoe.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/items/iron_pickaxe.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["iron_pickaxe.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/items/iron_shovel.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["iron_shovel.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/items/iron_sword.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["iron_sword.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
 	}
 }

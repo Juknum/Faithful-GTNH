@@ -1,0 +1,6 @@
+{
+	"origin": "minecraft/textures/items/iron_hoe.png",
+	"targets": [
+		"ic2/textures/items/itemToolBronzeHoe.png"
+	]
+}
