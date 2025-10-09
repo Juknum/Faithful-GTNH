@@ -335,12 +335,23 @@
 			}
 		]
 	},
-	"assets/minecraft/textures/items/book.png": {
+	"assets/minecraft/textures/items/book_normal.png": {
 		"scripts": [
 			{
 				"name": "recolors.ps1",
 				"args": {
 					"files": ["book.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/copper_block.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["copper_block.jsonc"],
 					"forceRecolor": true
 				}
 			}

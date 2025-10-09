@@ -2,15 +2,24 @@
 	"origin": "minecraft/textures/blocks/copper_block.png",
 	"targets": [
 		"gregtech/textures/blocks/iconsets/MACHINE_HEATPROOFCASING.png",
-		"gregtech/textures/blocks/iconsets/MACHINE_ULV_TOP.png",
-		"gregtech/textures/blocks/iconsets/MACHINE_ULV_BOTTOM.png",
-		"gregtech/textures/blocks/iconsets/MACHINE_ULV_SIDE.png",
 		"gregtech/textures/blocks/iconsets/MACHINE_STEEL_BOTTOM.png",
 		"gregtech/textures/blocks/iconsets/MACHINE_STEEL_SIDE.png",
 		"gregtech/textures/blocks/iconsets/MACHINE_STEEL_TOP.png",
 		"gregtech/textures/blocks/iconsets/MACHINE_STEELBRICKS_TOP.png",
+		"gregtech/textures/blocks/iconsets/MACHINE_ULV_TOP.png",
+		"gregtech/textures/blocks/iconsets/MACHINE_ULV_BOTTOM.png",
+		"gregtech/textures/blocks/iconsets/MACHINE_ULV_SIDE.png",
 		"gregtech/textures/blocks/iconsets/MACHINE_LV_TOP.png",
 		"gregtech/textures/blocks/iconsets/MACHINE_LV_BOTTOM.png",
-		"gregtech/textures/blocks/iconsets/MACHINE_LV_SIDE.png"
+		"gregtech/textures/blocks/iconsets/MACHINE_LV_SIDE.png",
+		"gregtech/textures/blocks/iconsets/MACHINE_MV_TOP.png",
+		"gregtech/textures/blocks/iconsets/MACHINE_MV_BOTTOM.png",
+		"gregtech/textures/blocks/iconsets/MACHINE_MV_SIDE.png",
+		"gregtech/textures/blocks/iconsets/MACHINE_HV_TOP.png",
+		"gregtech/textures/blocks/iconsets/MACHINE_HV_BOTTOM.png",
+		"gregtech/textures/blocks/iconsets/MACHINE_HV_SIDE.png",
+		"gregtech/textures/blocks/iconsets/MACHINE_EV_TOP.png",
+		"gregtech/textures/blocks/iconsets/MACHINE_EV_BOTTOM.png",
+		"gregtech/textures/blocks/iconsets/MACHINE_EV_SIDE.png"
 	]
 }
