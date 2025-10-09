@@ -306,7 +306,7 @@ foreach ($target in $out) {
 		$textureFile = "$workDefaultDirectory" + ($target -replace $workDirName, "")
 	}
 
-	Write-Host "Target: $textureFile" -ForegroundColor Green
+	# Write-Host "Target: $textureFile" -ForegroundColor Green
 
 	$targetPalette = Get-Palette $target -maxColors $jsonPalette.Count -textureFilename $textureFile
 	
