@@ -7,7 +7,8 @@
 			"minecraft/textures/entity/zombie_villager/zombie_librarian.png": ["minecraft/textures/entity/zombie_villager/zombie_librarian.png"],
 			"minecraft/textures/entity/zombie_villager/zombie_priest.png": ["minecraft/textures/entity/zombie_villager/zombie_priest.png"],
 			"minecraft/textures/entity/zombie_villager/zombie_smith.png": ["minecraft/textures/entity/zombie_villager/zombie_smith.png"],
-			"minecraft/textures/entity/zombie_villager/zombie_villager.png": ["minecraft/textures/entity/zombie_villager/zombie_villager.png"]
+			"minecraft/textures/entity/zombie_villager/zombie_villager.png": ["minecraft/textures/entity/zombie_villager/zombie_villager.png"],
+			"minecraft/textures/gui/book.png": ["mantle/textures/gui/book.png"]
 		},
 		"1.20.1": {
 			"minecraft/textures/entity/cow/brown_mooshroom.png": ["minecraft/textures/entity/cow/brown_mooshroom.png"],

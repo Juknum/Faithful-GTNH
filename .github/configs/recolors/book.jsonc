@@ -1,0 +1,13 @@
+{
+	"origin": "minecraft/textures/items/book_normal.png",
+	"targets": [
+		"mantle/textures/gui/tinkerbook_green.png",
+		"mantle/textures/gui/tinkerbook_blue.png",
+		"mantle/textures/items/mantlebook_blue.png",
+		"mantle/textures/items/tinkerbook_blue.png",
+		"mantle/textures/items/tinkerbook_diary.png",
+		"mantle/textures/items/tinkerbook_green.png",
+		"mantle/textures/items/tinkerbook_smeltery.png",
+		"mantle/textures/items/tinkerbook_toolstation.png"
+	]
+}

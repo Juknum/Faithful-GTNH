@@ -334,5 +334,16 @@
 				}
 			}
 		]
+	},
+	"assets/minecraft/textures/items/book.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["book.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
 	}
 }

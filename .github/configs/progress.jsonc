@@ -2027,6 +2027,7 @@
 		"gregtech/textures/blocks/iconsets/STEAM_TURBINE_TOP_ACTIVE.png",
 		"gregtech/textures/blocks/iconsets/STEAM_TURBINE_TOP_ACTIVE_GLOW.png",
 		"gregtech/textures/blocks/iconsets/STEAM_TURBINE_TOP_GLOW.png",
-		"gregtech/textures/blocks/iconsets/TRANSPARENT.png"
+		"gregtech/textures/blocks/iconsets/TRANSPARENT.png",
+		"mantle/textures/gui/missingno.png"
 	]
 }
