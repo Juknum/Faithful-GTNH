@@ -1,0 +1,12 @@
+[
+	{
+		"layer0Path": ".work/.assets/blockRubWoodSide.png",
+		"layer1Path": ".work/.assets/blockRubWoodSideDryLayer.png",
+		"outPath":    ".work/.assets/blockRubWoodSideDry.png"
+	},
+	{
+		"layer0Path": ".work/.assets/blockRubWoodSide.png",
+		"layer1Path": ".work/.assets/blockRubWoodSideWetLayer.png",
+		"outPath":    ".work/.assets/blockRubWoodSideWet.png"
+	}
+]

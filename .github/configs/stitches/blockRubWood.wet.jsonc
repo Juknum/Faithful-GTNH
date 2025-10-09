@@ -1,0 +1,11 @@
+{
+	"output": "ic2/textures/blocks/blockRubWood.wet.png",
+	"textures": [
+		".work/.assets/blockRubWoodTop.png",
+		".work/.assets/blockRubWoodTop.png",
+		".work/.assets/blockRubWoodSide.png",
+		".work/.assets/blockRubWoodSideWet.png",
+		".work/.assets/blockRubWoodSide.png",
+		".work/.assets/blockRubWoodSide.png"
+	]
+}

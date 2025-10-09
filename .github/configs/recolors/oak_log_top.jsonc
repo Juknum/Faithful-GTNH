@@ -1,0 +1,6 @@
+{
+	"origin": "minecraft/textures/blocks/log_oak_top.png",
+	"targets": [
+		".work/.default/blockRubWoodTop.png"
+	]
+}

@@ -186,5 +186,53 @@
 				}
 			}
 		]
+	},
+	"assets/minecraft/textures/blocks/oak_log.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["oak_log_side.jsonc"],
+					"forceRecolor": true
+				}
+			},
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "blockRubWood.jsonc"
+				}
+			},
+			{
+				"name": "stitches.ps1",
+				"args": {
+					"files": [
+						"blockRubWood.wet.jsonc",
+						"blockRubWood.dry.jsonc",
+						"blockRubWood.jsonc"
+					]
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/oak_log_top.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["oak_log_top.jsonc"],
+					"forceRecolor": true
+				}
+			},
+			{
+				"name": "stitches.ps1",
+				"args": {
+					"files": [
+						"blockRubWood.wet.jsonc",
+						"blockRubWood.dry.jsonc",
+						"blockRubWood.jsonc"
+					]
+				}
+			}
+		]
 	}
 }

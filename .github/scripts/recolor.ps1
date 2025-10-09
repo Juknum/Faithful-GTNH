@@ -9,7 +9,7 @@
 param (
 	[string]   $src,       # eg: "minecraft/textures/block/planks_oak.png"
 	[string[]] $out = @(), # eg: "forestry/textures/blocks/wood/planks.acacia.png", "forestry/textures/blocks/wood/planks.balsa.png"
-	[switch]   $commandLine  = $false,
+	[switch]   $commandLine = $false,
 	[switch]   $forceRecolor = $false
 )
 
@@ -29,6 +29,11 @@ Write-Host ""
 $palettesDirectory = "$PSScriptRoot/../configs/palettes"
 $assetsDirectory   = "$PSScriptRoot/../../assets"
 $defaultDirectory  = "$PSScriptRoot/../../.default"
+
+$workDefaultDirectory = "$PSScriptRoot/../../.work/.default"
+$workAssetsDirectory  = "$PSScriptRoot/../../.work/.assets"
+
+$workDirName = ".work/.default"
 
 $escape = [Char]0x1B
 
@@ -62,11 +67,10 @@ function RenderPalette([array]$Palette) {
 
 function Get-Palette(
 	[string] $asset,
-	[switch] $isDefault = $false,
+	[string] $textureFilename,
 	[int]    $maxColors = 1024 # 32x32
 ) {
 	$paletteFilename = "$palettesDirectory/$($asset -replace '\.png$', '.jsonc')"
-	$textureFilename = if ($isDefault) { "$defaultDirectory/$asset" } else { "$assetsDirectory/$asset" }
 
 	if (Test-Path $paletteFilename) {
 		return $paletteFilename
@@ -107,7 +111,7 @@ function Get-Palette(
 			$luminance = 0.299 * $r + 0.587 * $g + 0.114 * $b
 			
 			[PSCustomObject]@{
-				Color = $_
+				Color     = $_
 				Luminance = $luminance
 			}
 		}
@@ -158,18 +162,31 @@ function Recolor-Texture(
 	}
 	
 	$sourceBitmap = [System.Drawing.Bitmap]::FromFile((Resolve-Path $sourcePath).ProviderPath)
-	
+
 	# Get source palette
-	$sourcePalettePath = Get-Palette $sourceImage
+	$sourcePalettePath = Get-Palette $sourceImage -textureFilename $sourcePath
 	$sourcePalette = Get-Content $sourcePalettePath -Raw | ConvertFrom-Json
 	
+
 	# Process each target
 	for ($i = 0; $i -lt $targetPalettes.Length; $i++) {
+		$isWorkDir = $targetPaths[$i].StartsWith(".work/.default")
 		$targetPalettePath = $targetPalettes[$i]
-		$targetOutputPath = "$assetsDirectory/$($targetPaths[$i])"
+
+		if ($isWorkDir) {
+			$targetOutputPath = $workAssetsDirectory + ($targetPaths[$i] -replace "$workDirName", "")
+		}
+		else {
+			$targetOutputPath = "$assetsDirectory/$($targetPaths[$i])"
+		}
 
 		Write-Host "$($targetPaths[$i])" -ForegroundColor Green
-		& "$($PSScriptRoot)/display.ps1" -Path "$defaultDirectory/$($targetPaths[$i])"
+		if ($isWorkDir) {
+			& "$($PSScriptRoot)/display.ps1" -Path ($workDefaultDirectory + ($targetPaths[$i] -replace "$workDirName", ""))
+		}
+		else {
+			& "$($PSScriptRoot)/display.ps1" -Path "$defaultDirectory/$($targetPaths[$i])"
+		}
 		Write-Host ""
 		
 		# Ensure directory exists for output file
@@ -196,7 +213,7 @@ function Recolor-Texture(
 		
 		# Create new bitmap with same dimensions
 		$newBitmap = New-Object System.Drawing.Bitmap $sourceBitmap.Width, $sourceBitmap.Height
-		
+
 		# Process each pixel
 		for ($x = 0; $x -lt $sourceBitmap.Width; $x++) {
 			for ($y = 0; $y -lt $sourceBitmap.Height; $y++) {
@@ -245,7 +262,7 @@ function Recolor-Texture(
 				}
 			}
 		}
-		
+
 		# Save the new image
 		$newBitmap.Save($targetOutputPath, [System.Drawing.Imaging.ImageFormat]::Png)
 		$newBitmap.Dispose()
@@ -262,7 +279,7 @@ function Recolor-Texture(
 }
 
 # Get/Generate palette for source image
-$sourcePalette = Get-Palette $src
+$sourcePalette = Get-Palette $src -textureFilename $assetsDirectory/$src
 $validTargets  = @()
 $validPalettes = @()
 
@@ -279,12 +296,19 @@ Write-Host ""
 # Process each output target
 foreach ($target in $out) {
 	if (-not $forceRecolor -and (Test-Path "$assetsDirectory/$target" -PathType Leaf)) {
-		Write-Host "INFO: Target $target already exists, skipping recolor. Use -forceRecolor to override." -ForegroundColor Cyan
+		# Write-Host "INFO: Target $target already exists, skipping recolor. Use -forceRecolor to override." -ForegroundColor Cyan
 		continue
 	}
 
 	# Get/Generate palette for default version of target
-	$targetPalette = Get-Palette $target -isDefault -maxColors $jsonPalette.Count
+	$textureFile = "$defaultDirectory/$target"
+	if ($target.StartsWith($workDirName)) {
+		$textureFile = "$workDefaultDirectory" + ($target -replace $workDirName, "")
+	}
+
+	Write-Host "Target: $textureFile" -ForegroundColor Green
+
+	$targetPalette = Get-Palette $target -maxColors $jsonPalette.Count -textureFilename $textureFile
 	
 	# Skip if either palette couldn't be generated
 	if (-not $sourcePalette -or -not $targetPalette) {
