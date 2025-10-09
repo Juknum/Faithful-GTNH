@@ -175,5 +175,16 @@
 				}
 			}
 		]
+	},
+	"assets/minecraft/textures/items/diamond.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["diamond.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
 	}
 }

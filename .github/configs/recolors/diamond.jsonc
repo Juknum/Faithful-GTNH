@@ -1,0 +1,11 @@
+{
+	"origin": "minecraft/textures/items/diamond.png",
+	"targets": [
+		"ic2/textures/items/itemBatCrystal.4.png",
+		"ic2/textures/items/itemBatCrystal.0.png",
+		"ic2/textures/items/itemBatCrystal.1.png",
+		"ic2/textures/items/itemBatCrystal.2.png",
+		"ic2/textures/items/itemBatCrystal.3.png",
+		"ic2/textures/items/itemPartIndustrialDiamond.png"
+	]
+}
