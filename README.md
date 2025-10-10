@@ -11,7 +11,7 @@ This pack aims to enhance the visual experience while maintaining the 1.20+ Mine
 
 ## Resource Pack Progress
 
-Overall Progress: 4012/56448 (7.11%)
+Overall Progress: 4060/56448 (7.19%)
 
 | Namespace | Completed | Total | Percentage |
 |-----------|-----------|-------|------------|
@@ -90,7 +90,7 @@ Overall Progress: 4012/56448 (7.11%)
 | etfuturum | 5 | 140 | ░░░░░░░░░░ 3.57% |
 | extrabees | 1 | 191 | ░░░░░░░░░░ 0.52% |
 | extratrees | 39 | 1329 | ░░░░░░░░░░ 2.93% |
-| extrautils | 2 | 401 | ░░░░░░░░░░ 0.5% |
+| extrautils | 5 | 401 | ░░░░░░░░░░ 1.25% |
 | findit | 0 | 1 | ░░░░░░░░░░ 0% |
 | floodlights | 1 | 28 | ░░░░░░░░░░ 3.57% |
 | forbidden | 20 | 146 | █░░░░░░░░░ 13.7% |
@@ -109,7 +109,7 @@ Overall Progress: 4012/56448 (7.11%)
 | goodgenerator | 9 | 206 | ░░░░░░░░░░ 4.37% |
 | gravisuite | 3 | 32 | ░░░░░░░░░░ 9.38% |
 | gravisuiteneo | 0 | 108 | ░░░░░░░░░░ 0% |
-| gregtech | 431 | 14853 | ░░░░░░░░░░ 2.9% |
+| gregtech | 440 | 14853 | ░░░░░░░░░░ 2.96% |
 | gtneioreplugin | 258 | 266 | █████████░ 96.99% |
 | gtnhintergalactic | 0 | 238 | ░░░░░░░░░░ 0% |
 | gtnhlanth | 0 | 56 | ░░░░░░░░░░ 0% |
@@ -118,7 +118,7 @@ Overall Progress: 4012/56448 (7.11%)
 | harvestthenether | 0 | 54 | ░░░░░░░░░░ 0% |
 | holoinventory | 2 | 3 | ██████░░░░ 66.67% |
 | hydroenergy | 0 | 2 | ░░░░░░░░░░ 0% |
-| ic2 | 1 | 1211 | ░░░░░░░░░░ 0.08% |
+| ic2 | 23 | 1211 | ░░░░░░░░░░ 1.9% |
 | ic2nei | 0 | 2 | ░░░░░░░░░░ 0% |
 | ifu | 0 | 6 | ░░░░░░░░░░ 0% |
 | iguanatweakstconstruct | 0 | 77 | ░░░░░░░░░░ 0% |
@@ -139,7 +139,7 @@ Overall Progress: 4012/56448 (7.11%)
 | magicbees | 0 | 165 | ░░░░░░░░░░ 0% |
 | malisiscore | 0 | 15 | ░░░░░░░░░░ 0% |
 | malisisdoors | 11 | 203 | ░░░░░░░░░░ 5.42% |
-| mantle | 0 | 14 | ░░░░░░░░░░ 0% |
+| mantle | 14 | 14 | ██████████ 100% |
 | matter-manipulator | 0 | 41 | ░░░░░░░░░░ 0% |
 | mcframes | 0 | 6 | ░░░░░░░░░░ 0% |
 | metalbarrels | 0 | 47 | ░░░░░░░░░░ 0% |
@@ -225,6 +225,6 @@ Overall Progress: 4012/56448 (7.11%)
 | yamcore | 0 | 1 | ░░░░░░░░░░ 0% |
 | ztones | 0 | 561 | ░░░░░░░░░░ 0% |
 
-> See [ignored items](https://github.com/Juknum/Faithful-GTNH/blob/2.8.0/.github/configs/progress.jsonc)  
+> See [ignored items](https://github.com/Juknum/Faithful-GTNH/blob/2.8.0/.work/progress.jsonc)  
 
 
