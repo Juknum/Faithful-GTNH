@@ -1,0 +1,11 @@
+{
+	"origin": "minecraft/textures/blocks/stonebrick_carved.png",
+	"targets": [
+		"gregtech/textures/blocks/iconsets/BASALT_BRICKS_CHISELED.png",
+		"gregtech/textures/blocks/iconsets/GRANITE_BLACK_BRICKS_CHISELED.png",
+		"gregtech/textures/blocks/iconsets/GRANITE_RED_BRICKS_CHISELED.png",
+		"gregtech/textures/blocks/iconsets/MARBLE_BRICKS_CHISELED.png",
+		"gregtech/textures/blocks/iconsets/CONCRETE_DARK_BRICKS_CHISELED.png",
+		"gregtech/textures/blocks/iconsets/CONCRETE_LIGHT_BRICKS_CHISELED.png"
+	]
+}

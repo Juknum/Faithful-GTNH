@@ -1,0 +1,11 @@
+{
+	"origin": "minecraft/textures/blocks/stone_slab_top.png",
+	"targets": [
+		"gregtech/textures/blocks/iconsets/BASALT_SMOOTH.png",
+		"gregtech/textures/blocks/iconsets/GRANITE_BLACK_SMOOTH.png",
+		"gregtech/textures/blocks/iconsets/GRANITE_RED_SMOOTH.png",
+		"gregtech/textures/blocks/iconsets/MARBLE_SMOOTH.png",
+		"gregtech/textures/blocks/iconsets/CONCRETE_DARK_SMOOTH.png",
+		"gregtech/textures/blocks/iconsets/CONCRETE_LIGHT_SMOOTH.png"
+	]
+}
