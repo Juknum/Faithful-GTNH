@@ -20,6 +20,21 @@
 		"gregtech/textures/blocks/iconsets/MACHINE_HV_SIDE.png",
 		"gregtech/textures/blocks/iconsets/MACHINE_EV_TOP.png",
 		"gregtech/textures/blocks/iconsets/MACHINE_EV_BOTTOM.png",
-		"gregtech/textures/blocks/iconsets/MACHINE_EV_SIDE.png"
+		"gregtech/textures/blocks/iconsets/MACHINE_EV_SIDE.png",
+		"gregtech/textures/blocks/iconsets/MACHINE_IV_TOP.png",
+		"gregtech/textures/blocks/iconsets/MACHINE_IV_BOTTOM.png",
+		"gregtech/textures/blocks/iconsets/MACHINE_IV_SIDE.png",
+		"gregtech/textures/blocks/iconsets/MACHINE_LuV_TOP.png",
+		"gregtech/textures/blocks/iconsets/MACHINE_LuV_BOTTOM.png",
+		"gregtech/textures/blocks/iconsets/MACHINE_LuV_SIDE.png",
+		"gregtech/textures/blocks/iconsets/MACHINE_ZPM_TOP.png",
+		"gregtech/textures/blocks/iconsets/MACHINE_ZPM_BOTTOM.png",
+		"gregtech/textures/blocks/iconsets/MACHINE_ZPM_SIDE.png",
+		"gregtech/textures/blocks/iconsets/MACHINE_UV_TOP.png",
+		"gregtech/textures/blocks/iconsets/MACHINE_UV_BOTTOM.png",
+		"gregtech/textures/blocks/iconsets/MACHINE_UV_SIDE.png",
+		"gregtech/textures/blocks/iconsets/MACHINE_UHV_TOP.png",
+		"gregtech/textures/blocks/iconsets/MACHINE_UHV_BOTTOM.png",
+		"gregtech/textures/blocks/iconsets/MACHINE_UHV_SIDE.png"
 	]
 }
