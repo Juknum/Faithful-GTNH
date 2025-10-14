@@ -11,7 +11,7 @@ This pack aims to enhance the visual experience while maintaining the 1.20+ Mine
 
 ## Resource Pack Progress
 
-Overall Progress: 4060/56448 (7.19%)
+Overall Progress: 4123/56448 (7.3%)
 
 | Namespace | Completed | Total | Percentage |
 |-----------|-----------|-------|------------|
@@ -109,7 +109,7 @@ Overall Progress: 4060/56448 (7.19%)
 | goodgenerator | 9 | 206 | ░░░░░░░░░░ 4.37% |
 | gravisuite | 3 | 32 | ░░░░░░░░░░ 9.38% |
 | gravisuiteneo | 0 | 108 | ░░░░░░░░░░ 0% |
-| gregtech | 440 | 14853 | ░░░░░░░░░░ 2.96% |
+| gregtech | 503 | 14853 | ░░░░░░░░░░ 3.39% |
 | gtneioreplugin | 258 | 266 | █████████░ 96.99% |
 | gtnhintergalactic | 0 | 238 | ░░░░░░░░░░ 0% |
 | gtnhlanth | 0 | 56 | ░░░░░░░░░░ 0% |
