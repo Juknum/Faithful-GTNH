@@ -6,6 +6,9 @@
 		"botania/textures/items/manaString.png",
 		"natura/textures/items/flamestring.png",
 		"dreamcraft/textures/items/itemTungstenString.png",
-		"dreamcraft/textures/items/itemMeteoricIronString.png"
+		"dreamcraft/textures/items/itemMeteoricIronString.png",
+		"witchinggadgets/textures/items/mat_threadGold.png",
+		"witchinggadgets/textures/items/mat_threadSimple.png",
+		"witchinggadgets/textures/items/mat_threadThaumium.png"
 	]
 }
