@@ -1,0 +1,6 @@
+{
+	"origin": "minecraft/textures/items/name_tag.png",
+	"targets": [
+		"witchinggadgets/textures/items/mat_descriptionTag.png"
+	]
+}

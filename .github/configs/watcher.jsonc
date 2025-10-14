@@ -461,5 +461,16 @@
 				}
 			}
 		]
+	},
+	"assets/minecraft/textures/items/name_tag.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["name_tag.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
 	}
 }
