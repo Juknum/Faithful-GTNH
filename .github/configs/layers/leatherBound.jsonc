@@ -1,0 +1,7 @@
+[
+	{
+		"layer0Path": "assets/minecraft/textures/items/leather.png",
+		"layer1Path": ".work/.assets/leatherBound.png",
+		"outPath":    "assets/backpack/textures/items/leatherBound.png"
+	}
+]

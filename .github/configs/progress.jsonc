@@ -2028,6 +2028,14 @@
 		"gregtech/textures/blocks/iconsets/STEAM_TURBINE_TOP_ACTIVE_GLOW.png",
 		"gregtech/textures/blocks/iconsets/STEAM_TURBINE_TOP_GLOW.png",
 		"gregtech/textures/blocks/iconsets/TRANSPARENT.png",
-		"mantle/textures/gui/missingno.png"
+		"mantle/textures/gui/missingno.png",
+		"witchinggadgets/textures/items/mat_developedPhoto.png.mcmeta",
+		"witchinggadgets/textures/items/mat_developedPhoto_overlay.png",
+		"witchinggadgets/textures/items/mat_developedPhoto_overlay.png.mcmeta",
+		"witchinggadgets/textures/items/mat_photoPlate.png",
+		"witchinggadgets/textures/items/mat_photoPlate.png.mcmeta",
+		"witchinggadgets/textures/items/mat_photoPlate_overlay.png",
+		"witchinggadgets/textures/items/mat_photoPlate_overlay.png.mcmeta",
+		"witchinggadgets/textures/items/mat_developedPhoto.png"
 	]
 }

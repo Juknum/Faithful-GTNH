@@ -444,5 +444,22 @@
 				}
 			}
 		]
+	},
+	"assets/minecraft/textures/items/leather.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["leather.jsonc"],
+					"forceRecolor": true
+				}
+			},
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "leatherBound.jsonc"
+				}
+			}
+		]
 	}
 }
