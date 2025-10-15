@@ -11,7 +11,7 @@ This pack aims to enhance the visual experience while maintaining the 1.20+ Mine
 
 ## Resource Pack Progress
 
-Overall Progress: 4123/56448 (7.3%)
+Overall Progress: 4139/56448 (7.33%)
 
 | Namespace | Completed | Total | Percentage |
 |-----------|-----------|-------|------------|
@@ -36,7 +36,7 @@ Overall Progress: 4123/56448 (7.3%)
 | avaritia | 15 | 168 | ░░░░░░░░░░ 8.93% |
 | avaritiaddons | 0 | 18 | ░░░░░░░░░░ 0% |
 | backhand | 1 | 1 | ██████████ 100% |
-| backpack | 0 | 58 | ░░░░░░░░░░ 0% |
+| backpack | 2 | 58 | ░░░░░░░░░░ 3.45% |
 | bartworks | 2 | 159 | ░░░░░░░░░░ 1.26% |
 | bartworkscrossmod | 0 | 4 | ░░░░░░░░░░ 0% |
 | battlegear2 | 0 | 235 | ░░░░░░░░░░ 0% |
@@ -79,7 +79,7 @@ Overall Progress: 4123/56448 (7.3%)
 | creativecore | 0 | 3 | ░░░░░░░░░░ 0% |
 | custommainmenu | 0 | 3 | ░░░░░░░░░░ 0% |
 | draconicevolution | 70 | 282 | ██░░░░░░░░ 24.82% |
-| dreamcraft | 40 | 706 | ░░░░░░░░░░ 5.67% |
+| dreamcraft | 41 | 706 | ░░░░░░░░░░ 5.81% |
 | emt | 86 | 185 | ████░░░░░░ 46.49% |
 | endercore | 0 | 1 | ░░░░░░░░░░ 0% |
 | enderio | 230 | 816 | ██░░░░░░░░ 28.19% |
@@ -218,7 +218,7 @@ Overall Progress: 4123/56448 (7.3%)
 | waila | 4 | 4 | ██████████ 100% |
 | warptheory | 0 | 19 | ░░░░░░░░░░ 0% |
 | witchery | 3 | 698 | ░░░░░░░░░░ 0.43% |
-| witchinggadgets | 0 | 240 | ░░░░░░░░░░ 0% |
+| witchinggadgets | 13 | 240 | ░░░░░░░░░░ 5.42% |
 | wrcbe_addons | 0 | 11 | ░░░░░░░░░░ 0% |
 | wrcbe_core | 0 | 13 | ░░░░░░░░░░ 0% |
 | wrcbe_logic | 0 | 4 | ░░░░░░░░░░ 0% |
