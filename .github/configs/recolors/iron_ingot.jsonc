@@ -12,6 +12,10 @@
 		"ic2/textures/items/resources/itemIngotCopper.png",
 		"ic2/textures/items/resources/itemIngotLead.png",
 		"ic2/textures/items/resources/itemIngotSilver.png",
-		"ic2/textures/items/resources/itemIngotTin.png"
+		"ic2/textures/items/resources/itemIngotTin.png",
+		"railcraft/textures/items/ingot.tin.png",
+		"railcraft/textures/items/ingot.copper.png",
+		"railcraft/textures/items/ingot.lead.png",
+		"railcraft/textures/items/ingot.steel.png"
 	]
 }

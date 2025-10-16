@@ -1,6 +1,7 @@
 {
 	"origin": "minecraft/textures/items/iron_pickaxe.png",
 	"targets": [
-		"ic2/textures/items/itemToolBronzePickaxe.png"
+		"ic2/textures/items/itemToolBronzePickaxe.png",
+		"railcraft/textures/items/tool.steel.pickaxe.png"
 	]
 }

@@ -1,0 +1,6 @@
+{
+	"origin": "minecraft/textures/items/shears.png",
+	"targets": [
+		"railcraft/textures/items/tool.steel.shears.png"
+	]
+}

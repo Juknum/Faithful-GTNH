@@ -1,6 +1,7 @@
 {
 	"origin": "minecraft/textures/items/iron_shovel.png",
 	"targets": [
-		"ic2/textures/items/itemToolBronzeSpade.png"
+		"ic2/textures/items/itemToolBronzeSpade.png",
+		"railcraft/textures/items/tool.steel.shovel.png"
 	]
 }

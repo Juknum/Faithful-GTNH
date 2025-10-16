@@ -1,6 +1,7 @@
 {
 	"origin": "minecraft/textures/items/iron_sword.png",
 	"targets": [
-		"ic2/textures/items/itemToolBronzeSword.png"
+		"ic2/textures/items/itemToolBronzeSword.png",
+		"railcraft/textures/items/tool.steel.sword.png"
 	]
 }

@@ -472,5 +472,16 @@
 				}
 			}
 		]
+	},
+	"assets/minecraft/textures/items/shears.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["shears.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
 	}
 }
