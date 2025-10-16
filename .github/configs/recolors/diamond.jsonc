@@ -6,6 +6,9 @@
 		"ic2/textures/items/itemBatCrystal.1.png",
 		"ic2/textures/items/itemBatCrystal.2.png",
 		"ic2/textures/items/itemBatCrystal.3.png",
-		"ic2/textures/items/itemPartIndustrialDiamond.png"
+		"ic2/textures/items/itemPartIndustrialDiamond.png",
+		"dreamcraft/textures/items/itemManyullynCrystal.png",
+		"dreamcraft/textures/items/itemMysteriousCrystal.png",
+		"dreamcraft/textures/items/itemMytrylCrystal.png"
 	]
 }
