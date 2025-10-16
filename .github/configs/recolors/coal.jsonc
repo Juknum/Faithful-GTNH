@@ -1,0 +1,6 @@
+{
+	"origin": "minecraft/textures/items/coal.png",
+	"targets": [
+		"railcraft/textures/items/fuel.coke.png"
+	]
+}

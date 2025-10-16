@@ -483,5 +483,16 @@
 				}
 			}
 		]
+	},
+	"assets/minecraft/textures/items/coal.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["coal.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
 	}
 }
