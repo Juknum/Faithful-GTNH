@@ -8,6 +8,7 @@
 		"mantle/textures/items/tinkerbook_diary.png",
 		"mantle/textures/items/tinkerbook_green.png",
 		"mantle/textures/items/tinkerbook_smeltery.png",
-		"mantle/textures/items/tinkerbook_toolstation.png"
+		"mantle/textures/items/tinkerbook_toolstation.png",
+		"railcraft/textures/items/routing.table.png"
 	]
 }
