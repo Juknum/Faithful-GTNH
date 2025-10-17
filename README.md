@@ -11,7 +11,7 @@ This pack aims to enhance the visual experience while maintaining the 1.20+ Mine
 
 ## Resource Pack Progress
 
-Overall Progress: 4139/56448 (7.33%)
+Overall Progress: 4154/56448 (7.36%)
 
 | Namespace | Completed | Total | Percentage |
 |-----------|-----------|-------|------------|
@@ -79,7 +79,7 @@ Overall Progress: 4139/56448 (7.33%)
 | creativecore | 0 | 3 | ░░░░░░░░░░ 0% |
 | custommainmenu | 0 | 3 | ░░░░░░░░░░ 0% |
 | draconicevolution | 70 | 282 | ██░░░░░░░░ 24.82% |
-| dreamcraft | 41 | 706 | ░░░░░░░░░░ 5.81% |
+| dreamcraft | 44 | 706 | ░░░░░░░░░░ 6.23% |
 | emt | 86 | 185 | ████░░░░░░ 46.49% |
 | endercore | 0 | 1 | ░░░░░░░░░░ 0% |
 | enderio | 230 | 816 | ██░░░░░░░░ 28.19% |
@@ -173,7 +173,7 @@ Overall Progress: 4139/56448 (7.33%)
 | personalspace | 0 | 1 | ░░░░░░░░░░ 0% |
 | projectred | 0 | 799 | ░░░░░░░░░░ 0% |
 | questbook | 0 | 1 | ░░░░░░░░░░ 0% |
-| railcraft | 0 | 470 | ░░░░░░░░░░ 0% |
+| railcraft | 12 | 470 | ░░░░░░░░░░ 2.55% |
 | randomthings | 0 | 151 | ░░░░░░░░░░ 0% |
 | remoteio | 0 | 56 | ░░░░░░░░░░ 0% |
 | salisarcana | 0 | 4 | ░░░░░░░░░░ 0% |
