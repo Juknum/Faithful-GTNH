@@ -9,6 +9,12 @@
 		"mantle/textures/items/tinkerbook_green.png",
 		"mantle/textures/items/tinkerbook_smeltery.png",
 		"mantle/textures/items/tinkerbook_toolstation.png",
-		"railcraft/textures/items/routing.table.png"
+		"railcraft/textures/items/routing.table.png",
+		"tinker/textures/items/tinkerbook_twilight.png",
+		"tinker/textures/items/tinkerbook_blue.png",
+		"tinker/textures/items/tinkerbook_diary.png",
+		"tinker/textures/items/tinkerbook_green.png",
+		"tinker/textures/items/tinkerbook_smeltery.png",
+		"tinker/textures/items/tinkerbook_toolstation.png"
 	]
 }
