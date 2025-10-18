@@ -91,7 +91,7 @@ function Get-Palette(
 		foreach ($w in 1..$BitMap.Width) {
 			$color = $BitMap.GetPixel($w - 1, $h - 1)
 			# Only add the color to the palette if it's not too transparent
-			if ($color.A -gt 180) {
+			if ($color.A -gt 0) {
 				$hexColor = "#{0:X2}{1:X2}{2:X2}{3:X2}" -f $color.R, $color.G, $color.B, $color.A
 				$table[$hexColor] = $true
 			}
@@ -200,7 +200,13 @@ function Recolor-Texture(
 
 		Write-Host "Palette $($targetPalette)" -ForegroundColor Green
 		RenderPalette $targetPalette
+		Write-Host ">>> https://coolors.co/$($targetPalette -replace '#','' -replace '([0-9a-fA-F]{6})[0-9a-fA-F]{2}','$1' -join '-')" -ForegroundColor Cyan
 		Write-Host ""
+
+		if ($sourcePalette.Count -ne $targetPalette.Count) {
+			Write-Host "> Can't recolor, different number of colors ($($sourcePalette.Count) vs $($targetPalette.Count)). Skipping." -ForegroundColor Yellow
+			continue
+		}
 		
 		# Create color mapping (source to target)
 		$colorMap = @{}
@@ -210,7 +216,7 @@ function Recolor-Texture(
 				$colorMap[$sourcePalette[$j]] = $targetPalette[$j]
 			}
 		}
-		
+
 		# Create new bitmap with same dimensions
 		$newBitmap = New-Object System.Drawing.Bitmap $sourceBitmap.Width, $sourceBitmap.Height
 

@@ -1,0 +1,6 @@
+{
+	"origin": "minecraft/textures/blocks/torch_on.png",
+	"targets": [
+		"tinker/textures/blocks/torch_stone.png"
+	]
+}

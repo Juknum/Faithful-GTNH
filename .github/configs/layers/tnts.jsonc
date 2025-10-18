@@ -8,5 +8,15 @@
 		"layer0Path": "assets/minecraft/textures/blocks/tnt_side.png",
 		"layer1Path": ".work/.assets/blockNuke_overlay.png",
 		"outPath":    ".work/.assets/blockNuke.png"
+	},
+	{
+		"layer0Path": ".work/.assets/sdx_side_blue.png",
+		"layer1Path": ".work/.assets/sdx_side_overlay.png",
+		"outPath":    "assets/tinker/textures/blocks/sdx_side_blue.png"
+	},
+	{
+		"layer0Path": ".work/.assets/sdx_side_green.png",
+		"layer1Path": ".work/.assets/sdx_side_overlay.png",
+		"outPath":    "assets/tinker/textures/blocks/sdx_side_green.png"
 	}
 ]

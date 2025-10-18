@@ -1,0 +1,7 @@
+{
+	"origin": "minecraft/textures/blocks/tnt_side.png",
+	"targets": [
+		".work/.default/sdx_side_green.png",
+		".work/.default/sdx_side_blue.png"
+	]
+}

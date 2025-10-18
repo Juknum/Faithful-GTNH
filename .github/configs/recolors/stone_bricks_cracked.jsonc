@@ -6,6 +6,7 @@
 		"gregtech/textures/blocks/iconsets/GRANITE_RED_BRICKS_CRACKED.png",
 		"gregtech/textures/blocks/iconsets/MARBLE_BRICKS_CRACKED.png",
 		"gregtech/textures/blocks/iconsets/CONCRETE_DARK_BRICKS_CRACKED.png",
-		"gregtech/textures/blocks/iconsets/CONCRETE_LIGHT_BRICKS_CRACKED.png"
+		"gregtech/textures/blocks/iconsets/CONCRETE_LIGHT_BRICKS_CRACKED.png",
+		"tinker/textures/blocks/searedbrickcracked.png"
 	]
 }

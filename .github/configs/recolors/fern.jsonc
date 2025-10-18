@@ -1,0 +1,6 @@
+{
+	"origin": "minecraft/textures/blocks/fern.png",
+	"targets": [
+		"tinker/textures/blocks/slimegrass_blue_fern.png"
+	]
+}

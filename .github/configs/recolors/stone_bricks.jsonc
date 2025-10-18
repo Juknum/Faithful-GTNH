@@ -6,6 +6,10 @@
 		"gregtech/textures/blocks/iconsets/GRANITE_RED_BRICKS.png",
 		"gregtech/textures/blocks/iconsets/MARBLE_BRICKS.png",
 		"gregtech/textures/blocks/iconsets/CONCRETE_DARK_BRICKS.png",
-		"gregtech/textures/blocks/iconsets/CONCRETE_LIGHT_BRICKS.png"
+		"gregtech/textures/blocks/iconsets/CONCRETE_LIGHT_BRICKS.png",
+		"tinker/textures/blocks/brownstone_smooth_brick.png",
+		"tinker/textures/blocks/drain_side.png",
+		"tinker/textures/blocks/searedbrick.png",
+		"tinker/textures/blocks/smeltery_side.png"
 	]
 }

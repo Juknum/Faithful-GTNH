@@ -1,0 +1,7 @@
+{
+	"origin": "minecraft/textures/blocks/tnt_top.png",
+	"targets": [
+		"tinker/textures/blocks/sdx_top_green.png",
+		"tinker/textures/blocks/sdx_top_blue.png"
+	]
+}

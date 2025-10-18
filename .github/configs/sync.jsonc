@@ -8,7 +8,20 @@
 			"minecraft/textures/entity/zombie_villager/zombie_priest.png": ["minecraft/textures/entity/zombie_villager/zombie_priest.png"],
 			"minecraft/textures/entity/zombie_villager/zombie_smith.png": ["minecraft/textures/entity/zombie_villager/zombie_smith.png"],
 			"minecraft/textures/entity/zombie_villager/zombie_villager.png": ["minecraft/textures/entity/zombie_villager/zombie_villager.png"],
-			"minecraft/textures/gui/book.png": ["mantle/textures/gui/book.png"]
+			"minecraft/textures/gui/book.png": ["mantle/textures/gui/book.png"],
+			"minecraft/textures/block/coal_block.png": ["tinker/textures/blocks/coal_block.png"],
+			"minecraft/textures/block/diamond_block.png": ["tinker/textures/blocks/toolforge_diamond.png"],
+			"minecraft/textures/block/emerald_block.png": ["tinker/textures/blocks/toolforge_emerald.png"],
+			"minecraft/textures/block/gold_block.png": ["tinker/textures/blocks/toolforge_gold.png"],
+			"minecraft/textures/block/iron_block.png": ["tinker/textures/blocks/toolforge_iron.png"],
+			"minecraft/textures/block/birch_planks.png": ["tinker/textures/blocks/stenciltable_birch_bottom.png"],
+			"minecraft/textures/block/jungle_planks.png": ["tinker/textures/blocks/stenciltable_jungle_bottom.png"],
+			"minecraft/textures/block/oak_planks.png": ["tinker/textures/blocks/stenciltable_oak_bottom.png", "tinker/textures/blocks/toolstation_bottom.png"],
+			"minecraft/textures/block/spruce_planks.png": ["tinker/textures/blocks/stenciltable_spruce_bottom.png"],
+			"minecraft/textures/block/birch_log.png": ["tinker/textures/blocks/partbuilder_birch_bottom.png"],
+			"minecraft/textures/block/jungle_log.png": ["tinker/textures/blocks/partbuilder_jungle_bottom.png"],
+			"minecraft/textures/block/oak_log.png": ["tinker/textures/blocks/partbuilder_oak_bottom.png"],
+			"minecraft/textures/block/spruce_log.png": ["tinker/textures/blocks/partbuilder_spruce_bottom.png"]
 		},
 		"1.20.1": {
 			"minecraft/textures/entity/cow/brown_mooshroom.png": ["minecraft/textures/entity/cow/brown_mooshroom.png"],
@@ -22,8 +35,14 @@
 			"minecraft/textures/gui/container/smoker.png": ["minecraft/textures/gui/container/smoker.png"]
 		},
 		"1.21.5": {
-			"minecraft/textures/block/acacia_door_bottom.png": ["minecraft/textures/blocks/acacia_door_bottom.png", "malisisdoors/textures/blocks/door_acacia_lower.png"],
-			"minecraft/textures/block/acacia_door_top.png": ["minecraft/textures/blocks/acacia_door_top.png", "malisisdoors/textures/blocks/door_acacia_upper.png"],
+			"minecraft/textures/block/acacia_door_bottom.png": [
+				"minecraft/textures/blocks/acacia_door_bottom.png",
+				"malisisdoors/textures/blocks/door_acacia_lower.png"
+			],
+			"minecraft/textures/block/acacia_door_top.png": [
+				"minecraft/textures/blocks/acacia_door_top.png",
+				"malisisdoors/textures/blocks/door_acacia_upper.png"
+			],
 			"minecraft/textures/block/acacia_trapdoor.png": ["minecraft/textures/blocks/acacia_trapdoor.png"],
 			"minecraft/textures/block/amethyst_block.png": ["minecraft/textures/blocks/amethyst_block.png"],
 			"minecraft/textures/block/amethyst_cluster.png": ["minecraft/textures/blocks/amethyst_cluster.png"],
@@ -71,8 +90,14 @@
 			"minecraft/textures/block/beetroots_stage1.png": ["minecraft/textures/blocks/beetroots_stage1.png"], 
 			"minecraft/textures/block/beetroots_stage2.png": ["minecraft/textures/blocks/beetroots_stage2.png"], 
 			"minecraft/textures/block/beetroots_stage3.png": ["minecraft/textures/blocks/beetroots_stage3.png"], 
-			"minecraft/textures/block/birch_door_bottom.png": ["minecraft/textures/blocks/birch_door_bottom.png", "malisisdoors/textures/blocks/door_birch_lower.png"], 
-			"minecraft/textures/block/birch_door_top.png": ["minecraft/textures/blocks/birch_door_top.png", "malisisdoors/textures/blocks/door_birch_upper.png"],
+			"minecraft/textures/block/birch_door_bottom.png": [
+				"minecraft/textures/blocks/birch_door_bottom.png",
+				"malisisdoors/textures/blocks/door_birch_lower.png"
+			],
+			"minecraft/textures/block/birch_door_top.png": [
+				"minecraft/textures/blocks/birch_door_top.png",
+				"malisisdoors/textures/blocks/door_birch_upper.png"
+			],
 			"minecraft/textures/block/birch_trapdoor.png": ["minecraft/textures/blocks/birch_trapdoor.png"], 
 			// "": ["minecraft/textures/blocks/black_bed_feet_end.png"], 
 			// "": ["minecraft/textures/blocks/black_bed_feet_side.png"], 
@@ -184,7 +209,7 @@
 			"minecraft/textures/block/composter_ready.png": ["minecraft/textures/blocks/composter_ready.png"],
 			"minecraft/textures/block/composter_side.png": ["minecraft/textures/blocks/composter_side.png"],
 			"minecraft/textures/block/composter_top.png": ["minecraft/textures/blocks/composter_top.png"],
-			"minecraft/textures/block/copper_block.png": ["minecraft/textures/blocks/copper_block.png"],
+			"minecraft/textures/block/copper_block.png": ["minecraft/textures/blocks/copper_block.png", "tinker/textures/blocks/toolforge_copper.png"],
 			"minecraft/textures/block/copper_ore.png": ["minecraft/textures/blocks/copper_ore.png"],
 			"minecraft/textures/block/cornflower.png": ["minecraft/textures/blocks/cornflower.png"],
 			"minecraft/textures/block/cracked_deepslate_bricks.png": ["minecraft/textures/blocks/cracked_deepslate_bricks.png"],
@@ -230,8 +255,14 @@
 			"minecraft/textures/block/cyan_concrete_powder.png": ["minecraft/textures/blocks/cyan_concrete_powder.png"],
 			"minecraft/textures/block/cyan_glazed_terracotta.png": ["minecraft/textures/blocks/cyan_glazed_terracotta.png"],
 			"minecraft/textures/block/cyan_shulker_box.png": ["minecraft/textures/blocks/cyan_shulker_box.png"],
-			"minecraft/textures/block/dark_oak_door_bottom.png": ["minecraft/textures/blocks/dark_oak_door_bottom.png", "malisisdoors/textures/blocks/door_dark_oak_lower.png"],
-			"minecraft/textures/block/dark_oak_door_top.png": ["minecraft/textures/blocks/dark_oak_door_top.png", "malisisdoors/textures/blocks/door_dark_oak_upper.png"],
+			"minecraft/textures/block/dark_oak_door_bottom.png": [
+				"minecraft/textures/blocks/dark_oak_door_bottom.png",
+				"malisisdoors/textures/blocks/door_dark_oak_lower.png"
+			],
+			"minecraft/textures/block/dark_oak_door_top.png": [
+				"minecraft/textures/blocks/dark_oak_door_top.png",
+				"malisisdoors/textures/blocks/door_dark_oak_upper.png"
+			],
 			"minecraft/textures/block/dark_oak_trapdoor.png": ["minecraft/textures/blocks/dark_oak_trapdoor.png"],
 			"minecraft/textures/block/dark_prismarine.png": ["minecraft/textures/blocks/dark_prismarine.png"],
 			"minecraft/textures/block/daylight_detector_inverted_top.png": ["minecraft/textures/blocks/daylight_detector_inverted_top.png"],
@@ -276,7 +307,10 @@
 			"minecraft/textures/block/frosted_ice_2.png": ["minecraft/textures/blocks/frosted_ice_2.png"],
 			"minecraft/textures/block/frosted_ice_3.png": ["minecraft/textures/blocks/frosted_ice_3.png"],
 			"minecraft/textures/block/gilded_blackstone.png": ["minecraft/textures/blocks/gilded_blackstone.png"],
-			"minecraft/textures/block/glow_lichen.png": ["minecraft/textures/blocks/glow_lichen.png", "minecraft/textures/items/glow_lichen.png"],
+			"minecraft/textures/block/glow_lichen.png": [
+				"minecraft/textures/blocks/glow_lichen.png",
+				"minecraft/textures/items/glow_lichen.png"
+			],
 			"minecraft/textures/block/granite.png": ["minecraft/textures/blocks/granite.png"],
 			// "minecraft/textures/block/gray_bed_feet_end.png": ["minecraft/textures/blocks/gray_bed_feet_end.png"],
 			// "minecraft/textures/block/gray_bed_feet_side.png": ["minecraft/textures/blocks/gray_bed_feet_side.png"],
@@ -305,9 +339,18 @@
 			"minecraft/textures/block/honey_block_side.png": ["minecraft/textures/blocks/honey_block_side.png"],
 			"minecraft/textures/block/honey_block_top.png": ["minecraft/textures/blocks/honey_block_top.png"],
 			"minecraft/textures/block/honeycomb_block.png": ["minecraft/textures/blocks/honeycomb_block.png"],
-			"minecraft/textures/block/iron_trapdoor.png": ["minecraft/textures/blocks/iron_trapdoor.png", "malisisdoors/textures/blocks/iron_trapdoor.png"],
-			"minecraft/textures/block/jungle_door_bottom.png": ["minecraft/textures/blocks/jungle_door_bottom.png", "malisisdoors/textures/blocks/door_jungle_lower.png"],
-			"minecraft/textures/block/jungle_door_top.png": ["minecraft/textures/blocks/jungle_door_top.png", "malisisdoors/textures/blocks/door_jungle_upper.png"],
+			"minecraft/textures/block/iron_trapdoor.png": [
+				"minecraft/textures/blocks/iron_trapdoor.png",
+				"malisisdoors/textures/blocks/iron_trapdoor.png"
+			],
+			"minecraft/textures/block/jungle_door_bottom.png": [
+				"minecraft/textures/blocks/jungle_door_bottom.png",
+				"malisisdoors/textures/blocks/door_jungle_lower.png"
+			],
+			"minecraft/textures/block/jungle_door_top.png": [
+				"minecraft/textures/blocks/jungle_door_top.png",
+				"malisisdoors/textures/blocks/door_jungle_upper.png"
+			],
 			"minecraft/textures/block/jungle_trapdoor.png": ["minecraft/textures/blocks/jungle_trapdoor.png"],
 			"minecraft/textures/block/lantern.png": ["minecraft/textures/blocks/lantern.png"],
 			"minecraft/textures/block/lantern.png.mcmeta": ["minecraft/textures/blocks/lantern.png.mcmeta"],
@@ -542,8 +585,14 @@
 			"minecraft/textures/block/soul_lantern.png.mcmeta": ["minecraft/textures/blocks/soul_lantern.png.mcmeta"], 
 			"minecraft/textures/block/soul_soil.png": ["minecraft/textures/blocks/soul_soil.png"], 
 			"minecraft/textures/block/soul_torch.png": ["minecraft/textures/blocks/soul_torch.png"], 
-			"minecraft/textures/block/spruce_door_bottom.png": ["minecraft/textures/blocks/spruce_door_bottom.png", "malisisdoors/textures/blocks/door_spruce_lower.png"], 
-			"minecraft/textures/block/spruce_door_top.png": ["minecraft/textures/blocks/spruce_door_top.png", "malisisdoors/textures/blocks/door_spruce_upper.png"], 
+			"minecraft/textures/block/spruce_door_bottom.png": [
+				"minecraft/textures/blocks/spruce_door_bottom.png",
+				"malisisdoors/textures/blocks/door_spruce_lower.png"
+			],
+			"minecraft/textures/block/spruce_door_top.png": [
+				"minecraft/textures/blocks/spruce_door_top.png",
+				"malisisdoors/textures/blocks/door_spruce_upper.png"
+			],
 			"minecraft/textures/block/spruce_trapdoor.png": ["minecraft/textures/blocks/spruce_trapdoor.png"], 
 			"minecraft/textures/block/stonecutter_bottom.png": ["minecraft/textures/blocks/stonecutter_bottom.png"], 
 			"minecraft/textures/block/stonecutter_saw.png": ["minecraft/textures/blocks/stonecutter_saw.png"], 
@@ -844,7 +893,10 @@
 			"minecraft/textures/item/netherite_chestplate.png": ["minecraft/textures/items/netherite_chestplate.png"],
 			"minecraft/textures/item/netherite_helmet.png": ["minecraft/textures/items/netherite_helmet.png"],
 			"minecraft/textures/item/netherite_hoe.png": ["minecraft/textures/items/netherite_hoe.png"],
-			"minecraft/textures/item/netherite_ingot.png": ["minecraft/textures/items/netherite_ingot.png", "gregtech/textures/items/materialicons/CUSTOM/netherite/ingot.png"],
+			"minecraft/textures/item/netherite_ingot.png": [
+				"minecraft/textures/items/netherite_ingot.png",
+				"gregtech/textures/items/materialicons/CUSTOM/netherite/ingot.png"
+			],
 			"minecraft/textures/item/netherite_leggings.png": ["minecraft/textures/items/netherite_leggings.png"],
 			"minecraft/textures/item/netherite_pickaxe.png": ["minecraft/textures/items/netherite_pickaxe.png"],
 			"minecraft/textures/item/netherite_scrap.png": ["minecraft/textures/items/netherite_scrap.png"],

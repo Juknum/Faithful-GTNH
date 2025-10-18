@@ -238,6 +238,15 @@
 	"assets/minecraft/textures/blocks/tnt_side.png": {
 		"scripts": [
 			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": [
+						"tnt_side.jsonc"
+					],
+					"forceRecolor": true
+				}
+			},
+			{
 				"name": "layered.ps1",
 				"args": {
 					"file": "tnts.jsonc"
@@ -257,6 +266,15 @@
 	"assets/minecraft/textures/blocks/tnt_top.png": {
 		"scripts": [
 			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": [
+						"tnt_top.jsonc"
+					],
+					"forceRecolor": true
+				}
+			},
+			{
 				"name": "stitches.ps1",
 				"args": {
 					"files": [
@@ -269,6 +287,15 @@
 	},
 	"assets/minecraft/textures/blocks/tnt_bottom.png": {
 		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": [
+						"tnt_bottom.jsonc"
+					],
+					"forceRecolor": true
+				}
+			},
 			{
 				"name": "stitches.ps1",
 				"args": {
@@ -512,6 +539,83 @@
 				"name": "recolors.ps1",
 				"args": {
 					"files": ["apple.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/items/slimeball.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["slimeball.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/ladder.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["ladder.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/fern.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["fern.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/tallgrass.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["tallgrass.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/torch_on.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["torch.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/lava_flow.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["lava_flow.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/lava_still.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["lava_still.jsonc"],
 					"forceRecolor": true
 				}
 			}

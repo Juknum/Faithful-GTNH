@@ -6,6 +6,9 @@
 		"gregtech/textures/blocks/iconsets/GRANITE_RED_STONE.png",
 		"gregtech/textures/blocks/iconsets/MARBLE_STONE.png",
 		"gregtech/textures/blocks/iconsets/CONCRETE_DARK_STONE.png",
-		"gregtech/textures/blocks/iconsets/CONCRETE_LIGHT_STONE.png"
+		"gregtech/textures/blocks/iconsets/CONCRETE_LIGHT_STONE.png",
+		"tinker/textures/blocks/brownstone_smooth.png",
+		"tinker/textures/blocks/searedstone.png",
+		"tinker/textures/blocks/signalbus.png"
 	]
 }

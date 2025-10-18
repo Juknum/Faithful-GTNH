@@ -11,7 +11,7 @@ This pack aims to enhance the visual experience while maintaining the 1.20+ Mine
 
 ## Resource Pack Progress
 
-Overall Progress: 3936/52906 (7.44%)
+Overall Progress: 4338/52906 (8.2%)
 
 | Namespace | Completed | Total | Percentage |
 |-----------|-----------|-------|------------|
@@ -144,7 +144,7 @@ Overall Progress: 3936/52906 (7.44%)
 | mcframes | 0 | 6 | ░░░░░░░░░░ 0% |
 | metalbarrels | 0 | 47 | ░░░░░░░░░░ 0% |
 | microblock | 0 | 5 | ░░░░░░░░░░ 0% |
-| minecraft | 1487 | 1956 | ███████░░░ 76.02% |
+| minecraft | 1722 | 1956 | ████████░░ 88.04% |
 | minetweaker | 0 | 1 | ░░░░░░░░░░ 0% |
 | miscutils | 0 | 1460 | ░░░░░░░░░░ 0% |
 | mobsinfo | 0 | 5 | ░░░░░░░░░░ 0% |
@@ -152,7 +152,7 @@ Overall Progress: 3936/52906 (7.44%)
 | modularui | 29 | 29 | ██████████ 100% |
 | modularui2 | 0 | 31 | ░░░░░░░░░░ 0% |
 | mrtjpcore | 2 | 3 | ██████░░░░ 66.67% |
-| natura | 19 | 493 | ░░░░░░░░░░ 3.85% |
+| natura | 20 | 493 | ░░░░░░░░░░ 4.06% |
 | naturescompass | 0 | 32 | ░░░░░░░░░░ 0% |
 | navigator | 0 | 1 | ░░░░░░░░░░ 0% |
 | neenergistics | 0 | 4 | ░░░░░░░░░░ 0% |
@@ -208,7 +208,7 @@ Overall Progress: 3936/52906 (7.44%)
 | thaumichorizons | 0 | 304 | ░░░░░░░░░░ 0% |
 | thaumicinsurgence | 0 | 127 | ░░░░░░░░░░ 0% |
 | thaumicmachina | 0 | 31 | ░░░░░░░░░░ 0% |
-| tinker | 1 | 5024 | ░░░░░░░░░░ 0.02% |
+| tinker | 167 | 5024 | ░░░░░░░░░░ 3.32% |
 | tinkersdefense | 0 | 27 | ░░░░░░░░░░ 0% |
 | tmechworks | 0 | 43 | ░░░░░░░░░░ 0% |
 | translocator | 0 | 5 | ░░░░░░░░░░ 0% |
