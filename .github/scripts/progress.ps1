@@ -15,8 +15,8 @@ $completedItemsAll = 0
 $defaultPath = Join-Path $PSScriptRoot "..\..\.default"
 $assetDirs   = Get-ChildItem -Path $defaultPath -Directory
 
-$blacklistJsonPath = Join-Path $PSScriptRoot "..\configs\progress.jsonc"
-$blacklistJson     = Get-Content -Path $blacklistJsonPath -Raw | ConvertFrom-Json
+$progressJsonPath = Join-Path $PSScriptRoot "..\configs\progress.jsonc"
+$progressJson     = Get-Content -Path $progressJsonPath -Raw | ConvertFrom-Json
 
 foreach ($dir in $assetDirs) {
 	$dirName = $dir.Name
@@ -37,8 +37,11 @@ foreach ($dir in $assetDirs) {
 				$completedItems++
 			}
 			# If the file is blacklisted, consider it as completed
-			elseif ($blacklistJson.blacklist.Contains($assetFilePath.Replace("\", "/"))) {
+			elseif ($progressJson.blacklist.Contains($assetFilePath.Replace("\", "/"))) {
 				$completedItems++
+			}
+			elseif ($progressJson.transparents.Contains($assetFilePath.Replace("\", "/"))) {
+				$totalItems--
 			}
 		}
 
@@ -76,7 +79,7 @@ foreach ($key in ($progressData.Keys | Sort-Object)) {
 }
 
 $progressSection += "`n"
-$progressSection += "> See [ignored items](https://github.com/Juknum/Faithful-GTNH/blob/2.8.0/.work/progress.jsonc)  "
+$progressSection += "> See [ignored items](https://github.com/Juknum/Faithful-GTNH/blob/2.8.0/.github/configs/progress.jsonc)  "
 $progressSection += "`n"
 
 # Update or add the progress section in README

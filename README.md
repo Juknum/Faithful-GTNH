@@ -11,7 +11,7 @@ This pack aims to enhance the visual experience while maintaining the 1.20+ Mine
 
 ## Resource Pack Progress
 
-Overall Progress: 4154/56448 (7.36%)
+Overall Progress: 3936/52906 (7.44%)
 
 | Namespace | Completed | Total | Percentage |
 |-----------|-----------|-------|------------|
@@ -22,14 +22,14 @@ Overall Progress: 4154/56448 (7.36%)
 | ae2wct | 2 | 16 | █░░░░░░░░░ 12.5% |
 | afsu | 30 | 32 | █████████░ 93.75% |
 | akashictome | 0 | 2 | ░░░░░░░░░░ 0% |
-| alchemicalwizardry | 65 | 423 | █░░░░░░░░░ 15.37% |
+| alchemicalwizardry | 65 | 418 | █░░░░░░░░░ 15.55% |
 | alchgrate | 0 | 1 | ░░░░░░░░░░ 0% |
 | amazingtrophies | 1 | 1 | ██████████ 100% |
 | amunra | 62 | 206 | ███░░░░░░░ 30.1% |
 | angelica | 0 | 5 | ░░░░░░░░░░ 0% |
 | angermod | 1 | 1 | ██████████ 100% |
 | applecore | 1 | 1 | ██████████ 100% |
-| appliedenergistics2 | 11 | 549 | ░░░░░░░░░░ 2% |
+| appliedenergistics2 | 11 | 547 | ░░░░░░░░░░ 2.01% |
 | architecturecraft | 4 | 12 | ███░░░░░░░ 33.33% |
 | asielib | 0 | 2 | ░░░░░░░░░░ 0% |
 | automagy | 26 | 223 | █░░░░░░░░░ 11.66% |
@@ -37,9 +37,9 @@ Overall Progress: 4154/56448 (7.36%)
 | avaritiaddons | 0 | 18 | ░░░░░░░░░░ 0% |
 | backhand | 1 | 1 | ██████████ 100% |
 | backpack | 2 | 58 | ░░░░░░░░░░ 3.45% |
-| bartworks | 2 | 159 | ░░░░░░░░░░ 1.26% |
+| bartworks | 2 | 158 | ░░░░░░░░░░ 1.27% |
 | bartworkscrossmod | 0 | 4 | ░░░░░░░░░░ 0% |
-| battlegear2 | 0 | 235 | ░░░░░░░░░░ 0% |
+| battlegear2 | 0 | 232 | ░░░░░░░░░░ 0% |
 | baubles | 0 | 20 | ░░░░░░░░░░ 0% |
 | beebetteratbees | 0 | 1 | ░░░░░░░░░░ 0% |
 | betterachievements | 0 | 2 | ░░░░░░░░░░ 0% |
@@ -49,56 +49,56 @@ Overall Progress: 4154/56448 (7.36%)
 | betterquesting | 4 | 16 | ██░░░░░░░░ 25% |
 | bibliocraft | 44 | 420 | █░░░░░░░░░ 10.48% |
 | binniecore | 0 | 80 | ░░░░░░░░░░ 0% |
-| biomesoplenty | 31 | 575 | ░░░░░░░░░░ 5.39% |
+| biomesoplenty | 31 | 572 | ░░░░░░░░░░ 5.42% |
 | blockrenderer6343 | 1 | 1 | ██████████ 100% |
-| bloodarsenal | 6 | 208 | ░░░░░░░░░░ 2.88% |
+| bloodarsenal | 6 | 206 | ░░░░░░░░░░ 2.91% |
 | bogosorter | 6 | 6 | ██████████ 100% |
-| botania | 114 | 1168 | ░░░░░░░░░░ 9.76% |
+| botania | 114 | 1166 | ░░░░░░░░░░ 9.78% |
 | botanichorizons | 1 | 8 | █░░░░░░░░░ 12.5% |
-| botany | 1 | 991 | ░░░░░░░░░░ 0.1% |
+| botany | 1 | 982 | ░░░░░░░░░░ 0.1% |
 | bpp | 0 | 253 | ░░░░░░░░░░ 0% |
 | bq_standard | 3 | 3 | ██████████ 100% |
 | brandonscore | 0 | 1 | ░░░░░░░░░░ 0% |
 | buildcraft | 1 | 1 | ██████████ 100% |
 | buildcraftbuilders | 0 | 70 | ░░░░░░░░░░ 0% |
 | buildcraftcompat | 0 | 29 | ░░░░░░░░░░ 0% |
-| buildcraftcore | 0 | 139 | ░░░░░░░░░░ 0% |
+| buildcraftcore | 0 | 138 | ░░░░░░░░░░ 0% |
 | buildcraftenergy | 0 | 34 | ░░░░░░░░░░ 0% |
 | buildcraftfactory | 0 | 33 | ░░░░░░░░░░ 0% |
 | buildcraftrobotics | 0 | 66 | ░░░░░░░░░░ 0% |
 | buildcraftsilicon | 0 | 32 | ░░░░░░░░░░ 0% |
 | buildcrafttransport | 0 | 220 | ░░░░░░░░░░ 0% |
-| carpentersblocks | 8 | 86 | ░░░░░░░░░░ 9.3% |
-| catwalks | 1 | 72 | ░░░░░░░░░░ 1.39% |
-| chisel | 0 | 2691 | ░░░░░░░░░░ 0% |
+| carpentersblocks | 8 | 85 | ░░░░░░░░░░ 9.41% |
+| catwalks | 1 | 69 | ░░░░░░░░░░ 1.45% |
+| chisel | 0 | 2685 | ░░░░░░░░░░ 0% |
 | cofh | 1 | 70 | ░░░░░░░░░░ 1.43% |
 | compactkineticgenerators | 22 | 25 | ████████░░ 88% |
 | computronics | 0 | 129 | ░░░░░░░░░░ 0% |
 | cookingforblockheads | 0 | 45 | ░░░░░░░░░░ 0% |
 | craftingtweaks | 0 | 1 | ░░░░░░░░░░ 0% |
 | creativecore | 0 | 3 | ░░░░░░░░░░ 0% |
-| custommainmenu | 0 | 3 | ░░░░░░░░░░ 0% |
-| draconicevolution | 70 | 282 | ██░░░░░░░░ 24.82% |
-| dreamcraft | 44 | 706 | ░░░░░░░░░░ 6.23% |
-| emt | 86 | 185 | ████░░░░░░ 46.49% |
+| custommainmenu | 0 | 2 | ░░░░░░░░░░ 0% |
+| draconicevolution | 70 | 281 | ██░░░░░░░░ 24.91% |
+| dreamcraft | 44 | 705 | ░░░░░░░░░░ 6.24% |
+| emt | 86 | 184 | ████░░░░░░ 46.74% |
 | endercore | 0 | 1 | ░░░░░░░░░░ 0% |
-| enderio | 230 | 816 | ██░░░░░░░░ 28.19% |
+| enderio | 230 | 813 | ██░░░░░░░░ 28.29% |
 | enderstorage | 0 | 5 | ░░░░░░░░░░ 0% |
 | enderzoo | 0 | 34 | ░░░░░░░░░░ 0% |
 | enhancedlootbags | 0 | 3 | ░░░░░░░░░░ 0% |
 | eternalsingularity | 0 | 71 | ░░░░░░░░░░ 0% |
 | etfuturum | 5 | 140 | ░░░░░░░░░░ 3.57% |
-| extrabees | 1 | 191 | ░░░░░░░░░░ 0.52% |
-| extratrees | 39 | 1329 | ░░░░░░░░░░ 2.93% |
-| extrautils | 5 | 401 | ░░░░░░░░░░ 1.25% |
+| extrabees | 1 | 171 | ░░░░░░░░░░ 0.58% |
+| extratrees | 39 | 1317 | ░░░░░░░░░░ 2.96% |
+| extrautils | 5 | 391 | ░░░░░░░░░░ 1.28% |
 | findit | 0 | 1 | ░░░░░░░░░░ 0% |
 | floodlights | 1 | 28 | ░░░░░░░░░░ 3.57% |
 | forbidden | 20 | 146 | █░░░░░░░░░ 13.7% |
-| forestry | 36 | 724 | ░░░░░░░░░░ 4.97% |
-| gadomancy | 23 | 71 | ███░░░░░░░ 32.39% |
+| forestry | 36 | 723 | ░░░░░░░░░░ 4.98% |
+| gadomancy | 23 | 70 | ███░░░░░░░ 32.86% |
 | galacticgreg | 1 | 1 | ██████████ 100% |
 | galacticraftasteroids | 68 | 142 | ████░░░░░░ 47.89% |
-| galacticraftcore | 180 | 407 | ████░░░░░░ 44.23% |
+| galacticraftcore | 180 | 405 | ████░░░░░░ 44.44% |
 | galacticraftmars | 19 | 97 | █░░░░░░░░░ 19.59% |
 | galacticraftmoon | 1 | 24 | ░░░░░░░░░░ 4.17% |
 | galaxyspace | 219 | 632 | ███░░░░░░░ 34.65% |
@@ -109,11 +109,11 @@ Overall Progress: 4154/56448 (7.36%)
 | goodgenerator | 9 | 206 | ░░░░░░░░░░ 4.37% |
 | gravisuite | 3 | 32 | ░░░░░░░░░░ 9.38% |
 | gravisuiteneo | 0 | 108 | ░░░░░░░░░░ 0% |
-| gregtech | 503 | 14853 | ░░░░░░░░░░ 3.39% |
+| gregtech | 285 | 11467 | ░░░░░░░░░░ 2.49% |
 | gtneioreplugin | 258 | 266 | █████████░ 96.99% |
 | gtnhintergalactic | 0 | 238 | ░░░░░░░░░░ 0% |
 | gtnhlanth | 0 | 56 | ░░░░░░░░░░ 0% |
-| hardcoreenderexpansion | 19 | 307 | ░░░░░░░░░░ 6.19% |
+| hardcoreenderexpansion | 19 | 306 | ░░░░░░░░░░ 6.21% |
 | harvestcraft | 0 | 1437 | ░░░░░░░░░░ 0% |
 | harvestthenether | 0 | 54 | ░░░░░░░░░░ 0% |
 | holoinventory | 2 | 3 | ██████░░░░ 66.67% |
@@ -130,11 +130,11 @@ Overall Progress: 4154/56448 (7.36%)
 | irontank | 0 | 43 | ░░░░░░░░░░ 0% |
 | irontankminecarts | 0 | 20 | ░░░░░░░░░░ 0% |
 | jabba | 73 | 113 | ██████░░░░ 64.6% |
-| journeymap | 0 | 291 | ░░░░░░░░░░ 0% |
+| journeymap | 0 | 285 | ░░░░░░░░░░ 0% |
 | kekztech | 16 | 74 | ██░░░░░░░░ 21.62% |
 | kubatech | 5 | 73 | ░░░░░░░░░░ 6.85% |
 | littletiles | 0 | 21 | ░░░░░░░░░░ 0% |
-| logisticspipes | 0 | 361 | ░░░░░░░░░░ 0% |
+| logisticspipes | 0 | 356 | ░░░░░░░░░░ 0% |
 | lootgames | 0 | 42 | ░░░░░░░░░░ 0% |
 | magicbees | 0 | 165 | ░░░░░░░░░░ 0% |
 | malisiscore | 0 | 15 | ░░░░░░░░░░ 0% |
@@ -144,15 +144,15 @@ Overall Progress: 4154/56448 (7.36%)
 | mcframes | 0 | 6 | ░░░░░░░░░░ 0% |
 | metalbarrels | 0 | 47 | ░░░░░░░░░░ 0% |
 | microblock | 0 | 5 | ░░░░░░░░░░ 0% |
-| minecraft | 1487 | 1960 | ███████░░░ 75.87% |
+| minecraft | 1487 | 1956 | ███████░░░ 76.02% |
 | minetweaker | 0 | 1 | ░░░░░░░░░░ 0% |
-| miscutils | 0 | 1462 | ░░░░░░░░░░ 0% |
+| miscutils | 0 | 1460 | ░░░░░░░░░░ 0% |
 | mobsinfo | 0 | 5 | ░░░░░░░░░░ 0% |
 | modernmarkings | 0 | 148 | ░░░░░░░░░░ 0% |
 | modularui | 29 | 29 | ██████████ 100% |
 | modularui2 | 0 | 31 | ░░░░░░░░░░ 0% |
 | mrtjpcore | 2 | 3 | ██████░░░░ 66.67% |
-| natura | 19 | 494 | ░░░░░░░░░░ 3.85% |
+| natura | 19 | 493 | ░░░░░░░░░░ 3.85% |
 | naturescompass | 0 | 32 | ░░░░░░░░░░ 0% |
 | navigator | 0 | 1 | ░░░░░░░░░░ 0% |
 | neenergistics | 0 | 4 | ░░░░░░░░░░ 0% |
@@ -163,7 +163,7 @@ Overall Progress: 4154/56448 (7.36%)
 | nodalmechanics | 0 | 1 | ░░░░░░░░░░ 0% |
 | nuclearcontrol | 0 | 574 | ░░░░░░░░░░ 0% |
 | nutrition | 4 | 4 | ██████████ 100% |
-| openblocks | 0 | 250 | ░░░░░░░░░░ 0% |
+| openblocks | 0 | 249 | ░░░░░░░░░░ 0% |
 | opencomputers | 0 | 372 | ░░░░░░░░░░ 0% |
 | openglasses | 0 | 5 | ░░░░░░░░░░ 0% |
 | openmodslib | 0 | 2 | ░░░░░░░░░░ 0% |
@@ -173,16 +173,16 @@ Overall Progress: 4154/56448 (7.36%)
 | personalspace | 0 | 1 | ░░░░░░░░░░ 0% |
 | projectred | 0 | 799 | ░░░░░░░░░░ 0% |
 | questbook | 0 | 1 | ░░░░░░░░░░ 0% |
-| railcraft | 12 | 470 | ░░░░░░░░░░ 2.55% |
-| randomthings | 0 | 151 | ░░░░░░░░░░ 0% |
-| remoteio | 0 | 56 | ░░░░░░░░░░ 0% |
+| railcraft | 12 | 467 | ░░░░░░░░░░ 2.57% |
+| randomthings | 0 | 149 | ░░░░░░░░░░ 0% |
+| remoteio | 0 | 55 | ░░░░░░░░░░ 0% |
 | salisarcana | 0 | 4 | ░░░░░░░░░░ 0% |
 | schematica | 0 | 1 | ░░░░░░░░░░ 0% |
-| serverutilities | 0 | 112 | ░░░░░░░░░░ 0% |
+| serverutilities | 0 | 111 | ░░░░░░░░░░ 0% |
 | sgcraft | 0 | 57 | ░░░░░░░░░░ 0% |
 | sleepingbag | 0 | 7 | ░░░░░░░░░░ 0% |
 | sodium | 0 | 1 | ░░░░░░░░░░ 0% |
-| specialmobs | 0 | 142 | ░░░░░░░░░░ 0% |
+| specialmobs | 0 | 141 | ░░░░░░░░░░ 0% |
 | spiceoflife | 9 | 12 | ███████░░░ 75% |
 | stevesaddons | 0 | 9 | ░░░░░░░░░░ 0% |
 | stevescarts | 0 | 421 | ░░░░░░░░░░ 0% |
@@ -200,31 +200,31 @@ Overall Progress: 4154/56448 (7.36%)
 | tcnodetracker | 0 | 7 | ░░░░░░░░░░ 0% |
 | tectech | 0 | 220 | ░░░░░░░░░░ 0% |
 | tgregworks | 0 | 1 | ░░░░░░░░░░ 0% |
-| thaumcraft | 2 | 924 | ░░░░░░░░░░ 0.22% |
-| thaumicbases | 6 | 341 | ░░░░░░░░░░ 1.76% |
+| thaumcraft | 2 | 921 | ░░░░░░░░░░ 0.22% |
+| thaumicbases | 6 | 339 | ░░░░░░░░░░ 1.77% |
 | thaumicboots | 0 | 184 | ░░░░░░░░░░ 0% |
 | thaumicenergistics | 0 | 115 | ░░░░░░░░░░ 0% |
-| thaumicexploration | 0 | 191 | ░░░░░░░░░░ 0% |
+| thaumicexploration | 0 | 189 | ░░░░░░░░░░ 0% |
 | thaumichorizons | 0 | 304 | ░░░░░░░░░░ 0% |
 | thaumicinsurgence | 0 | 127 | ░░░░░░░░░░ 0% |
 | thaumicmachina | 0 | 31 | ░░░░░░░░░░ 0% |
-| tinker | 1 | 5029 | ░░░░░░░░░░ 0.02% |
+| tinker | 1 | 5024 | ░░░░░░░░░░ 0.02% |
 | tinkersdefense | 0 | 27 | ░░░░░░░░░░ 0% |
 | tmechworks | 0 | 43 | ░░░░░░░░░░ 0% |
 | translocator | 0 | 5 | ░░░░░░░░░░ 0% |
-| ttinkerer | 0 | 310 | ░░░░░░░░░░ 0% |
-| twilightforest | 0 | 635 | ░░░░░░░░░░ 0% |
+| ttinkerer | 0 | 309 | ░░░░░░░░░░ 0% |
+| twilightforest | 0 | 630 | ░░░░░░░░░░ 0% |
 | visualprospecting | 0 | 6 | ░░░░░░░░░░ 0% |
 | waila | 4 | 4 | ██████████ 100% |
-| warptheory | 0 | 19 | ░░░░░░░░░░ 0% |
-| witchery | 3 | 698 | ░░░░░░░░░░ 0.43% |
-| witchinggadgets | 13 | 240 | ░░░░░░░░░░ 5.42% |
+| warptheory | 0 | 18 | ░░░░░░░░░░ 0% |
+| witchery | 3 | 682 | ░░░░░░░░░░ 0.44% |
+| witchinggadgets | 13 | 238 | ░░░░░░░░░░ 5.46% |
 | wrcbe_addons | 0 | 11 | ░░░░░░░░░░ 0% |
 | wrcbe_core | 0 | 13 | ░░░░░░░░░░ 0% |
 | wrcbe_logic | 0 | 4 | ░░░░░░░░░░ 0% |
 | yamcore | 0 | 1 | ░░░░░░░░░░ 0% |
 | ztones | 0 | 561 | ░░░░░░░░░░ 0% |
 
-> See [ignored items](https://github.com/Juknum/Faithful-GTNH/blob/2.8.0/.work/progress.jsonc)  
+> See [ignored items](https://github.com/Juknum/Faithful-GTNH/blob/2.8.0/.github/configs/progress.jsonc)  
 
 
