@@ -500,7 +500,18 @@
 			{
 				"name": "recolors.ps1",
 				"args": {
-					"files": ["redstone.jsonc"],
+					"files": ["redstone_dust.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/items/apple.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["apple.jsonc"],
 					"forceRecolor": true
 				}
 			}

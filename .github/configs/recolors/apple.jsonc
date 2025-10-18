@@ -1,0 +1,7 @@
+{
+	"origin": "minecraft/textures/items/apple.png",
+	"targets": [
+		"natura/textures/items/fruit_potashapple.png",
+		"tinker/textures/items/food/apple_diamond.png"
+	]
+}

@@ -1805,7 +1805,9 @@
     "witchinggadgets/textures/items/mat_photoPlate.png.mcmeta",
     "witchinggadgets/textures/items/mat_photoPlate_overlay.png",
     "witchinggadgets/textures/items/mat_photoPlate_overlay.png.mcmeta",
-    "witchinggadgets/textures/items/mat_developedPhoto.png"
+    "witchinggadgets/textures/items/mat_developedPhoto.png",
+    "tinker/textures/items/potionlauncher.png",
+    "tinker/textures/items/metalball.png"
   ],
   "transparents": [
     "alchemicalwizardry/models/armor/boundArmour_invisible_layer_1.png",
