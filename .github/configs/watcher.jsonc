@@ -494,5 +494,16 @@
 				}
 			}
 		]
+	},
+	"assets/minecraft/textures/items/redstone_dust.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["redstone.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
 	}
 }

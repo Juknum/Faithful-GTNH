@@ -1,0 +1,15 @@
+{
+	"origin": "minecraft/textures/items/redstone_dust.png",
+	"targets": [
+		"gregtech/textures/items/materialicons/METALLIC/dust.png", 
+		"gregtech/textures/items/materialicons/METALLIC/dustImpure.png", 
+		"gregtech/textures/items/materialicons/METALLIC/dustImpure_OVERLAY.png", 
+		"gregtech/textures/items/materialicons/METALLIC/dustPure.png", 
+		"gregtech/textures/items/materialicons/METALLIC/dustPure_OVERLAY.png",
+		"gregtech/textures/items/materialicons/ROUGH/dust.png",
+		"gregtech/textures/items/materialicons/ROUGH/dustImpure.png",
+		"gregtech/textures/items/materialicons/ROUGH/dustImpure_OVERLAY.png",
+		"gregtech/textures/items/materialicons/ROUGH/dustPure.png",
+		"gregtech/textures/items/materialicons/ROUGH/dustPure_OVERLAY.png"
+	]
+}
