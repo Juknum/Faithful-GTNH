@@ -204,10 +204,10 @@ if ("transparents" -notin $Hide) {
 Write-Host "`n=== SUMMARY ===" -ForegroundColor Cyan
 Write-Host "Asset Folder: $AssetFolder"
 Write-Host "Total textures in .default: $($defaultTextures.Count)"
-Write-Host " ✓ Done: $($results.Done.Count)" -ForegroundColor Green
-Write-Host " ✗ Missing: $($results.Missing.Count)" -ForegroundColor Red
-Write-Host " ! Blacklisted: $($results.Blacklisted.Count)" -ForegroundColor Yellow
-Write-Host " ◯ Transparent: $($results.Transparents.Count)" -ForegroundColor Magenta
+Write-Host " ✓ Done        : $($results.Done.Count) $(if ("done" -in $Hide) { "(hidden)" })" -ForegroundColor Green
+Write-Host " ✗ Missing     : $($results.Missing.Count) $(if ("missing" -in $Hide) { "(hidden)" })" -ForegroundColor Red
+Write-Host " ! Blacklisted : $($results.Blacklisted.Count) $(if ("blacklisted" -in $Hide) { "(hidden)" })" -ForegroundColor Yellow
+Write-Host " ◯ Transparent : $($results.Transparents.Count) $(if ("transparents" -in $Hide) { "(hidden)" })" -ForegroundColor Magenta
 
 $completionPercentage = if ($defaultTextures.Count -gt 0) { 
 	[math]::Round(($results.Done.Count / ($defaultTextures.Count - $results.Blacklisted.Count - $results.Transparents.Count)) * 100, 2) 

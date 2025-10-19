@@ -41,7 +41,7 @@ foreach ($file in $filenames) {
 			Write-Host "> Running: $($script.name) $($argList)" -ForegroundColor Cyan
 
 			# Call the script with the processed arguments
-			Start-Process Powershell.exe -ArgumentList "-ExecutionPolicy Bypass -File `"$($PSScriptRoot)/$($script.name)`" $($argList)" -NoNewWindow -Wait
+			Start-Process pwsh.exe -ArgumentList "-ExecutionPolicy Bypass -File `"$($PSScriptRoot)/$($script.name)`" $($argList)" -NoNewWindow -Wait
 
 			Write-Host "-------------------------" -ForegroundColor DarkGray
 		}

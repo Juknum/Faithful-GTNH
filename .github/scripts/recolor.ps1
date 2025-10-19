@@ -31,7 +31,6 @@ $assetsDirectory   = "$PSScriptRoot/../../assets"
 $defaultDirectory  = "$PSScriptRoot/../../.default"
 
 $workDefaultDirectory = "$PSScriptRoot/../../.work/.default"
-$workAssetsDirectory  = "$PSScriptRoot/../../.work/.assets"
 
 $workDirName = ".work/.default"
 
@@ -155,7 +154,12 @@ function Recolor-Texture(
 	}
 	
 	# Load source image
-	$sourcePath = "$assetsDirectory/$sourceImage"
+	$sourcePath = if ($sourceImage.StartsWith(".work/")) {
+		"$PSScriptRoot/../../$sourceImage"
+	} else {
+		"$assetsDirectory/$sourceImage"
+	}
+	
 	if (-not (Test-Path $sourcePath -PathType Leaf)) {
 		Write-Error "Error: Source image not found at path '$sourcePath'"
 		return
@@ -170,14 +174,13 @@ function Recolor-Texture(
 
 	# Process each target
 	for ($i = 0; $i -lt $targetPalettes.Length; $i++) {
-		$isWorkDir = $targetPaths[$i].StartsWith(".work/.default")
+		$isWorkDir = $targetPaths[$i].StartsWith(".work")
 		$targetPalettePath = $targetPalettes[$i]
 
-		if ($isWorkDir) {
-			$targetOutputPath = $workAssetsDirectory + ($targetPaths[$i] -replace "$workDirName", "")
-		}
-		else {
-			$targetOutputPath = "$assetsDirectory/$($targetPaths[$i])"
+		$targetOutputPath = if ($isWorkDir) {
+			"$PSScriptRoot/../../$($targetPaths[$i])"
+		} else {
+			"$assetsDirectory/$($targetPaths[$i])"
 		}
 
 		Write-Host "$($targetPaths[$i])" -ForegroundColor Green
@@ -285,7 +288,13 @@ function Recolor-Texture(
 }
 
 # Get/Generate palette for source image
-$sourcePalette = Get-Palette $src -textureFilename $assetsDirectory/$src
+$sourcePath = if ($src.StartsWith(".work/")) {
+	"$PSScriptRoot/../../$src"
+} else {
+	"$assetsDirectory/$src"
+}
+
+$sourcePalette = Get-Palette $src -textureFilename $sourcePath
 $validTargets  = @()
 $validPalettes = @()
 
@@ -295,21 +304,32 @@ RenderPalette $jsonPalette
 Write-Host ""
 Write-Host "Source:" -ForegroundColor Green
 
-& "$($PSScriptRoot)/display.ps1" -Path "$assetsDirectory/$src"
+& "$($PSScriptRoot)/display.ps1" -Path $sourcePath
 Write-Host ""
 Write-Host ""
 
 # Process each output target
 foreach ($target in $out) {
-	if (-not $forceRecolor -and (Test-Path "$assetsDirectory/$target" -PathType Leaf)) {
+	$targetPath = if ($target.StartsWith(".work/")) {
+		"$PSScriptRoot/../../$target"
+	} else {
+		"$assetsDirectory/$target"
+	}
+
+	if (-not $forceRecolor -and (Test-Path $targetPath -PathType Leaf)) {
 		# Write-Host "INFO: Target $target already exists, skipping recolor. Use -forceRecolor to override." -ForegroundColor Cyan
 		continue
 	}
 
 	# Get/Generate palette for default version of target
-	$textureFile = "$defaultDirectory/$target"
-	if ($target.StartsWith($workDirName)) {
-		$textureFile = "$workDefaultDirectory" + ($target -replace $workDirName, "")
+	$textureFile = if ($target.StartsWith(".work/")) {
+		if ($target.Contains(".work/.default")) {
+			"$PSScriptRoot/../../$target"
+		} else {
+			"$workDefaultDirectory/$($target -replace '^\.work/', '')"
+		}
+	} else {
+		"$defaultDirectory/$target"
 	}
 
 	# Write-Host "Target: $textureFile" -ForegroundColor Green

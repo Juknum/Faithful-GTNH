@@ -1,0 +1,30 @@
+{
+	"origin": ".work/.assets/tinker/axe_head_broken.png",
+	"targets": [
+		"tinker/textures/items/axe/_axe_head_broken.png",
+		// "tinker/textures/items/axe/fierymetal_axe_head_broken.png",
+		"tinker/textures/items/axe/knightmetal_axe_head_broken.png",
+		"tinker/textures/items/axe/nagascale_axe_head_broken.png",
+		// "tinker/textures/items/axe/steeleaf_axe_head_broken.png",
+		"tinker/textures/items/axe/alumite_axe_head_broken.png",
+		"tinker/textures/items/axe/ardite_axe_head_broken.png",
+		"tinker/textures/items/axe/blueslime_axe_head_broken.png",
+		"tinker/textures/items/axe/bone_axe_head_broken.png",
+		"tinker/textures/items/axe/bronze_axe_head_broken.png",
+		// "tinker/textures/items/axe/cactus_axe_head_broken.png",
+		"tinker/textures/items/axe/cobalt_axe_head_broken.png",
+		"tinker/textures/items/axe/copper_axe_head_broken.png",
+		"tinker/textures/items/axe/flint_axe_head_broken.png",
+		"tinker/textures/items/axe/iron_axe_head_broken.png",
+		"tinker/textures/items/axe/manyullyn_axe_head_broken.png",
+		// "tinker/textures/items/axe/netherrack_axe_head_broken.png",
+		"tinker/textures/items/axe/obsidian_axe_head_broken.png",
+		// "tinker/textures/items/axe/paper_axe_head_broken.png",
+		"tinker/textures/items/axe/pigiron_axe_head_broken.png",
+		// "tinker/textures/items/axe/slime_axe_head_broken.png",
+		"tinker/textures/items/axe/steel_axe_head_broken.png",
+		"tinker/textures/items/axe/stone_axe_head_broken.png",
+		"tinker/textures/items/axe/thaumium_axe_head_broken.png",
+		"tinker/textures/items/axe/wood_axe_head_broken.png"
+	]
+}

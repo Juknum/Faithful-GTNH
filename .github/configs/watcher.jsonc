@@ -307,17 +307,6 @@
 			}
 		]
 	},
-	"assets/minecraft/textures/items/iron_axe.png": {
-		"scripts": [
-			{
-				"name": "recolors.ps1",
-				"args": {
-					"files": ["iron_axe.jsonc"],
-					"forceRecolor": true
-				}
-			}
-		]
-	},
 	"assets/minecraft/textures/items/iron_hoe.png": {
 		"scripts": [
 			{
@@ -616,6 +605,64 @@
 				"name": "recolors.ps1",
 				"args": {
 					"files": ["lava_still.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/items/stick.png": {
+		"scripts": [
+			{
+				"name": "mask.ps1",
+				"args": {
+					"file": "tinker/axe_handle.jsonc"
+				}
+			},
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "tinker/handle.jsonc"
+				}
+			},
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["tinker/axe_handle.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/items/iron_axe.png": {
+		"scripts": [
+			{
+				"name": "mask.ps1",
+				"args": {
+					"file": "tinker/axe_head.jsonc"
+				}
+			},
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["iron_axe.jsonc"],
+					"forceRecolor": true
+				}
+			},
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["tinker/axe_head.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	".work/.assets/tinker/axe_head_broken.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["tinker/axe_head_broken.jsonc"],
 					"forceRecolor": true
 				}
 			}

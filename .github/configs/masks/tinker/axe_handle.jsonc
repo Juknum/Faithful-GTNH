@@ -1,0 +1,5 @@
+{
+	"origin": "assets/minecraft/textures/items/stick.png",
+	"mask":   ".work/.assets/tinker/axe_handle_mask.png",
+	"output": ".work/.assets/tinker/axe_handle.png"
+}

@@ -30,6 +30,14 @@ function Merge-Images {
 	Write-Host $overlayPath -ForegroundColor Yellow
 
 	try {
+		# Define a temp path if output is same as any input
+		$tempOutputPath = $outputPath
+		$needsTemp = ($outputPath -eq $backgroundPath) -or ($outputPath -eq $overlayPath)
+		
+		if ($needsTemp) {
+			$tempOutputPath = [System.IO.Path]::GetTempFileName() + ".png"
+		}
+		
 		# Load the background image
 		$background = [System.Drawing.Image]::FromFile($backgroundPath)
 		
@@ -53,16 +61,22 @@ function Merge-Images {
 		# Draw the overlay image at the specified position
 		$graphics.DrawImage($overlay, $x, $y, $overlay.Width, $overlay.Height)
 		
-		# Save the result
-		$result.Save($outputPath)
-		
-		# Clean up
+		# Clean up resources before saving to avoid locks
 		$graphics.Dispose()
-		$result.Dispose()
 		$background.Dispose()
 		$overlay.Dispose()
 		
-		Write-Host "Image successfully created at $outPath" -ForegroundColor Cyan
+		# Save the result
+		$result.Save($tempOutputPath)
+		$result.Dispose()
+		
+		# If we used a temp file, now copy it to the final destination
+		if ($needsTemp) {
+			Remove-Item -Path $outputPath -Force -ErrorAction SilentlyContinue
+			Move-Item -Path $tempOutputPath -Destination $outputPath -Force
+		}
+		
+		Write-Host "Image successfully created at $outputPath" -ForegroundColor Cyan
 		Write-Host ""
 		& "$($PSScriptRoot)/display.ps1" -Path $outputPath
 	}
