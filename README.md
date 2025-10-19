@@ -11,7 +11,7 @@ This pack aims to enhance the visual experience while maintaining the 1.20+ Mine
 
 ## Resource Pack Progress
 
-Overall Progress: 4338/52906 (8.2%)
+Overall Progress: 4415/52906 (8.34%)
 
 | Namespace | Completed | Total | Percentage |
 |-----------|-----------|-------|------------|
@@ -208,7 +208,7 @@ Overall Progress: 4338/52906 (8.2%)
 | thaumichorizons | 0 | 304 | ░░░░░░░░░░ 0% |
 | thaumicinsurgence | 0 | 127 | ░░░░░░░░░░ 0% |
 | thaumicmachina | 0 | 31 | ░░░░░░░░░░ 0% |
-| tinker | 167 | 5024 | ░░░░░░░░░░ 3.32% |
+| tinker | 244 | 5024 | ░░░░░░░░░░ 4.86% |
 | tinkersdefense | 0 | 27 | ░░░░░░░░░░ 0% |
 | tmechworks | 0 | 43 | ░░░░░░░░░░ 0% |
 | translocator | 0 | 5 | ░░░░░░░░░░ 0% |
