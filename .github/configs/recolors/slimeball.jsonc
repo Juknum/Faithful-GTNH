@@ -2,6 +2,7 @@
 	"origin": "minecraft/textures/items/slimeball.png",
 	"targets": [
 		"tinker/textures/items/food/edibleslime.png",
-		"tinker/textures/items/food/edibleblood.png"
+		"tinker/textures/items/food/edibleblood.png",
+		"tinker/textures/items/materials/material_glueball.png"
 	]
 }

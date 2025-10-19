@@ -15,6 +15,7 @@
 		"tinker/textures/items/tinkerbook_diary.png",
 		"tinker/textures/items/tinkerbook_green.png",
 		"tinker/textures/items/tinkerbook_smeltery.png",
-		"tinker/textures/items/tinkerbook_toolstation.png"
+		"tinker/textures/items/tinkerbook_toolstation.png",
+		"tinker/textures/items/materials/tinkerbook_diary.png"
 	]
 }

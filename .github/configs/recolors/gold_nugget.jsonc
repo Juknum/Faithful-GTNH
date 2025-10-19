@@ -1,0 +1,19 @@
+{
+	"origin": "minecraft/textures/items/gold_nugget.png",
+	"targets": [
+		"tinker/textures/items/materials/material_nugget_silver.png",
+		"tinker/textures/items/materials/material_nugget_steel.png",
+		"tinker/textures/items/materials/material_nugget_tin.png",
+		"tinker/textures/items/materials/material_nugget_alubrass.png",
+		"tinker/textures/items/materials/material_nugget_aluminum.png",
+		"tinker/textures/items/materials/material_nugget_alumite.png",
+		"tinker/textures/items/materials/material_nugget_ardite.png",
+		"tinker/textures/items/materials/material_nugget_bronze.png",
+		"tinker/textures/items/materials/material_nugget_cobalt.png",
+		"tinker/textures/items/materials/material_nugget_copper.png",
+		"tinker/textures/items/materials/material_nugget_iron.png",
+		"tinker/textures/items/materials/material_nugget_knightmetal.png",
+		"tinker/textures/items/materials/material_nugget_manyullyn.png",
+		"tinker/textures/items/materials/material_nugget_obsidian.png"
+	]
+}

@@ -1,0 +1,5 @@
+{
+	"origin": "assets/tinker/textures/blocks/searedbrick.png",
+	"mask":   ".work/.assets/tinker/lavatank_side_mask.png",
+	"output": ".work/.assets/tinker/lavatank_side_cutout.png"
+}

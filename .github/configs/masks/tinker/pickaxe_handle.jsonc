@@ -1,0 +1,5 @@
+{
+	"origin": "assets/minecraft/textures/items/iron_pickaxe.png",
+	"mask":   ".work/.assets/tinker/pickaxe_handle_mask.png",
+	"output": ".work/.assets/tinker/pickaxe_handle.png"
+}

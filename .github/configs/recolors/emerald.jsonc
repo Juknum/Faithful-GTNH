@@ -1,0 +1,6 @@
+{
+	"origin": "minecraft/textures/items/emerald.png",
+	"targets": [
+		"tinker/textures/items/materials/material_silkyjewel.png"
+	]
+}

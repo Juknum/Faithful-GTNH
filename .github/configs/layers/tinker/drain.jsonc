@@ -1,0 +1,12 @@
+[
+	{
+		"layer0Path": "assets/tinker/textures/blocks/drain_side.png",
+		"layer1Path": ".work/.assets/tinker/drain_basin.png",
+		"outPath":    "assets/tinker/textures/blocks/drain_basin.png"
+	},
+	{
+		"layer0Path": "assets/tinker/textures/blocks/lavatank_top.png",
+		"layer1Path": ".work/.assets/tinker/drain_out.png",
+		"outPath":    "assets/tinker/textures/blocks/drain_out.png"
+	}
+]

@@ -318,17 +318,6 @@
 			}
 		]
 	},
-	"assets/minecraft/textures/items/iron_pickaxe.png": {
-		"scripts": [
-			{
-				"name": "recolors.ps1",
-				"args": {
-					"files": ["iron_pickaxe.jsonc"],
-					"forceRecolor": true
-				}
-			}
-		]
-	},
 	"assets/minecraft/textures/items/iron_shovel.png": {
 		"scripts": [
 			{
@@ -425,6 +414,30 @@
 					"files": ["stone_bricks.jsonc"],
 					"forceRecolor": true
 				}
+			},
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "tinker/smeltery.jsonc"
+				}
+			},
+			{
+				"name": "mask.ps1",
+				"args": {
+					"file": "tinker/lavatank_side.jsonc"
+				}
+			},
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "tinker/lavatank_side.jsonc"
+				}
+			},
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "tinker/drain.jsonc"
+				}
 			}
 		]
 	},
@@ -435,6 +448,12 @@
 				"args": {
 					"files": ["stone_bricks_carved.jsonc"],
 					"forceRecolor": true
+				}
+			},
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "tinker/drain.jsonc"
 				}
 			}
 		]
@@ -621,13 +640,13 @@
 			{
 				"name": "layered.ps1",
 				"args": {
-					"file": "tinker/handle.jsonc"
+					"file": "tinker/axe_handle.jsonc"
 				}
 			},
 			{
 				"name": "recolors.ps1",
 				"args": {
-					"files": ["tinker/axe_handle.jsonc"],
+					"files": ["tinker/axe_handle.jsonc", "stick.jsonc"],
 					"forceRecolor": true
 				}
 			}
@@ -667,5 +686,75 @@
 				}
 			}
 		]
-	}
+	},
+	"assets/minecraft/textures/items/gold_nugget.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["gold_nugget.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/items/emerald.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["emerald.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/items/iron_pickaxe.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["iron_pickaxe.jsonc"],
+					"forceRecolor": true
+				}
+			},
+			{
+				"name": "mask.ps1",
+				"args": {
+					"file": "tinker/pickaxe_handle.jsonc"
+				}
+			},
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["tinker/pickaxe_handle.jsonc"],
+					"forceRecolor": true
+				}
+			},
+			{
+				"name": "mask.ps1",
+				"args": {
+					"file": "tinker/pickaxe_head.jsonc"
+				}
+			},
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["tinker/pickaxe_head.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	".work/.assets/tinker/pickaxe_head_broken.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["tinker/pickaxe_head_broken.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
 }

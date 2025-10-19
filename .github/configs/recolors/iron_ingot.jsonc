@@ -19,6 +19,18 @@
 		"railcraft/textures/items/ingot.tin.png",
 		"railcraft/textures/items/ingot.copper.png",
 		"railcraft/textures/items/ingot.lead.png",
-		"railcraft/textures/items/ingot.steel.png"
+		"railcraft/textures/items/ingot.steel.png",
+		"tinker/textures/items/materials/material_aluminumingot.png",
+		"tinker/textures/items/materials/material_alumiteingot.png",
+		"tinker/textures/items/materials/material_arditeingot.png",
+		"tinker/textures/items/materials/material_bronzeingot.png",
+		"tinker/textures/items/materials/material_cobaltingot.png",
+		"tinker/textures/items/materials/material_copperingot.png",
+		"tinker/textures/items/materials/material_manyullyningot.png",
+		"tinker/textures/items/materials/material_obsidianingot.png",
+		"tinker/textures/items/materials/material_searedbrick.png",
+		"tinker/textures/items/materials/material_steelingot.png",
+		"tinker/textures/items/materials/material_tiningot.png",
+		"tinker/textures/items/materials/material_alubrassingot.png"
 	]
 }

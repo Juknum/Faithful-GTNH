@@ -1,0 +1,7 @@
+[
+	{
+		"layer0Path": ".work/.assets/tinker/lavatank_side_cutout.png",
+		"layer1Path": ".work/.assets/tinker/lavatank_side_overlay.png",
+		"outPath":    "assets/tinker/textures/blocks/lavatank_side.png"
+	}
+]

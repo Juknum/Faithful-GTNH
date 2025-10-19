@@ -1,0 +1,6 @@
+{
+	"origin": "minecraft/textures/items/bone.png",
+	"targets": [
+		"tinker/textures/items/materials/material_necroticbone.png"
+	]
+}

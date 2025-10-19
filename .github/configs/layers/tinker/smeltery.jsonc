@@ -1,0 +1,12 @@
+[
+	{
+		"layer0Path": "assets/tinker/textures/blocks/smeltery_side.png",
+		"layer1Path": ".work/.assets/tinker/smeltery_inactive.png",
+		"outPath":    "assets/tinker/textures/blocks/smeltery_inactive.png"
+	},
+	{
+		"layer0Path": "assets/tinker/textures/blocks/smeltery_side.png",
+		"layer1Path": ".work/.assets/tinker/smeltery_active.png",
+		"outPath":    "assets/tinker/textures/blocks/smeltery_active.png"
+	}
+]

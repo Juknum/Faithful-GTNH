@@ -1,0 +1,30 @@
+{
+	"origin": "minecraft/textures/items/stick.png",
+	"targets": [
+		"tinker/textures/items/parts/_rod.png",
+		// "tinker/textures/items/parts/fierymetal_rod.png",
+		"tinker/textures/items/parts/knightmetal_rod.png",
+		"tinker/textures/items/parts/nagascale_rod.png",
+		// "tinker/textures/items/parts/steeleaf_rod.png",
+		"tinker/textures/items/parts/alumite_rod.png",
+		"tinker/textures/items/parts/ardite_rod.png",
+		"tinker/textures/items/parts/blueslime_rod.png",
+		"tinker/textures/items/parts/bone_rod.png",
+		"tinker/textures/items/parts/bronze_rod.png",
+		// "tinker/textures/items/parts/cactus_rod.png",
+		"tinker/textures/items/parts/cobalt_rod.png",
+		"tinker/textures/items/parts/copper_rod.png",
+		"tinker/textures/items/parts/flint_rod.png",
+		"tinker/textures/items/parts/iron_rod.png",
+		"tinker/textures/items/parts/manyullyn_rod.png",
+		// "tinker/textures/items/parts/netherrack_rod.png",
+		"tinker/textures/items/parts/obsidian_rod.png",
+		"tinker/textures/items/parts/paper_rod.png",
+		"tinker/textures/items/parts/pigiron_rod.png",
+		"tinker/textures/items/parts/slime_rod.png",
+		"tinker/textures/items/parts/steel_rod.png",
+		"tinker/textures/items/parts/stone_rod.png",
+		"tinker/textures/items/parts/thaumium_rod.png",
+		"tinker/textures/items/parts/wood_rod.png"
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"origin": ".work/.assets/tinker/pickaxe_head_broken.png",
+	"targets": [
+		"tinker/textures/items/pickaxe/_pickaxe_head_broken.png",
+		// "tinker/textures/items/pickaxe/fierymetal_pickaxe_head_broken.png",
+		"tinker/textures/items/pickaxe/knightmetal_pickaxe_head_broken.png",
+		"tinker/textures/items/pickaxe/nagascale_pickaxe_head_broken.png",
+		// "tinker/textures/items/pickaxe/steeleaf_pickaxe_head_broken.png",
+		"tinker/textures/items/pickaxe/alumite_pickaxe_head_broken.png",
+		"tinker/textures/items/pickaxe/ardite_pickaxe_head_broken.png",
+		"tinker/textures/items/pickaxe/blueslime_pickaxe_head_broken.png",
+		"tinker/textures/items/pickaxe/bone_pickaxe_head_broken.png",
+		"tinker/textures/items/pickaxe/bronze_pickaxe_head_broken.png",
+		// "tinker/textures/items/pickaxe/cactus_pickaxe_head_broken.png",
+		"tinker/textures/items/pickaxe/cobalt_pickaxe_head_broken.png",
+		"tinker/textures/items/pickaxe/copper_pickaxe_head_broken.png",
+		"tinker/textures/items/pickaxe/flint_pickaxe_head_broken.png",
+		"tinker/textures/items/pickaxe/iron_pickaxe_head_broken.png",
+		"tinker/textures/items/pickaxe/manyullyn_pickaxe_head_broken.png",
+		// "tinker/textures/items/pickaxe/netherrack_pickaxe_head_broken.png",
+		"tinker/textures/items/pickaxe/obsidian_pickaxe_head_broken.png",
+		"tinker/textures/items/pickaxe/paper_pickaxe_head_broken.png",
+		"tinker/textures/items/pickaxe/pigiron_pickaxe_head_broken.png",
+		"tinker/textures/items/pickaxe/slime_pickaxe_head_broken.png",
+		"tinker/textures/items/pickaxe/steel_pickaxe_head_broken.png",
+		"tinker/textures/items/pickaxe/stone_pickaxe_head_broken.png",
+		"tinker/textures/items/pickaxe/thaumium_pickaxe_head_broken.png",
+		"tinker/textures/items/pickaxe/wood_pickaxe_head_broken.png"
+	]
+}
