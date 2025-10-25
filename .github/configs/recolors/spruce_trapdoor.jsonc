@@ -1,0 +1,6 @@
+{
+	"origin": "minecraft/textures/blocks/spruce_trapdoor.png",
+	"targets": [
+		".work/.assets/gregtech/TEXTURE_METAL_PANEL_E_bottom_layer.png"
+	]
+}

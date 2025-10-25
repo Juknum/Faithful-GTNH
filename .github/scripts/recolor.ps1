@@ -33,6 +33,7 @@ $defaultDirectory  = "$PSScriptRoot/../../.default"
 $workDefaultDirectory = "$PSScriptRoot/../../.work/.default"
 
 $workDirName = ".work/.default"
+$workAssetsDirName = ".work/.assets"
 
 $escape = [Char]0x1B
 
@@ -185,7 +186,7 @@ function Recolor-Texture(
 
 		Write-Host "$($targetPaths[$i])" -ForegroundColor Green
 		if ($isWorkDir) {
-			& "$($PSScriptRoot)/display.ps1" -Path ($workDefaultDirectory + ($targetPaths[$i] -replace "$workDirName", ""))
+			& "$($PSScriptRoot)/display.ps1" -Path ($workDefaultDirectory + (($targetPaths[$i] -replace "$workDirName", "") -replace "$workAssetsDirName", ""))
 		}
 		else {
 			& "$($PSScriptRoot)/display.ps1" -Path "$defaultDirectory/$($targetPaths[$i])"
@@ -325,6 +326,8 @@ foreach ($target in $out) {
 	$textureFile = if ($target.StartsWith(".work/")) {
 		if ($target.Contains(".work/.default")) {
 			"$PSScriptRoot/../../$target"
+		} elseif ($target.Contains(".work/.assets")) {
+			"$PSScriptRoot/../../$($target -replace '.assets', '.default')"
 		} else {
 			"$workDefaultDirectory/$($target -replace '^\.work/', '')"
 		}

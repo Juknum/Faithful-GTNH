@@ -126,7 +126,18 @@
 			{
 				"name": "recolors.ps1",
 				"args": {
-					"files": ["oak_sapling.jsonc"],
+					"files": ["spruce_leaves.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/sapling_spruce.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["spruce_sapling.jsonc"],
 					"forceRecolor": true
 				}
 			}
@@ -370,6 +381,35 @@
 					"files": ["cobblestone.jsonc"],
 					"forceRecolor": true
 				}
+			},
+			{
+				"name": "mask.ps1",
+				"args": {
+					"file": "gregtech/TEXTURE_METAL_PANEL_E.jsonc"
+				}
+			},
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "gregtech/TEXTURE_METAL_PANEL_E.jsonc"
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/spruce_trapdoor.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["spruce_trapdoor.jsonc"],
+					"forceRecolor": true
+				}
+			},
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "gregtech/TEXTURE_METAL_PANEL_E.jsonc"
+				}
 			}
 		]
 	},
@@ -519,12 +559,34 @@
 			}
 		]
 	},
+	"assets/minecraft/textures/items/charcoal.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["charcoal.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
 	"assets/minecraft/textures/items/coal.png": {
 		"scripts": [
 			{
 				"name": "recolors.ps1",
 				"args": {
 					"files": ["coal.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/coal_block.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["coal_block.jsonc"],
 					"forceRecolor": true
 				}
 			}
@@ -757,4 +819,26 @@
 			}
 		]
 	},
+	"assets/minecraft/textures/items/feather.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["feather.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/iron_bars.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["iron_bars.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	}
 }

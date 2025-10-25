@@ -1,0 +1,6 @@
+{
+	"origin": "minecraft/textures/blocks/sapling_spruce.png",
+	"targets": [
+		"miscutils/textures/blocks/trees/saplings/sapling_pine.png"
+	]
+}

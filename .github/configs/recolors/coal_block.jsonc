@@ -1,0 +1,9 @@
+{
+	"origin": "minecraft/textures/blocks/coal_block.png",
+	"targets": [
+		"miscutils/textures/blocks/fuel/blockCactusCharcoal0.png",
+		"miscutils/textures/blocks/fuel/blockCactusCoke0.png",
+		"miscutils/textures/blocks/fuel/blockSugarCharcoal0.png",
+		"miscutils/textures/blocks/fuel/blockSugarCoke0.png"
+	]
+}

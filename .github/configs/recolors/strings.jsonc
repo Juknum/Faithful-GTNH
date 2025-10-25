@@ -9,6 +9,10 @@
 		"dreamcraft/textures/items/itemMeteoricIronString.png",
 		"witchinggadgets/textures/items/mat_threadGold.png",
 		"witchinggadgets/textures/items/mat_threadSimple.png",
-		"witchinggadgets/textures/items/mat_threadThaumium.png"
+		"witchinggadgets/textures/items/mat_threadThaumium.png",
+		"dreamcraft/textures/items/itemSilverThread.png",
+		"dreamcraft/textures/items/itemVinteumThread.png",
+		"witchery/textures/items/ingredient.fancifulThread.png",
+		"witchery/textures/items/ingredient.goldenThread.png"
 	]
 }

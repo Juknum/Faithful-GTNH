@@ -1,0 +1,27 @@
+{
+	"origin": "minecraft/textures/blocks/iron_bars.png",
+	"targets": [
+		"enderio/textures/blocks/blockDarkIronBars.png", 
+		"enderio/textures/blocks/blockEndSteelBars.png", 
+		"enderio/textures/blocks/blockSoulariumBars.png",
+		"dreamcraft/textures/items/itemVibrantAlloyBars.png",
+		"dreamcraft/textures/items/itemAluminiumBars.png",
+		"dreamcraft/textures/items/itemChromeBars.png",
+		"dreamcraft/textures/items/itemConductiveIronBars.png",
+		"dreamcraft/textures/items/itemElectricalSteelBars.png",
+		"dreamcraft/textures/items/itemEnderiumBars.png",
+		"dreamcraft/textures/items/itemEnderiumBaseBars.png",
+		"dreamcraft/textures/items/itemEnergeticAlloyBars.png",
+		"dreamcraft/textures/items/itemIridiumBars.png",
+		"dreamcraft/textures/items/itemNeutroniumBars.png",
+		"dreamcraft/textures/items/itemOsmiumBars.png",
+		"dreamcraft/textures/items/itemPulsatingIronBars.png",
+		"dreamcraft/textures/items/itemRedstoneAlloyBars.png",
+		"dreamcraft/textures/items/itemSoulariumBars.png",
+		"dreamcraft/textures/items/itemStainlessSteelBars.png",
+		"dreamcraft/textures/items/itemSteelBars.png",
+		"dreamcraft/textures/items/itemTitaniumBars.png",
+		"dreamcraft/textures/items/itemTungstenBars.png",
+		"dreamcraft/textures/items/itemTungstenSteelBars.png",
+	]
+}

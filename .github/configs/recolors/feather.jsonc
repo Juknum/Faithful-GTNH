@@ -1,0 +1,8 @@
+{
+	"origin": "minecraft/textures/items/feather.png",
+	"targets": [
+		"twilightforest/textures/items/tfFeather.png",
+		"emt/textures/items/materials/taintedfeather.png",
+		"miscutils/textures/items/magicfeather.png"
+	]
+}

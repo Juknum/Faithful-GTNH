@@ -1,0 +1,6 @@
+{
+	"origin": "minecraft/textures/items/porkchop_raw.png",
+	"targets": [
+		"natura/textures/items/impmeat_raw.png"
+	]
+}

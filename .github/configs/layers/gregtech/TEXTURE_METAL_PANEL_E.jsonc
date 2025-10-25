@@ -1,0 +1,12 @@
+[
+	{
+		"layer0Path": ".work/.assets/gregtech/TEXTURE_METAL_PANEL_E_bottom_layer.png",
+		"layer1Path": ".work/.assets/gregtech/TEXTURE_METAL_PANEL_E_top_layer.png",
+		"outPath":    "assets/gregtech/textures/blocks/iconsets/TEXTURE_METAL_PANEL_E.png"
+	},
+	{
+		"layer0Path": ".work/.assets/gregtech/TEXTURE_METAL_PANEL_E_bottom_layer.png",
+		"layer1Path": ".work/.assets/gregtech/TEXTURE_METAL_PANEL_E_top_layer.png",
+		"outPath":    "assets/miscutils/textures/blocks/metro/TEXTURE_METAL_PANEL_E.png"
+	}
+]

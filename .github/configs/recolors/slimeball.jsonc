@@ -3,6 +3,22 @@
 	"targets": [
 		"tinker/textures/items/food/edibleslime.png",
 		"tinker/textures/items/food/edibleblood.png",
-		"tinker/textures/items/materials/material_glueball.png"
+		"tinker/textures/items/materials/material_glueball.png",
+		"bartworks/textures/items/TRISOPelletBall.png",
+		"bartworks/textures/items/BISOPelletBall.png",
+		"bartworks/textures/items/BurnedOutTRISOPelletBall.png",
+		"bartworks/textures/items/HTGRBISOPebbleCompoundPlutonium.png",
+		"bartworks/textures/items/HTGRBISOPebbleCompoundThorium.png",
+		"bartworks/textures/items/HTGRBISOPebbleCompoundUranium.png",
+		"bartworks/textures/items/HTGRBurnedOutTRISOBallPlutonium.png",
+		"bartworks/textures/items/HTGRBurnedOutTRISOBallThorium.png",
+		"bartworks/textures/items/HTGRBurnedOutTRISOBallUranium.png",
+		"bartworks/textures/items/HTGRTRISOBallPlutonium.png",
+		"bartworks/textures/items/HTGRTRISOBallThorium.png",
+		"bartworks/textures/items/HTGRTRISOBallUranium.png",
+		"bartworks/textures/items/HTGRTRISOPebbleCompoundPlutonium.png",
+		"bartworks/textures/items/HTGRTRISOPebbleCompoundThorium.png",
+		"bartworks/textures/items/HTGRTRISOPebbleCompoundUranium.png",
+		"dreamcraft/textures/items/itemMoldFormBall.png"
 	]
 }

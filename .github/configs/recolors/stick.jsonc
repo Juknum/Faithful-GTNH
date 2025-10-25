@@ -25,6 +25,22 @@
 		"tinker/textures/items/parts/steel_rod.png",
 		"tinker/textures/items/parts/stone_rod.png",
 		"tinker/textures/items/parts/thaumium_rod.png",
-		"tinker/textures/items/parts/wood_rod.png"
+		"tinker/textures/items/parts/wood_rod.png",
+
+		"natura/textures/items/birch_stick.png",
+		"natura/textures/items/bloodwood_stick.png",
+		"natura/textures/items/darkwood_stick.png",
+		"natura/textures/items/eucalyptus_stick.png",
+		"natura/textures/items/fusewood_stick.png",
+		"natura/textures/items/ghostwood_stick.png",
+		"natura/textures/items/hopseed_stick.png",
+		"natura/textures/items/maple_stick.png",
+		"natura/textures/items/purpleheart_stick.png",
+		"natura/textures/items/redwood_stick.png",
+		"natura/textures/items/sakura_stick.png",
+		"natura/textures/items/silverbell_stick.png",
+		"natura/textures/items/spruce_stick.png",
+		// "natura/textures/items/tiger_stick.png",
+		"natura/textures/items/willow_stick.png"
 	]
 }

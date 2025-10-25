@@ -1,6 +1,8 @@
 {
 	"origin": "minecraft/textures/items/coal.png",
 	"targets": [
-		"railcraft/textures/items/fuel.coke.png"
+		"railcraft/textures/items/fuel.coke.png",
+		"sgcraft/textures/items/naquadah.png",
+		"miscutils/textures/gui/overlay_slot/coal.png"
 	]
 }

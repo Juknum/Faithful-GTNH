@@ -1,6 +1,7 @@
 {
 	"origin": "minecraft/textures/blocks/log_oak.png",
 	"targets": [
-		".work/.default/blockRubWoodSide.png"
+		".work/.default/blockRubWoodSide.png",
+		"miscutils/textures/blocks/trees/logs/log_rainforest.png"
 	]
 }

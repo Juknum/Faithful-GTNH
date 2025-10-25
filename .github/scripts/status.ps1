@@ -7,6 +7,7 @@ param(
 )
 
 # Script to compare assets and .default folders and report texture status
+# Also reports files present in assets but not in .default ("Extra" textures)
 
 # Load System.Drawing assembly for image processing
 Add-Type -AssemblyName System.Drawing
@@ -20,7 +21,7 @@ $defaultDir = Join-Path -Path $repoRoot -ChildPath ".default\$AssetFolder"
 $progressJsonPath = Join-Path -Path $scriptDir -ChildPath "..\configs\progress.jsonc"
 
 # Validate input parameters
-$validHideOptions = @("done", "missing", "blacklisted", "transparents")
+$validHideOptions = @("done", "missing", "blacklisted", "transparents", "extra")
 foreach ($option in $Hide) {
 	if ($option -notin $validHideOptions) {
 		Write-Error "Invalid hide option: '$option'. Valid options are: $($validHideOptions -join ', ')"
@@ -36,7 +37,7 @@ if (-not (Test-Path $defaultDir)) {
 
 if (-not (Test-Path $assetsDir)) {
 	Write-Warning "Assets directory not found: $assetsDir (Assuming no textures are present)"
-	exit 0
+	# Still continue to allow reporting of zero assets and avoid errors
 }
 
 # Check if progress.jsonc exists
@@ -75,7 +76,7 @@ Write-Host "Found $($transparentTextures.Count) transparent textures for $AssetF
 # Function to check if an image is fully transparent
 function Test-FullyTransparent {
 	param([string]$imagePath)
-    
+	
 	try {
 		$image = [System.Drawing.Image]::FromFile($imagePath)
 		$bitmap = New-Object System.Drawing.Bitmap($image)
@@ -114,14 +115,15 @@ Write-Host "Scanning for textures in .default directory..."
 
 $defaultTextures = Get-ChildItem -Path $defaultDir -Filter "*.png" -Recurse -File
 
-Write-Host "Found $($defaultTextures.Count) textures/mcmeta files in .default directory"
+Write-Host "Found $($defaultTextures.Count) textures in .default directory"
 
-# Analyze each texture
+# Prepare results
 $results = @{
 	Done = @()
 	Missing = @()
 	Blacklisted = @()
 	Transparents = @()
+	Extra = @()
 }
 
 $processedCount = 0
@@ -165,6 +167,42 @@ foreach ($defaultTexture in $defaultTextures) {
 
 Write-Progress -Activity "Analyzing textures" -Completed
 
+# Now scan assets for files not present in .default (Extras)
+if (Test-Path $assetsDir) {
+	Write-Host "Scanning for textures in assets directory..."
+	$assetsTextures = Get-ChildItem -Path $assetsDir -Filter "*.png" -Recurse -File
+	Write-Host "Found $($assetsTextures.Count) textures in assets directory"
+
+	# Build a HashSet of default relative paths for quick lookup
+	$defaultRelativePaths = $defaultTextures | ForEach-Object {
+		$_.FullName.Substring($defaultDir.Length + 1).Replace('\', '/')
+	}
+	# Create a HashSet and populate it to ensure compatibility across PowerShell versions
+	$defaultSet = New-Object 'System.Collections.Generic.HashSet[string]'
+	if ($defaultRelativePaths) {
+		foreach ($p in $defaultRelativePaths) {
+			# Add returns true/false; cast to void to suppress output
+			[void]$defaultSet.Add($p)
+		}
+	}
+
+	foreach ($assetTexture in $assetsTextures) {
+		$relativePath = $assetTexture.FullName.Substring($assetsDir.Length + 1).Replace('\', '/')
+		if (-not $defaultSet.Contains($relativePath)) {
+			$fullRelativePath = "$AssetFolder/$relativePath"
+			$status = @{
+				Path = $relativePath
+				FullPath = $fullRelativePath
+				IsBlacklisted = $fullRelativePath -in $blacklistedTextures
+				IsTransparent = $fullRelativePath -in $transparentTextures
+				ExistsInAssets = $true
+				ActuallyTransparent = Test-FullyTransparent -imagePath $assetTexture.FullName
+			}
+			$results.Extra += $status
+		}
+	}
+}
+
 # Display results
 Write-Host "`n=== TEXTURE STATUS REPORT for $AssetFolder ===" -ForegroundColor Cyan
 
@@ -200,14 +238,26 @@ if ("transparents" -notin $Hide) {
 	}
 }
 
+if ("extra" -notin $Hide) {
+	Write-Host "`nEXTRA (present in assets but not in .default) ($($results.Extra.Count)):" -ForegroundColor Cyan
+	$results.Extra | Sort-Object Path | ForEach-Object {
+		$blackMarker = if ($_.IsBlacklisted) { " [BLACKLISTED]" } else { "" }
+		$transMarker = if ($_.IsTransparent) { " [MARKED TRANSPARENT]" } else { "" }
+		$actualMarker = if ($_.ActuallyTransparent) { " [ACTUALLY TRANSPARENT]" } else { "" }
+		Write-Host "  ▶ $($_.Path)$blackMarker$transMarker$actualMarker" -ForegroundColor Cyan
+	}
+}
+
 # Summary
 Write-Host "`n=== SUMMARY ===" -ForegroundColor Cyan
 Write-Host "Asset Folder: $AssetFolder"
 Write-Host "Total textures in .default: $($defaultTextures.Count)"
+Write-Host "Total textures in assets  : $(if (Test-Path $assetsDir) { (Get-ChildItem -Path $assetsDir -Filter '*.png' -Recurse -File).Count } else { 0 })"
 Write-Host " ✓ Done        : $($results.Done.Count) $(if ("done" -in $Hide) { "(hidden)" })" -ForegroundColor Green
 Write-Host " ✗ Missing     : $($results.Missing.Count) $(if ("missing" -in $Hide) { "(hidden)" })" -ForegroundColor Red
 Write-Host " ! Blacklisted : $($results.Blacklisted.Count) $(if ("blacklisted" -in $Hide) { "(hidden)" })" -ForegroundColor Yellow
 Write-Host " ◯ Transparent : $($results.Transparents.Count) $(if ("transparents" -in $Hide) { "(hidden)" })" -ForegroundColor Magenta
+Write-Host " ▶ Extra       : $($results.Extra.Count) $(if ("extra" -in $Hide) { "(hidden)" })" -ForegroundColor Cyan
 
 $completionPercentage = if ($defaultTextures.Count -gt 0) { 
 	[math]::Round(($results.Done.Count / ($defaultTextures.Count - $results.Blacklisted.Count - $results.Transparents.Count)) * 100, 2) 
@@ -224,6 +274,10 @@ if ($results.Done | Where-Object { $_.ActuallyTransparent }) {
 
 if ($results.Transparents | Where-Object { $_.ExistsInAssets -and -not $_.ActuallyTransparent }) {
 	Write-Host "`n⚠ WARNING: Some textures marked as transparent are not actually transparent" -ForegroundColor Yellow
+}
+
+if ($results.Extra.Count -gt 0) {
+	Write-Host "`n⚠ NOTE: There are textures present in assets that don't exist in .default. Review 'Extra' list to determine if they are intentional or should be removed/added to .default." -ForegroundColor Yellow
 }
 
 Write-Host "`nAnalysis completed!" -ForegroundColor Green

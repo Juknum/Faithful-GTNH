@@ -1,0 +1,10 @@
+{
+	"origin": "minecraft/textures/items/charcoal.png",
+	"targets": [
+		"miscutils/textures/items/burnables/itemCactusCharcoal.png",
+		"miscutils/textures/items/burnables/itemCactusCoke.png",
+		"miscutils/textures/items/burnables/itemCoalCoke.png",
+		"miscutils/textures/items/burnables/itemSugarCharcoal.png",
+		"miscutils/textures/items/burnables/itemSugarCoke.png"
+	]
+}

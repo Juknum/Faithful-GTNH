@@ -83,6 +83,8 @@
 		"witchery/textures/blocks/planks_alder.png",
 		"witchery/textures/blocks/planks_hawthorn.png",
 		"amunra/textures/blocks/planks_pod.png",
-		"amunra/textures/blocks/planks_methane.png"
+		"amunra/textures/blocks/planks_methane.png",
+		"gregtech/textures/blocks/iconsets/TEXTURE_METAL_PANEL_E_A.png",
+		"miscutils/textures/blocks/metro/TEXTURE_METAL_PANEL_E_A.png"
 	]
 }

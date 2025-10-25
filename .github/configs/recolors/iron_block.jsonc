@@ -137,6 +137,7 @@
 		"gregtech/textures/blocks/materialicons/CUSTOM/ichorium/block5.png",
 		"gregtech/textures/blocks/materialicons/CUSTOM/Manasteel/block5.png",
 		"gregtech/textures/blocks/materialicons/CUSTOM/universium/block5.png",
-		"gregtech/textures/blocks/materialicons/CUSTOM/WhiteDwarfMatter/block5.png"
+		"gregtech/textures/blocks/materialicons/CUSTOM/WhiteDwarfMatter/block5.png",
+		"sgcraft/textures/blocks/naquadahBlock.png"
 	]
 }

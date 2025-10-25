@@ -8,6 +8,7 @@
 		"natura/textures/blocks/fusewood_leaves_fancy.png",
 		"natura/textures/blocks/tiger_leaves_fancy.png",
 		"forestry/textures/blocks/leaves/conifers.fancy.png",
-		"ic2/textures/blocks/blockRubLeaves.png"
+		"ic2/textures/blocks/blockRubLeaves.png",
+		"miscutils/textures/blocks/trees/leaves/leaves_pine.png"
 	]
 }

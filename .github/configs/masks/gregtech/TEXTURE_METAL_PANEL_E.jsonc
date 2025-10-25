@@ -1,0 +1,5 @@
+{
+	"origin": "assets/minecraft/textures/blocks/cobblestone.png",
+	"mask":   ".work/.assets/gregtech/TEXTURE_METAL_PANEL_E_mask.png",
+	"output": ".work/.assets/gregtech/TEXTURE_METAL_PANEL_E_top_layer.png"
+}
