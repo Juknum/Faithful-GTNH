@@ -1,6 +1,7 @@
 {
 	"origin": "minecraft/textures/blocks/ladder.png",
 	"targets": [
-		"tinker/textures/blocks/ladder_stone.png"
+		"tinker/textures/blocks/ladder_stone.png",
+		"enderio/textures/blocks/blockDarkSteelLadder.png"
 	]
 }

@@ -1,0 +1,6 @@
+{
+	"origin": "minecraft/textures/blocks/grass_top.png",
+	"targets": [
+		"extrautils/textures/blocks/cursedearthtop.png"
+	]
+}

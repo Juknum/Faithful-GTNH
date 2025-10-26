@@ -1,0 +1,9 @@
+{
+	"origin": "minecraft/textures/items/iron_helmet.png",
+	"targets": [
+		"ic2/textures/items/itemArmorBronzeHelmet.png",
+		"biomesoplenty/textures/items/amethysthelmet.png",
+		"railcraft/textures/items/armor.steel.helmet.png",
+		"randomthings/textures/items/armor/spectreHelmet.png"
+	]
+}

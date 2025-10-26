@@ -1,0 +1,23 @@
+{
+	"origin": "minecraft/textures/items/ruby.png",
+	"targets": [
+		"biomesoplenty/textures/items/ruby.png",
+		"gregtech/textures/items/materialicons/DULL/gem.png",
+		"gregtech/textures/items/materialicons/ENRICHED/gem.png",
+		"gregtech/textures/items/materialicons/FIERY/gem.png",
+		"gregtech/textures/items/materialicons/FINE/gem.png",
+		"gregtech/textures/items/materialicons/FLUID/gem.png",
+		"gregtech/textures/items/materialicons/GLASS/gem.png",
+		"gregtech/textures/items/materialicons/LEAF/gem.png",
+		"gregtech/textures/items/materialicons/NUCLEAR/gem.png",
+		"gregtech/textures/items/materialicons/OPAL/gem.png",
+		"gregtech/textures/items/materialicons/PAPER/gem.png",
+		"gregtech/textures/items/materialicons/POWDER/gem.png",
+		"gregtech/textures/items/materialicons/REFINED/gem.png",
+		"gregtech/textures/items/materialicons/ROUGH/gem.png",
+		"gregtech/textures/items/materialicons/RUBY/gem.png",
+		"gregtech/textures/items/materialicons/SAND/gem.png",
+		"gregtech/textures/items/materialicons/SHINY/gem.png",
+		"gregtech/textures/items/materialicons/WOOD/gem.png"
+	]
+}

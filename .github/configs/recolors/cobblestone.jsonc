@@ -1,6 +1,7 @@
 {
 	"origin": "minecraft/textures/blocks/cobblestone.png",
 	"targets": [
+		"biomesoplenty/textures/blocks/cragrock.png",
 		"gregtech/textures/blocks/iconsets/BASALT_COBBLE.png",
 		"gregtech/textures/blocks/iconsets/GRANITE_BLACK_COBBLE.png",
 		"gregtech/textures/blocks/iconsets/GRANITE_RED_COBBLE.png",

@@ -1,0 +1,9 @@
+{
+	"origin": "minecraft/textures/items/iron_chestplate.png",
+	"targets": [
+		"ic2/textures/items/itemArmorBronzeChestplate.png",
+		"biomesoplenty/textures/items/amethystchestplate.png",
+		"railcraft/textures/items/armor.steel.plate.png",
+		"randomthings/textures/items/armor/spectreChestplate.png"
+	]
+}

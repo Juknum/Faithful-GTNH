@@ -2,6 +2,7 @@
 	"origin": "minecraft/textures/items/seeds_wheat.png",
 	"targets": [
 		"natura/textures/items/barley_seeds.png",
+		"natura/textures/items/cotton_seeds.png",
 		"natura/textures/items/saguaro_seeds.png"
 	]
 }

@@ -1,6 +1,8 @@
 {
 	"origin": "minecraft/textures/items/emerald.png",
 	"targets": [
-		"tinker/textures/items/materials/material_silkyjewel.png"
+		"gregtech/textures/items/materialicons/EMERALD/gem.png",
+		"tinker/textures/items/materials/material_silkyjewel.png",
+		"randomthings/textures/items/crafting/playerCore.png"
 	]
 }

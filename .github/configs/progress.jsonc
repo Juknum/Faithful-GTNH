@@ -860,6 +860,15 @@
     "enderio/textures/items/old/yetaWrench.png",
     "enderio/textures/models/armor/old/darkSteel_layer_1.png",
     "enderio/textures/models/armor/old/darkSteel_layer_2.png",
+    "enderzoo/entity/old/concussionCreeper.png",
+    "enderzoo/entity/old/enderminy.png",
+    "enderzoo/entity/old/enderminy_eyes.png",
+    "enderzoo/entity/enderminy_eyes.png",
+    "enderzoo/textures/blocks/New folder/blockConfusingCharge_bottom.png",
+    "enderzoo/textures/blocks/New folder/blockConfusingCharge_side.png",
+    "enderzoo/textures/blocks/New folder/blockConfusingCharge_top.png",
+    "enderzoo/textures/items/enderZooIcon.png",
+    "enderzoo/textures/items/itemStructureTool.png",
     "etfuturum/logo.png",
     "extrabees/textures/tile/logo.png",
     "extrautils/textures/blocks/dark_portal.png",
@@ -2044,7 +2053,11 @@
     "minecraft/textures/misc/vignette.png",
     "minecraft/textures/misc/enchanted_item_glint.png",
     "minecraft/textures/misc/pumpkinblur.png",
-    "minecraft/textures/misc/shadow.png"
+    "minecraft/textures/misc/shadow.png",
+    "randomthings/textures/items/kojaku/kojaku_pulling_0.png",
+    "randomthings/textures/items/kojaku/kojaku_pulling_1.png",
+    "randomthings/textures/items/kojaku/kojaku_pulling_2.png",
+    "randomthings/textures/items/kojaku/kojaku_standby.png"
   ],
   "transparents": [
     "alchemicalwizardry/models/armor/boundArmour_invisible_layer_1.png",

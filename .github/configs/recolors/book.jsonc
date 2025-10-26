@@ -1,6 +1,7 @@
 {
 	"origin": "minecraft/textures/items/book_normal.png",
 	"targets": [
+		"forestry/textures/items/catalogue.png",
 		"mantle/textures/gui/tinkerbook_green.png",
 		"mantle/textures/gui/tinkerbook_blue.png",
 		"mantle/textures/items/mantlebook_blue.png",

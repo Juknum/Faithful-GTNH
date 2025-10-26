@@ -1,0 +1,7 @@
+[
+	{
+		"layer0Path": "assets/minecraft/textures/blocks/sand.png",
+		"layer1Path": "assets/minecraft/textures/blocks/glass.png",
+		"outPath":    "assets/extrautils/textures/blocks/sandedGlass.png"
+	}
+]

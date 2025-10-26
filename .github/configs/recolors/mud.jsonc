@@ -1,0 +1,6 @@
+{
+	"origin": "minecraft/textures/blocks/mud.png",
+	"targets": [
+		"biomesoplenty/textures/blocks/mud.png"
+	]
+}

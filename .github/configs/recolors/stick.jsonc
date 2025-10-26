@@ -41,6 +41,9 @@
 		"natura/textures/items/silverbell_stick.png",
 		"natura/textures/items/spruce_stick.png",
 		// "natura/textures/items/tiger_stick.png",
-		"natura/textures/items/willow_stick.png"
+		"natura/textures/items/willow_stick.png",
+
+		"randomthings/textures/items/crafting/obsidianStick.png",
+		"forestry/textures/items/oakStick.png"
 	]
 }

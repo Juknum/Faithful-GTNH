@@ -1,0 +1,8 @@
+{
+	"origin": "minecraft/textures/items/wheat.png",
+	"targets": [
+		"forestry/textures/items/mouldyWheat.png",
+		"forestry/textures/items/decayingWheat.png",
+		"natura/textures/items/barley_plant.png"
+	]
+}

@@ -1,6 +1,13 @@
 {
 	"origin": "minecraft/textures/items/redstone_dust.png",
 	"targets": [
+		"galaxyspace/textures/items/glowstonedusts/CeresGlowstoneDust.png",
+		"galaxyspace/textures/items/glowstonedusts/EnceladusGlowstoneDust.png",
+		"galaxyspace/textures/items/glowstonedusts/glowstone_dust.png",
+		"galaxyspace/textures/items/glowstonedusts/IoGlowstoneDust.png",
+		"galaxyspace/textures/items/glowstonedusts/PlutoGlowstoneDust.png",
+		"galaxyspace/textures/items/glowstonedusts/ProteusGlowstoneDust.png",
+		"galaxyspace/textures/items/sulfur.png",
 		"gregtech/textures/items/materialicons/DIAMOND/dust.png",
 		"gregtech/textures/items/materialicons/DULL/dust.png",
 		"gregtech/textures/items/materialicons/EMERALD/dust.png",
@@ -155,6 +162,17 @@
 		"miscutils/textures/gui/overlay_slot/fertilizer.png",
 		"natura/textures/items/barley_flour.png",
 		"natura/textures/items/sulfur.png",
-		"natura/textures/items/wheat_flour.png"
+		"natura/textures/items/wheat_flour.png",
+		"witchinggadgets/textures/items/mat_gemstoneDust.png",
+		"projectred/textures/items/base/electrotine_dust.png",
+		"tinker/textures/items/materials/material_aluminum_dust.png",
+		"tinker/textures/items/materials/material_ardite_dust.png",
+		"tinker/textures/items/materials/material_cobalt_dust.png",
+		"tinker/textures/items/materials/material_manyullyn_dust.png",
+		"enderzoo/textures/items/itemWitheringDust.png",
+		"forestry/textures/items/refractoryWax.png",
+		"forestry/textures/items/beeswax.png",
+		"forestry/textures/items/mulch.png",
+		"forestry/textures/items/woodPulp.png"
 	]
 }

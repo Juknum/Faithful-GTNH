@@ -1,6 +1,8 @@
 {
 	"origin": "minecraft/textures/blocks/emerald_block.png",
 	"targets": [
+		"biomesoplenty/textures/blocks/amethystblock.png",
+		"biomesoplenty/textures/blocks/topazblock.png",
 		"gregtech/textures/blocks/iconsets/BLOCK_YELLOWGARNET.png", 
 		"gregtech/textures/blocks/iconsets/BLOCK_AERCRYSTAL.png", 
 		"gregtech/textures/blocks/iconsets/BLOCK_AMBER.png", 

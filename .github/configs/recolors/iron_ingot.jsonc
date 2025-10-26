@@ -9,6 +9,16 @@
 		"draconicevolution/textures/items/draconiumIngot.png",
 		"draconicevolution/textures/items/draconicIngot.png",
 		"enderio/textures/items/conductiveIron.png",
+		"galaxyspace/textures/items/ingots/WolframiumIngot.png",
+		"galaxyspace/textures/items/ingots/AdamantiteIngot.png",
+		"galaxyspace/textures/items/ingots/CobaltumIngot.png",
+		"galaxyspace/textures/items/ingots/DuraluminIngot.png",
+		"galaxyspace/textures/items/ingots/LeadIngot.png",
+		"galaxyspace/textures/items/ingots/MagnesiumIngot.png",
+		"galaxyspace/textures/items/ingots/MithrilIngot.png",
+		"galaxyspace/textures/items/ingots/NickelIngot.png",
+		"galaxyspace/textures/items/ingots/OriharukonIngot.png",
+		"galaxyspace/textures/items/ingots/PlatinumIngot.png",
 		"gregtech/textures/items/materialicons/DIAMOND/ingot.png",
 		"gregtech/textures/items/materialicons/DULL/ingot.png",
 		"gregtech/textures/items/materialicons/EMERALD/ingot.png",
@@ -104,6 +114,7 @@
 		"dreamcraft/textures/items/itemMoldFormIngot.png",
 		"miscutils/textures/items/itemIngotHot.png",
 		"miscutils/textures/items/itemIngot.png",
-		"miscutils/textures/items/itemIngotBatteryAlloy.png"
+		"miscutils/textures/items/itemIngotBatteryAlloy.png",
+		"randomthings/textures/items/crafting/spectreIron.png"
 	]
 }

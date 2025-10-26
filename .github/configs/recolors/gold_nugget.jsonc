@@ -1,6 +1,7 @@
 {
 	"origin": "minecraft/textures/items/gold_nugget.png",
 	"targets": [
+		"extrautils/textures/items/bedrockiumNugget.png",
 		"tinker/textures/items/materials/material_nugget_silver.png",
 		"tinker/textures/items/materials/material_nugget_steel.png",
 		"tinker/textures/items/materials/material_nugget_tin.png",

@@ -1,7 +1,10 @@
 {
 	"origin": "minecraft/textures/blocks/tnt_side.png",
 	"targets": [
-		".work/.default/sdx_side_green.png",
-		".work/.default/sdx_side_blue.png"
+		".work/.assets/sdx_side_green.png",
+		".work/.assets/sdx_side_blue.png",
+		".work/.assets/blockConfusingCharge_side.png",
+		".work/.assets/blockEnderCharge_side.png",
+		".work/.assets/blockConcussionCharge_side.png"
 	]
 }

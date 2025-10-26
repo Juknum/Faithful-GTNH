@@ -9,6 +9,8 @@
 		"gregtech/textures/blocks/iconsets/CONCRETE_LIGHT_STONE.png",
 		"tinker/textures/blocks/brownstone_smooth.png",
 		"tinker/textures/blocks/searedstone.png",
-		"tinker/textures/blocks/signalbus.png"
+		"tinker/textures/blocks/signalbus.png",
+		"railcraft/textures/blocks/cube.stone.abyssal.png",
+		"railcraft/textures/blocks/cube.stone.quarried.png"
 	]
 }

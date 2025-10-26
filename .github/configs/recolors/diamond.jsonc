@@ -9,6 +9,9 @@
 		"ic2/textures/items/itemPartIndustrialDiamond.png",
 		"dreamcraft/textures/items/itemManyullynCrystal.png",
 		"dreamcraft/textures/items/itemMysteriousCrystal.png",
-		"dreamcraft/textures/items/itemMytrylCrystal.png"
+		"dreamcraft/textures/items/itemMytrylCrystal.png",
+		"gregtech/textures/items/materialicons/DIAMOND/gem.png",
+		"gregtech/textures/items/materialicons/GEM_A/gem.png",
+		"randomthings/textures/items/crafting/enderDiamond.png"
 	]
 }

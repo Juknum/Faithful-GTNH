@@ -1,6 +1,10 @@
 {
 	"origin": "minecraft/textures/blocks/iron_block.png",
 	"targets": [
+		"extrautils/textures/blocks/spike_side_gold.png",
+		"extrautils/textures/blocks/spike_base.png",
+		"extrautils/textures/blocks/spike_side.png",
+		"extrautils/textures/blocks/spike_side_diamond.png",
 		"gregtech/textures/blocks/iconsets/BLOCK_ADAMANTIUM.png",
 		"gregtech/textures/blocks/iconsets/BLOCK_ALUMINIUM.png",
 		"gregtech/textures/blocks/iconsets/BLOCK_AMERICIUM.png",
@@ -138,6 +142,7 @@
 		"gregtech/textures/blocks/materialicons/CUSTOM/Manasteel/block5.png",
 		"gregtech/textures/blocks/materialicons/CUSTOM/universium/block5.png",
 		"gregtech/textures/blocks/materialicons/CUSTOM/WhiteDwarfMatter/block5.png",
+		"railcraft/textures/blocks/cube.steel.png",
 		"sgcraft/textures/blocks/naquadahBlock.png"
 	]
 }

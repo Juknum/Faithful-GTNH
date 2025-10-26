@@ -1,0 +1,10 @@
+{
+	"origin": "minecraft/textures/items/iron_leggings.png",
+	"targets": [
+		"ic2/textures/items/itemArmorBronzeLegs.png",
+		"biomesoplenty/textures/items/amethystleggings.png",
+		"railcraft/textures/items/armor.overalls.png",
+		"railcraft/textures/items/armor.steel.legs.png",
+		"randomthings/textures/items/armor/spectreLeggings.png"
+	]
+}

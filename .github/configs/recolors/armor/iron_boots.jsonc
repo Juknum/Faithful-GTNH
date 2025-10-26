@@ -1,0 +1,9 @@
+{
+	"origin": "minecraft/textures/items/iron_boots.png",
+	"targets": [
+		"biomesoplenty/textures/items/amethystboots.png",
+		"ic2/textures/items/itemArmorBronzeBoots.png",
+		"railcraft/textures/items/armor.steel.boots.png",
+		"randomthings/textures/items/armor/spectreBoots.png"
+	]
+}

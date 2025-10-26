@@ -1,9 +1,6 @@
 {
 	"origin": "minecraft/textures/items/slimeball.png",
 	"targets": [
-		"tinker/textures/items/food/edibleslime.png",
-		"tinker/textures/items/food/edibleblood.png",
-		"tinker/textures/items/materials/material_glueball.png",
 		"bartworks/textures/items/TRISOPelletBall.png",
 		"bartworks/textures/items/BISOPelletBall.png",
 		"bartworks/textures/items/BurnedOutTRISOPelletBall.png",
@@ -19,6 +16,11 @@
 		"bartworks/textures/items/HTGRTRISOPebbleCompoundPlutonium.png",
 		"bartworks/textures/items/HTGRTRISOPebbleCompoundThorium.png",
 		"bartworks/textures/items/HTGRTRISOPebbleCompoundUranium.png",
-		"dreamcraft/textures/items/itemMoldFormBall.png"
+		"dreamcraft/textures/items/itemMoldFormBall.png",
+		"forestry/textures/items/propolis.0.png",
+		"randomthings/textures/items/slimeParticle.png",
+		"tinker/textures/items/food/edibleslime.png",
+		"tinker/textures/items/food/edibleblood.png",
+		"tinker/textures/items/materials/material_glueball.png"
 	]
 }

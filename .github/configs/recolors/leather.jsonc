@@ -2,6 +2,7 @@
 	"origin": "minecraft/textures/items/leather.png",
 	"targets": [
 		"backpack/textures/items/leatherTanned.png",
+		"bloodarsenal/textures/items/wolf_hide.png",
 		"dreamcraft/textures/items/itemArtificialLeather.png",
 		"witchinggadgets/textures/items/mat_wolfPelt.png"
 	]

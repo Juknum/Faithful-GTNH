@@ -1,0 +1,8 @@
+{
+	"origin": "minecraft/textures/blocks/coarse_dirt.png",
+	"targets": [
+		"biomesoplenty/textures/blocks/coarse_dirt_silty.png",
+		"biomesoplenty/textures/blocks/coarse_dirt_loamy.png",
+		"biomesoplenty/textures/blocks/coarse_dirt_sandy.png"
+	]
+}

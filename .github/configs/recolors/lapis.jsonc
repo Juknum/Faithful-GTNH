@@ -1,0 +1,6 @@
+{
+	"origin": "minecraft/textures/items/dye_powder_blue.png",
+	"targets": [
+		"gregtech/textures/items/materialicons/LAPIS/gem.png"
+	]
+}

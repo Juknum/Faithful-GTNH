@@ -1,0 +1,8 @@
+{
+	"origin": "minecraft/textures/blocks/gold_block.png",
+	"targets": [
+		"railcraft/textures/blocks/cube.copper.png",
+		"railcraft/textures/blocks/cube.lead.png",
+		"railcraft/textures/blocks/cube.tin.png"
+	]
+}

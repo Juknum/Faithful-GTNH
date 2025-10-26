@@ -1,0 +1,7 @@
+{
+	"origin": "minecraft/textures/items/flint.png",
+	"targets": [
+		"biomesoplenty/textures/items/amethyst.png",
+		"gregtech/textures/items/materialicons/FLINT/gem.png"
+	]
+}

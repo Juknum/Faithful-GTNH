@@ -1,5 +1,20 @@
 [
 	{
+		"layer0Path": ".work/.assets/blockConcussionCharge_side.png",
+		"layer1Path": ".work/.assets/blockConcussionCharge_side_overlay.png",
+		"outPath":    "assets/enderzoo/textures/blocks/blockConcussionCharge_side.png"
+	},
+	{
+		"layer0Path": ".work/.assets/blockConfusingCharge_side.png",
+		"layer1Path": ".work/.assets/blockConfusingCharge_side_overlay.png",
+		"outPath":    "assets/enderzoo/textures/blocks/blockConfusingCharge_side.png"
+	},
+	{
+		"layer0Path": ".work/.assets/blockEnderCharge_side.png",
+		"layer1Path": ".work/.assets/blockEnderCharge_side_overlay.png",
+		"outPath":    "assets/enderzoo/textures/blocks/blockEnderCharge_side.png"
+	},
+	{
 		"layer0Path": "assets/minecraft/textures/blocks/tnt_side.png",
 		"layer1Path": ".work/.assets/blockITNT_overlay.png",
 		"outPath":    ".work/.assets/blockITNT.png"

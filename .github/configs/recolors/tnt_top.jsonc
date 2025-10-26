@@ -2,6 +2,9 @@
 	"origin": "minecraft/textures/blocks/tnt_top.png",
 	"targets": [
 		"tinker/textures/blocks/sdx_top_green.png",
-		"tinker/textures/blocks/sdx_top_blue.png"
+		"tinker/textures/blocks/sdx_top_blue.png",
+		"enderzoo/textures/blocks/blockConfusingCharge_top.png",
+		"enderzoo/textures/blocks/blockEnderCharge_top.png",
+		"enderzoo/textures/blocks/blockConcussionCharge_top.png"
 	]
 }

@@ -10,22 +10,39 @@
 			"minecraft/textures/entity/zombie_villager/zombie_villager.png": ["minecraft/textures/entity/zombie_villager/zombie_villager.png"],
 			"minecraft/textures/gui/book.png": ["mantle/textures/gui/book.png"],
 			"minecraft/textures/block/coal_block.png": ["tinker/textures/blocks/coal_block.png"],
-			"minecraft/textures/block/diamond_block.png": ["tinker/textures/blocks/toolforge_diamond.png"],
+			"minecraft/textures/block/diamond_block.png": [
+				"tinker/textures/blocks/toolforge_diamond.png",
+				"extrautils/textures/blocks/spike_base_diamond.png"
+			],
 			"minecraft/textures/block/emerald_block.png": ["tinker/textures/blocks/toolforge_emerald.png"],
-			"minecraft/textures/block/gold_block.png": ["tinker/textures/blocks/toolforge_gold.png"],
-			"minecraft/textures/block/iron_block.png": ["tinker/textures/blocks/toolforge_iron.png"],
+			"minecraft/textures/block/gold_block.png": [
+				"tinker/textures/blocks/toolforge_gold.png",
+				"extrautils/textures/blocks/spike_base_gold.png"
+			],
+			"minecraft/textures/block/iron_block.png": [
+				"tinker/textures/blocks/toolforge_iron.png",
+				"extrautils/textures/blocks/spike_base.png"
+			],
 			"minecraft/textures/block/birch_planks.png": ["tinker/textures/blocks/stenciltable_birch_bottom.png"],
 			"minecraft/textures/block/jungle_planks.png": ["tinker/textures/blocks/stenciltable_jungle_bottom.png"],
-			"minecraft/textures/block/oak_planks.png": ["tinker/textures/blocks/stenciltable_oak_bottom.png", "tinker/textures/blocks/toolstation_bottom.png"],
+			"minecraft/textures/block/oak_planks.png": [
+				"tinker/textures/blocks/stenciltable_oak_bottom.png",
+				"tinker/textures/blocks/toolstation_bottom.png",
+				"extrautils/textures/blocks/spike_side_wood.png"
+			],
 			"minecraft/textures/block/spruce_planks.png": ["tinker/textures/blocks/stenciltable_spruce_bottom.png"],
 			"minecraft/textures/block/birch_log.png": ["tinker/textures/blocks/partbuilder_birch_bottom.png"],
 			"minecraft/textures/block/jungle_log.png": ["tinker/textures/blocks/partbuilder_jungle_bottom.png"],
 			"minecraft/textures/block/oak_log.png": ["tinker/textures/blocks/partbuilder_oak_bottom.png"],
+			"minecraft/textures/block/oak_log_top.png": [
+				"extrautils/textures/blocks/spike_base_wood.png"
+			],
 			"minecraft/textures/block/spruce_log.png": ["tinker/textures/blocks/partbuilder_spruce_bottom.png"],
 			"minecraft/textures/item/spawn_egg.png": ["miscutils/textures/items/spawn_egg.png"],
 			"minecraft/textures/item/spawn_egg_overlay.png": ["miscutils/textures/items/spawn_egg_overlay.png"],
 			"minecraft/textures/block/stone.png": ["miscutils/textures/blocks/blockStone.png"],
 			"minecraft/textures/item/glass_bottle.png": [
+				"forestry/textures/items/liquids/glass.bottle.png",
 				"gregtech/textures/items/materialicons/DIAMOND/bottle_OVERLAY.png",
 				"gregtech/textures/items/materialicons/DULL/bottle_OVERLAY.png",
 				"gregtech/textures/items/materialicons/EMERALD/bottle_OVERLAY.png",
@@ -55,6 +72,7 @@
 				"gregtech/textures/items/materialicons/WOOD/bottle_OVERLAY.png"
 			],
 			"minecraft/textures/item/potion_overlay.png": [
+				"forestry/textures/items/liquids/glass.contents.png",
 				"gregtech/textures/items/materialicons/DIAMOND/bottle.png",
 				"gregtech/textures/items/materialicons/DULL/bottle.png",
 				"gregtech/textures/items/materialicons/EMERALD/bottle.png",
@@ -82,7 +100,8 @@
 				"gregtech/textures/items/materialicons/SHARDS/bottle.png",
 				"gregtech/textures/items/materialicons/SHINY/bottle.png",
 				"gregtech/textures/items/materialicons/WOOD/bottle.png"
-			]
+			],
+			"minecraft/textures/block/grass_block_top.png": ["natura/textures/blocks/grass_top.png"]
 		},
 		"1.20.1": {
 			"minecraft/textures/entity/cow/brown_mooshroom.png": ["minecraft/textures/entity/cow/brown_mooshroom.png"],

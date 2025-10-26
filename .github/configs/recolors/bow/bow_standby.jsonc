@@ -1,0 +1,6 @@
+{
+	"origin": "minecraft/textures/items/bow_standby.png",
+	"targets": [
+		"enderzoo/textures/items/guardiansBow_standby.png"
+	]
+}
