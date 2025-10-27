@@ -11,11 +11,11 @@ This pack aims to enhance the visual experience while maintaining the 1.20+ Mine
 
 ## Resource Pack Progress
 
-Overall Progress: 5056/52911 (9.56%)
+Overall Progress: 5230/52911 (9.88%)
 
 | Namespace | Completed | Total | Percentage |
 |-----------|-----------|-------|------------|
-| advancedsolarpanel | 5 | 42 | █░░░░░░░░░ 11.9% |
+| advancedsolarpanel | 25 | 42 | █████░░░░░ 59.52% |
 | adventurebackpack | 0 | 161 | ░░░░░░░░░░ 0% |
 | ae2fc | 2 | 110 | ░░░░░░░░░░ 1.82% |
 | ae2stuff | 0 | 85 | ░░░░░░░░░░ 0% |
@@ -49,9 +49,9 @@ Overall Progress: 5056/52911 (9.56%)
 | betterquesting | 4 | 16 | ██░░░░░░░░ 25% |
 | bibliocraft | 44 | 420 | █░░░░░░░░░ 10.48% |
 | binniecore | 0 | 80 | ░░░░░░░░░░ 0% |
-| biomesoplenty | 31 | 572 | ░░░░░░░░░░ 5.42% |
+| biomesoplenty | 47 | 572 | ░░░░░░░░░░ 8.22% |
 | blockrenderer6343 | 1 | 1 | ██████████ 100% |
-| bloodarsenal | 7 | 206 | ░░░░░░░░░░ 3.4% |
+| bloodarsenal | 8 | 206 | ░░░░░░░░░░ 3.88% |
 | bogosorter | 6 | 6 | ██████████ 100% |
 | botania | 114 | 1166 | ░░░░░░░░░░ 9.78% |
 | botanichorizons | 1 | 8 | █░░░░░░░░░ 12.5% |
@@ -82,26 +82,26 @@ Overall Progress: 5056/52911 (9.56%)
 | dreamcraft | 67 | 705 | ░░░░░░░░░░ 9.5% |
 | emt | 88 | 184 | ████░░░░░░ 47.83% |
 | endercore | 0 | 1 | ░░░░░░░░░░ 0% |
-| enderio | 233 | 813 | ██░░░░░░░░ 28.66% |
+| enderio | 234 | 813 | ██░░░░░░░░ 28.78% |
 | enderstorage | 0 | 5 | ░░░░░░░░░░ 0% |
-| enderzoo | 0 | 34 | ░░░░░░░░░░ 0% |
+| enderzoo | 32 | 34 | █████████░ 94.12% |
 | enhancedlootbags | 0 | 3 | ░░░░░░░░░░ 0% |
 | eternalsingularity | 0 | 71 | ░░░░░░░░░░ 0% |
 | etfuturum | 5 | 140 | ░░░░░░░░░░ 3.57% |
 | extrabees | 1 | 171 | ░░░░░░░░░░ 0.58% |
 | extratrees | 39 | 1317 | ░░░░░░░░░░ 2.96% |
-| extrautils | 5 | 391 | ░░░░░░░░░░ 1.28% |
+| extrautils | 17 | 391 | ░░░░░░░░░░ 4.35% |
 | findit | 0 | 1 | ░░░░░░░░░░ 0% |
 | floodlights | 1 | 28 | ░░░░░░░░░░ 3.57% |
 | forbidden | 20 | 146 | █░░░░░░░░░ 13.7% |
-| forestry | 36 | 723 | ░░░░░░░░░░ 4.98% |
+| forestry | 50 | 723 | ░░░░░░░░░░ 6.92% |
 | gadomancy | 23 | 70 | ███░░░░░░░ 32.86% |
 | galacticgreg | 1 | 1 | ██████████ 100% |
 | galacticraftasteroids | 68 | 142 | ████░░░░░░ 47.89% |
 | galacticraftcore | 180 | 405 | ████░░░░░░ 44.44% |
 | galacticraftmars | 19 | 97 | █░░░░░░░░░ 19.59% |
 | galacticraftmoon | 1 | 24 | ░░░░░░░░░░ 4.17% |
-| galaxyspace | 219 | 632 | ███░░░░░░░ 34.65% |
+| galaxyspace | 236 | 632 | ███░░░░░░░ 37.34% |
 | gcewing_projectblue | 0 | 36 | ░░░░░░░░░░ 0% |
 | gendustry | 71 | 119 | █████░░░░░ 59.66% |
 | genetics | 2 | 134 | ░░░░░░░░░░ 1.49% |
@@ -109,7 +109,7 @@ Overall Progress: 5056/52911 (9.56%)
 | goodgenerator | 12 | 206 | ░░░░░░░░░░ 5.83% |
 | gravisuite | 3 | 32 | ░░░░░░░░░░ 9.38% |
 | gravisuiteneo | 0 | 108 | ░░░░░░░░░░ 0% |
-| gregtech | 652 | 11472 | ░░░░░░░░░░ 5.68% |
+| gregtech | 674 | 11472 | ░░░░░░░░░░ 5.88% |
 | gtneioreplugin | 258 | 266 | █████████░ 96.99% |
 | gtnhintergalactic | 0 | 238 | ░░░░░░░░░░ 0% |
 | gtnhlanth | 0 | 56 | ░░░░░░░░░░ 0% |
@@ -118,7 +118,7 @@ Overall Progress: 5056/52911 (9.56%)
 | harvestthenether | 0 | 54 | ░░░░░░░░░░ 0% |
 | holoinventory | 2 | 3 | ██████░░░░ 66.67% |
 | hydroenergy | 0 | 2 | ░░░░░░░░░░ 0% |
-| ic2 | 23 | 1211 | ░░░░░░░░░░ 1.9% |
+| ic2 | 27 | 1211 | ░░░░░░░░░░ 2.23% |
 | ic2nei | 0 | 2 | ░░░░░░░░░░ 0% |
 | ifu | 0 | 6 | ░░░░░░░░░░ 0% |
 | iguanatweakstconstruct | 0 | 77 | ░░░░░░░░░░ 0% |
@@ -144,7 +144,7 @@ Overall Progress: 5056/52911 (9.56%)
 | mcframes | 0 | 6 | ░░░░░░░░░░ 0% |
 | metalbarrels | 0 | 47 | ░░░░░░░░░░ 0% |
 | microblock | 0 | 5 | ░░░░░░░░░░ 0% |
-| minecraft | 1722 | 1956 | ████████░░ 88.04% |
+| minecraft | 1723 | 1956 | ████████░░ 88.09% |
 | minetweaker | 0 | 1 | ░░░░░░░░░░ 0% |
 | miscutils | 27 | 1460 | ░░░░░░░░░░ 1.85% |
 | mobsinfo | 0 | 5 | ░░░░░░░░░░ 0% |
@@ -152,7 +152,7 @@ Overall Progress: 5056/52911 (9.56%)
 | modularui | 29 | 29 | ██████████ 100% |
 | modularui2 | 0 | 31 | ░░░░░░░░░░ 0% |
 | mrtjpcore | 2 | 3 | ██████░░░░ 66.67% |
-| natura | 41 | 493 | ░░░░░░░░░░ 8.32% |
+| natura | 44 | 493 | ░░░░░░░░░░ 8.92% |
 | naturescompass | 0 | 32 | ░░░░░░░░░░ 0% |
 | navigator | 0 | 1 | ░░░░░░░░░░ 0% |
 | neenergistics | 0 | 4 | ░░░░░░░░░░ 0% |
@@ -171,10 +171,10 @@ Overall Progress: 5056/52911 (9.56%)
 | openprinter | 0 | 23 | ░░░░░░░░░░ 0% |
 | opensecurity | 0 | 43 | ░░░░░░░░░░ 0% |
 | personalspace | 0 | 1 | ░░░░░░░░░░ 0% |
-| projectred | 0 | 799 | ░░░░░░░░░░ 0% |
+| projectred | 1 | 799 | ░░░░░░░░░░ 0.13% |
 | questbook | 0 | 1 | ░░░░░░░░░░ 0% |
-| railcraft | 12 | 467 | ░░░░░░░░░░ 2.57% |
-| randomthings | 0 | 149 | ░░░░░░░░░░ 0% |
+| railcraft | 24 | 467 | ░░░░░░░░░░ 5.14% |
+| randomthings | 13 | 149 | ░░░░░░░░░░ 8.72% |
 | remoteio | 0 | 55 | ░░░░░░░░░░ 0% |
 | salisarcana | 0 | 4 | ░░░░░░░░░░ 0% |
 | schematica | 0 | 1 | ░░░░░░░░░░ 0% |
@@ -208,7 +208,7 @@ Overall Progress: 5056/52911 (9.56%)
 | thaumichorizons | 0 | 304 | ░░░░░░░░░░ 0% |
 | thaumicinsurgence | 0 | 127 | ░░░░░░░░░░ 0% |
 | thaumicmachina | 0 | 31 | ░░░░░░░░░░ 0% |
-| tinker | 410 | 5024 | ░░░░░░░░░░ 8.16% |
+| tinker | 414 | 5024 | ░░░░░░░░░░ 8.24% |
 | tinkersdefense | 0 | 27 | ░░░░░░░░░░ 0% |
 | tmechworks | 0 | 43 | ░░░░░░░░░░ 0% |
 | translocator | 0 | 5 | ░░░░░░░░░░ 0% |
@@ -218,7 +218,7 @@ Overall Progress: 5056/52911 (9.56%)
 | waila | 4 | 4 | ██████████ 100% |
 | warptheory | 0 | 18 | ░░░░░░░░░░ 0% |
 | witchery | 5 | 682 | ░░░░░░░░░░ 0.73% |
-| witchinggadgets | 13 | 238 | ░░░░░░░░░░ 5.46% |
+| witchinggadgets | 14 | 238 | ░░░░░░░░░░ 5.88% |
 | wrcbe_addons | 0 | 11 | ░░░░░░░░░░ 0% |
 | wrcbe_core | 0 | 13 | ░░░░░░░░░░ 0% |
 | wrcbe_logic | 0 | 4 | ░░░░░░░░░░ 0% |
