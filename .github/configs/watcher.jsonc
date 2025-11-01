@@ -195,6 +195,18 @@
 					"files": ["diamond.jsonc"],
 					"forceRecolor": true
 				}
+			},
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "ic2/itemBatLamaCrystal.jsonc"
+				}
+			},
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "dreamcraft/itemNanoCrystal.jsonc"
+				}
 			}
 		]
 	},

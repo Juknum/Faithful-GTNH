@@ -12,6 +12,13 @@
 		"dreamcraft/textures/items/itemMytrylCrystal.png",
 		"gregtech/textures/items/materialicons/DIAMOND/gem.png",
 		"gregtech/textures/items/materialicons/GEM_A/gem.png",
-		"randomthings/textures/items/crafting/enderDiamond.png"
+		"randomthings/textures/items/crafting/enderDiamond.png",
+		"dreamcraft/textures/items/itemRawLapotronCrystal.png",
+		"ic2/textures/items/itemBatLamaCrystal.4.png",
+		"ic2/textures/items/itemBatLamaCrystal.0.png",
+		"ic2/textures/items/itemBatLamaCrystal.1.png",
+		"ic2/textures/items/itemBatLamaCrystal.2.png",
+		"ic2/textures/items/itemBatLamaCrystal.3.png",
+		"dreamcraft/textures/items/itemNanoCrystal.png"
 	]
 }

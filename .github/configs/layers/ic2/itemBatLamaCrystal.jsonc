@@ -1,0 +1,27 @@
+[
+	{
+		"layer0Path": "assets/ic2/textures/items/itemBatLamaCrystal.0.png",
+		"layer1Path": ".work/.assets/ic2/itemBatLamaCrystal.0_overlay.png",
+		"outPath":    "assets/ic2/textures/items/itemBatLamaCrystal.0.png"
+	},
+	{
+		"layer0Path": "assets/ic2/textures/items/itemBatLamaCrystal.1.png",
+		"layer1Path": ".work/.assets/ic2/itemBatLamaCrystal.1_overlay.png",
+		"outPath":    "assets/ic2/textures/items/itemBatLamaCrystal.1.png"
+	},
+	{
+		"layer0Path": "assets/ic2/textures/items/itemBatLamaCrystal.2.png",
+		"layer1Path": ".work/.assets/ic2/itemBatLamaCrystal.2_overlay.png",
+		"outPath":    "assets/ic2/textures/items/itemBatLamaCrystal.2.png"
+	},
+	{
+		"layer0Path": "assets/ic2/textures/items/itemBatLamaCrystal.3.png",
+		"layer1Path": ".work/.assets/ic2/itemBatLamaCrystal.3_overlay.png",
+		"outPath":    "assets/ic2/textures/items/itemBatLamaCrystal.3.png"
+	},
+	{
+		"layer0Path": "assets/ic2/textures/items/itemBatLamaCrystal.4.png",
+		"layer1Path": ".work/.assets/ic2/itemBatLamaCrystal.4_overlay.png",
+		"outPath":    "assets/ic2/textures/items/itemBatLamaCrystal.4.png"
+	}
+]
