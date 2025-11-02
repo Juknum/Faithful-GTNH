@@ -11,7 +11,7 @@ This pack aims to enhance the visual experience while maintaining the 1.20+ Mine
 
 ## Resource Pack Progress
 
-Overall Progress: 5230/52911 (9.88%)
+Overall Progress: 5237/52911 (9.9%)
 
 | Namespace | Completed | Total | Percentage |
 |-----------|-----------|-------|------------|
@@ -79,7 +79,7 @@ Overall Progress: 5230/52911 (9.88%)
 | creativecore | 0 | 3 | ░░░░░░░░░░ 0% |
 | custommainmenu | 0 | 2 | ░░░░░░░░░░ 0% |
 | draconicevolution | 72 | 281 | ██░░░░░░░░ 25.62% |
-| dreamcraft | 67 | 705 | ░░░░░░░░░░ 9.5% |
+| dreamcraft | 69 | 705 | ░░░░░░░░░░ 9.79% |
 | emt | 88 | 184 | ████░░░░░░ 47.83% |
 | endercore | 0 | 1 | ░░░░░░░░░░ 0% |
 | enderio | 234 | 813 | ██░░░░░░░░ 28.78% |
@@ -118,7 +118,7 @@ Overall Progress: 5230/52911 (9.88%)
 | harvestthenether | 0 | 54 | ░░░░░░░░░░ 0% |
 | holoinventory | 2 | 3 | ██████░░░░ 66.67% |
 | hydroenergy | 0 | 2 | ░░░░░░░░░░ 0% |
-| ic2 | 27 | 1211 | ░░░░░░░░░░ 2.23% |
+| ic2 | 32 | 1211 | ░░░░░░░░░░ 2.64% |
 | ic2nei | 0 | 2 | ░░░░░░░░░░ 0% |
 | ifu | 0 | 6 | ░░░░░░░░░░ 0% |
 | iguanatweakstconstruct | 0 | 77 | ░░░░░░░░░░ 0% |
