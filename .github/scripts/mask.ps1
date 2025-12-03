@@ -1,4 +1,56 @@
-﻿param(
+﻿<#
+.SYNOPSIS
+	Applies pixel masks to textures based on JSON configuration files.
+
+.DESCRIPTION
+	This script processes texture images by applying masks that remove specific pixels.
+	It reads configuration files (JSONC format) that specify origin textures, mask images,
+	and output paths. For each pixel where the mask has transparency (alpha > 0), the
+	corresponding pixel in the origin texture is removed (made transparent).
+	
+	The script can process either a single configuration file or batch process all
+	configuration files found in the masks directory.
+
+.PARAMETER file
+	Optional. Path to a specific JSONC configuration file relative to the masks config
+	directory (.github/configs/masks). If not provided, all JSONC files in the masks
+	directory will be processed recursively.
+
+.EXAMPLE
+	.\mask.ps1
+	Processes all .jsonc configuration files found in the masks directory recursively.
+
+.EXAMPLE
+	.\mask.ps1 -file "myconfig.jsonc"
+	Processes only the specified configuration file from the masks config directory.
+
+.EXAMPLE
+	.\mask.ps1 -file "subfolder/texture_mask.jsonc"
+	Processes a configuration file located in a subdirectory of the masks config directory.
+
+.NOTES
+	Configuration File Format:
+	{
+		"origin": "path/to/source/texture.png",
+		"mask": "path/to/mask/texture.png",
+		"output": "path/to/output/texture.png"
+	}
+	
+	Requirements:
+	- System.Drawing assembly (loaded automatically)
+	- Origin and mask textures must have matching dimensions
+	- Mask texture uses alpha channel to determine pixels to remove
+
+.OUTPUTS
+	System.Boolean
+	Returns true if mask application succeeds, false otherwise (when processing single file).
+	Exit codes: 0 for success, 1 for failure.
+
+.INPUTS
+	System.String
+	Accepts a file path string parameter for single file processing.
+#>
+param(
 	[Parameter(Mandatory = $false)]
 	[string]$file = $null
 )

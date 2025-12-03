@@ -1,4 +1,48 @@
-# Script to detect fully transparent textures in .default directory and update progress.jsonc
+<#
+.SYNOPSIS
+	Scans for fully transparent PNG textures in the .default directory and updates progress.jsonc with the results.
+
+.DESCRIPTION
+	This script analyzes all PNG image files in the .default directory to identify textures that are completely transparent
+	(all pixels have alpha value of 0). It then updates the progress.jsonc configuration file with a list of these transparent
+	textures, storing their relative paths from the .default directory.
+	
+	The script performs the following operations:
+	1. Loads the System.Drawing assembly for image processing
+	2. Recursively scans the .default directory for PNG files
+	3. Analyzes each image pixel-by-pixel to determine if it's fully transparent
+	4. Reads the existing progress.jsonc file (handling JSONC comments)
+	5. Updates or adds the "transparents" field with the list of transparent texture paths
+	6. Writes the updated JSON back to progress.jsonc
+	7. Displays a summary of findings
+
+.PARAMETER None
+	This script does not accept parameters.
+
+.EXAMPLE
+	.\ignore.ps1
+	Scans the .default directory and updates progress.jsonc with transparent textures.
+
+.NOTES
+	File Name      : ignore.ps1
+	Prerequisite   : PowerShell 5.1 or higher, System.Drawing assembly
+	Dependencies   : Requires .default directory and progress.jsonc file to exist
+	
+	The script expects the following directory structure:
+	- Script location: <repo>/.github/scripts/
+	- Default textures: <repo>/.default/
+	- Progress file: <repo>/.github/configs/progress.jsonc
+
+.LINK
+	https://docs.microsoft.com/en-us/dotnet/api/system.drawing
+
+.OUTPUTS
+	Updates the progress.jsonc file with a "transparents" array containing relative paths
+	to all fully transparent PNG textures found in the .default directory.
+
+.INPUTS
+	This script does not accept pipeline input.
+#>
 
 # Load System.Drawing assembly for image processing
 Add-Type -AssemblyName System.Drawing

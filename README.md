@@ -9,6 +9,11 @@ This pack aims to enhance the visual experience while maintaining the 1.20+ Mine
 - Some textures are based on/taken from the Programmer Art version: https://github.com/Ethryan/GTNH-Faithful-Textures
 - Everything else is licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license unless otherwise noted.
 
+## Wanna help develop the pack?
+
+Check the scripts in the `.github/scripts/` folder to extract and update textures.   
+Feel free to open issues or PRs for suggestions, bug reports or contributions.
+
 ## Resource Pack Progress
 
 Overall Progress: 5237/52911 (9.9%)

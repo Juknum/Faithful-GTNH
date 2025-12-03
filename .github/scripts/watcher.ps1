@@ -1,3 +1,34 @@
+<#
+.SYNOPSIS
+	Monitors git commit changes and executes associated scripts based on configuration.
+
+.DESCRIPTION
+	This script watches for file changes in the latest git commit and executes 
+	corresponding scripts defined in watcher.jsonc configuration file. It parses 
+	the modified files from the latest commit, matches them against configured 
+	paths, and runs the associated scripts with their specified arguments.
+
+.EXAMPLE
+	.\watcher.ps1
+	Checks the latest git commit for modified files and runs configured scripts.
+
+.NOTES
+	- Requires git to be installed and available in PATH
+	- Requires .github/configs/watcher.jsonc configuration file
+	- Scripts are executed using pwsh.exe with Bypass execution policy
+	- Arguments support arrays, booleans (as switches), and string values
+
+.INPUTS
+	None. This script does not accept pipeline input.
+
+.OUTPUTS
+	Console output showing:
+	- Latest commit hash
+	- Modified files being processed
+	- Scripts found and executed for each file
+	- Execution status messages
+#>
+
 Write-Host "Starting watcher script..." -ForegroundColor Green
 
 $currentHash   = (git rev-parse HEAD).Trim()

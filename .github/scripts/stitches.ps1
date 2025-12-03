@@ -1,5 +1,43 @@
+<#
+.SYNOPSIS
+	Processes stitch configuration files to combine multiple textures into single output files.
 
-# Script to extract color palettes from texture files defined in JSON files
+.DESCRIPTION
+	This script reads JSONC configuration files from the stitches directory and processes them
+	to stitch multiple texture files together. It can process all stitch configurations or
+	only specific ones provided via the files parameter. Each configuration specifies input
+	textures and an output location where the stitched result will be saved.
+
+.PARAMETER files
+	An array of specific JSONC configuration file names to process. If not provided or empty,
+	all JSONC files in the stitches directory will be processed.
+
+.EXAMPLE
+	.\stitches.ps1
+	Processes all JSONC stitch configuration files in the stitches directory.
+
+.EXAMPLE
+	.\stitches.ps1 -files "config1.jsonc", "config2.jsonc"
+	Processes only the specified stitch configuration files.
+
+.EXAMPLE
+	.\stitches.ps1 -files "config1.jsonc config2.jsonc"
+	Processes the specified stitch configuration files (space-separated string format).
+
+.NOTES
+	The script expects:
+	- Stitch configuration files in JSONC format located in .github/configs/stitches/
+	- Each config file must contain 'textures' and 'output' properties
+	- The stitch.ps1 script must exist in the same directory as this script
+	- Output files are saved to the assets directory
+	
+.OUTPUTS
+	None. The script calls stitch.ps1 which generates image files in the assets directory.
+
+.INPUTS
+	None. This script does not accept pipeline input.
+#>
+
 param (
 	[string[]] $files = @()
 )

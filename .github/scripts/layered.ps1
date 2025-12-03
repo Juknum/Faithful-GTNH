@@ -1,7 +1,37 @@
-param(
-	[Parameter(Mandatory = $true)]
-	[string]$file
-)
+<#
+.SYNOPSIS
+	Processes multiple image layers based on configuration from a JSON file.
+
+.DESCRIPTION
+	This script reads a JSON configuration file containing layer definitions and processes each entry by calling the layer.ps1 script.
+	Each JSON entry must contain layer0Path, layer1Path, and outPath properties. The script validates the JSON file existence
+	and required properties before processing. The JSON file should be located in the ../configs/layers directory relative to
+	the script location.
+
+.PARAMETER file
+	The name of the JSON configuration file located in the ../configs/layers directory relative to the script location.
+	This parameter is mandatory and should include the .json extension.
+
+.EXAMPLE
+	.\layered.ps1 -file "textures.json"
+	Processes all layer combinations defined in the textures.json configuration file.
+
+.EXAMPLE
+	.\layered.ps1 -file "blocks.json"
+	Processes all layer combinations defined in the blocks.json configuration file located in ../configs/layers.
+
+.NOTES
+	File Name      : layered.ps1
+	Prerequisite   : Requires layer.ps1 script in the same directory
+	Dependencies   : JSON configuration files in ../configs/layers directory
+
+.INPUTS
+	None. This script does not accept pipeline input.
+
+.OUTPUTS
+	System.String
+	Progress messages indicating the processing status of each layer combination.
+#>
 
 # Define paths
 $configDir    = Join-Path -Path $PSScriptRoot -ChildPath "../configs/layers"

@@ -1,3 +1,47 @@
+<#
+.SYNOPSIS
+	Compares texture assets between .default and assets directories and reports their completion status.
+
+.DESCRIPTION
+	This script analyzes texture files in a Minecraft resource pack by comparing PNG files in the .default directory 
+	with their corresponding files in the assets directory. It categorizes textures as Done, Missing, Blacklisted, 
+	Transparent, or Extra based on their presence and configuration in progress.jsonc. The script also verifies 
+	if textures are actually fully transparent by analyzing pixel data.
+
+.PARAMETER AssetFolder
+	The name of the asset folder to analyze (e.g., "minecraft", "gregtech"). This folder must exist under both 
+	.default and assets directories in the repository root.
+
+.PARAMETER Hide
+	Optional array of categories to hide from the output. Valid options are: "done", "missing", "blacklisted", 
+	"transparents", "extra". Use this to focus on specific texture categories.
+
+.EXAMPLE
+	.\status.ps1 -AssetFolder "minecraft"
+	Analyzes all textures in the minecraft asset folder and displays a complete report.
+
+.EXAMPLE
+	.\status.ps1 -AssetFolder "gregtech" -Hide "done","transparents"
+	Analyzes gregtech textures but hides completed and transparent textures from the output.
+
+.EXAMPLE
+	.\status.ps1 -AssetFolder "minecraft" -Hide "done","blacklisted","transparents","extra"
+	Shows only missing textures for the minecraft asset folder.
+
+.NOTES
+	- Requires System.Drawing assembly for image transparency analysis
+	- Reads blacklist and transparent texture lists from .github/configs/progress.jsonc
+	- Calculates completion percentage excluding blacklisted and transparent textures
+	- Warns about textures marked as transparent that aren't actually transparent
+	- Reports textures present in assets but not in .default as "Extra"
+
+.OUTPUTS
+	Console output with color-coded texture status report and summary statistics.
+
+.INPUTS
+	None. This script does not accept pipeline input.
+#>
+
 param(
 	[Parameter(Mandatory=$true)]
 	[string]$AssetFolder,

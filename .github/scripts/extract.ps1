@@ -1,14 +1,62 @@
-##############################################################
-# PowerShell script to extract Minecraft and mod assets
-# from the GT New Horizons modpack for use in a resource pack.
-#
-# Usage:
-#   .\extract.ps1 -VERSION 2.8.0
-#
-# If no version is specified, it will attempt to use the current
-# Git branch name or default to 2.8.0.
-#
-##############################################################
+<#
+.SYNOPSIS
+	Extracts vanilla Minecraft and GT New Horizons mod textures to a resource pack directory.
+
+.DESCRIPTION
+	This script downloads and extracts texture assets from both vanilla Minecraft and the GT New Horizons modpack.
+	It processes the Minecraft client jar and all mod jars from a GTNH installation, extracting PNG textures and 
+	MCMETA metadata files to create a base resource pack structure.
+	
+	The script performs the following operations:
+	1. Downloads the vanilla Minecraft client jar if not present
+	2. Extracts all texture assets (*.png, *.mcmeta) from the Minecraft 1.7.10 jar
+	3. Downloads the specified version of GT New Horizons modpack if not present
+	4. Iterates through all mod jars in the modpack
+	5. Extracts texture assets from each mod jar to the output directory
+	
+	All assets are extracted from their original "assets/*" path structure but without the "assets" prefix,
+	maintaining the proper resource pack directory layout.
+
+.PARAMETER Version
+	The version of GT New Horizons to download and process. If not specified, the script attempts to 
+	automatically determine the version from:
+	1. GitHub Actions environment variable (GITHUB_REF_NAME)
+	2. Current git branch name (if git is available), if so, the branch should be named after the version. (e.g., "2.7.0")
+
+.EXAMPLE
+	.\extract.ps1
+	Extracts textures using the automatically detected version from GitHub Actions or git branch.
+
+.EXAMPLE
+	.\extract.ps1 -Version "2.7.0"
+	Extracts textures from GT New Horizons version 2.7.0.
+
+.INPUTS
+	None. You cannot pipe objects to this script.
+
+.OUTPUTS
+	System.IO.FileInfo
+	Extracted texture files (.png) and metadata files (.mcmeta) in the .default directory,
+	organized by resource domain (mod namespace).
+
+.NOTES
+	File Name      : extract.ps1
+	Prerequisite   : PowerShell 5.0+, .NET Framework 4.5+ (for System.IO.Compression)
+	Dependencies   : BitsTransfer module (for download resume capability)
+	
+	The script uses BITS (Background Intelligent Transfer Service) for reliable downloads with 
+	resume capability. Downloaded files are verified for integrity before processing.
+	
+	Output directory structure:
+	.default/
+	├── minecraft/
+	│   └── textures/
+	└── [mods domains]/
+		└── textures/
+
+.LINK
+	https://github.com/GTNewHorizons/Faithful-GTNH
+#>
 
 param(
 	[string]$Version = $(if ($env:GITHUB_REF_NAME) { 

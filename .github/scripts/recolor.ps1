@@ -1,10 +1,55 @@
-##############################################################
-# PowerShell script to recolor textures to from a source to multiple targets.
-#
-# Usage:
-#   recolor.ps1 -src "minecraft/textures/block/planks_oak.png" -out "forestry/textures/blocks/wood/planks.acacia.png","forestry/textures/blocks/wood/planks.balsa.png"
-#
-##############################################################
+<#
+.SYNOPSIS
+	Recolors texture images by mapping source palette colors to target palette colors.
+
+.DESCRIPTION
+	This script analyzes a source texture image, extracts its color palette, and recolors it
+	to match target palette specifications. It can process multiple target textures in a single
+	run, generating palettes automatically if they don't exist. The script supports both asset
+	directory textures and work directory textures, and provides visual feedback including
+	palette rendering and texture previews.
+
+.PARAMETER src
+	The relative path to the source texture image file (e.g., "minecraft/textures/block/planks_oak.png").
+	Can be in the assets directory or .work directory.
+
+.PARAMETER out
+	An array of target texture paths where recolored versions should be saved 
+	(e.g., "forestry/textures/blocks/wood/planks.acacia.png", "forestry/textures/blocks/wood/planks.balsa.png").
+	Multiple targets can be specified and will be processed sequentially.
+
+.PARAMETER commandLine
+	Suppresses non-essential output messages when running in command-line mode.
+
+.PARAMETER forceRecolor
+	Forces recoloring of target textures even if they already exist. Without this flag,
+	existing target textures are skipped.
+
+.EXAMPLE
+	.\recolor.ps1 -src "minecraft/textures/block/planks_oak.png" -out "forestry/textures/blocks/wood/planks.acacia.png"
+	Recolors the oak planks texture to match the acacia wood palette.
+
+.EXAMPLE
+	.\recolor.ps1 -src "minecraft/textures/block/stone.png" -out "mod1/textures/stone_variant1.png","mod2/textures/stone_variant2.png" -forceRecolor
+	Recolors stone texture to multiple variants, overwriting existing files.
+
+.NOTES
+	- Requires System.Drawing assembly for image manipulation
+	- Palettes are stored in JSON format in the ../configs/palettes directory
+	- Source and target images must have the same number of colors in their palettes
+	- Fully transparent pixels (alpha = 0) are preserved without recoloring
+	- Palettes are automatically sorted by luminance (darkest to brightest)
+	- If a palette exceeds maxColors limit, it will be downsampled
+
+.LINK
+	https://coolors.co - Color palette visualization tool used in output
+
+.OUTPUTS
+	Creates PNG image files at specified target paths and palette JSON files.
+
+.INPUTS
+	None. Does not accept pipeline input.
+#>
 
 param (
 	[string]   $src,       # eg: "minecraft/textures/block/planks_oak.png"
@@ -141,7 +186,7 @@ function Get-Palette(
 	return $paletteFilename
 }
 
-function Recolor-Texture(
+function Convert-Texture(
 	[string]   $sourceImage,
 	[string[]] $targetPalettes = @(),
 	[string[]] $targetPaths = @()
@@ -349,8 +394,8 @@ foreach ($target in $out) {
 	$validPalettes += $targetPalette
 }
 
-# Recolor the texture using the Recolor-Texture function
-Recolor-Texture -sourceImage $src -targetPalettes $validPalettes -targetPaths $validTargets
+# Recolor the texture using the Convert-Texture function
+Convert-Texture -sourceImage $src -targetPalettes $validPalettes -targetPaths $validTargets
 
 if (-not $commandLine) {
 	Write-Host "Recoloring complete for all specified targets" -ForegroundColor Green

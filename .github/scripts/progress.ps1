@@ -1,11 +1,34 @@
-##############################################################
-# PowerShell script to calculate and update resource pack progress
-# in the README.md file based on extracted assets and a blacklist.
-#
-# Usage:
-#   .\progress.ps1
-#
-##############################################################
+<#
+.SYNOPSIS
+	Generates and updates resource pack progress statistics in the README.md file.
+
+.DESCRIPTION
+	This script scans the .default directory structure and compares it against the assets directory
+	to calculate completion progress for each namespace. It generates a progress table showing
+	completed items, totals, and percentages, then updates the README.md file with this information.
+	The script also handles blacklisted and transparent items from a progress configuration file.
+
+.PARAMETER None
+	This script does not accept any parameters.
+
+.EXAMPLE
+	.\progress.ps1
+	Scans the resource pack directories, calculates progress, and updates README.md with the results.
+
+.NOTES
+	- Requires progress.jsonc configuration file at .github/configs/progress.jsonc
+	- The configuration file should contain 'blacklist' and 'transparents' arrays
+	- Blacklisted items are counted as completed
+	- Transparent items are excluded from the total count
+	- Progress bars use block characters (█ and ░) to visualize completion percentage
+	- Updates or appends the "## Resource Pack Progress" section in README.md
+
+.OUTPUTS
+	None. The script modifies README.md in place.
+
+.INPUTS
+	None. This script does not accept pipeline input.
+#>
 
 $progressData      = @{}
 $totalItemsAll     = 0
