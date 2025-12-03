@@ -51,7 +51,7 @@ Remove-Item -Path "$TEMP_DIR" -Recurse -Force
 # Et Futurum Requiem Assets
 ###
 
-Write-Host "Syncing assets from Et Futurum Requiem..." -ForegroundColor Green
+Write-Host "Syncing assets from Et Futurum Requiem & other mods..." -ForegroundColor Green
 
 # Get the repo root directory
 $REPO_ROOT = (Get-Item -Path $PWD).FullName
@@ -61,7 +61,7 @@ $efrJsonPath = Join-Path $PSScriptRoot "..\configs\sync.jsonc"
 $notFound = @()
 
 if (Test-Path -Path $efrJsonPath) {
-	$efrJson = (Get-Content -Path $efrJsonPath -Raw | ConvertFrom-Json).et_futurum_requiem  
+	$efrJson = (Get-Content -Path $efrJsonPath -Raw | ConvertFrom-Json).files  
 	$branches = $efrJson.psobject.Properties.Name
 	
 	Write-Host "Branches to process: $branches" -ForegroundColor Green
