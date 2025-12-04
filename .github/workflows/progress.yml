@@ -2,9 +2,6 @@ name: Update Progress Bar on README
 
 on:
   workflow_dispatch: # Allows manual trigger
-  workflow_run:      # Triggered after the sync workflow completes
-    workflows: ["Watch textures changes"]
-    types: [completed]
 
 permissions:
   contents: write  # Required to push changes to the repository
