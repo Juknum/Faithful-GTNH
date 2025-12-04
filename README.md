@@ -16,7 +16,7 @@ Feel free to open issues or PRs for suggestions, bug reports or contributions.
 
 ## Resource Pack Progress
 
-Overall Progress: 5237/52911 (9.9%)
+Overall Progress: 5284/52917 (9.99%)
 
 | Namespace | Completed | Total | Percentage |
 |-----------|-----------|-------|------------|
@@ -59,7 +59,7 @@ Overall Progress: 5237/52911 (9.9%)
 | bloodarsenal | 8 | 206 | ░░░░░░░░░░ 3.88% |
 | bogosorter | 6 | 6 | ██████████ 100% |
 | botania | 114 | 1166 | ░░░░░░░░░░ 9.78% |
-| botanichorizons | 1 | 8 | █░░░░░░░░░ 12.5% |
+| botanichorizons | 1 | 14 | ░░░░░░░░░░ 7.14% |
 | botany | 1 | 982 | ░░░░░░░░░░ 0.1% |
 | bpp | 0 | 253 | ░░░░░░░░░░ 0% |
 | bq_standard | 3 | 3 | ██████████ 100% |
@@ -149,7 +149,7 @@ Overall Progress: 5237/52911 (9.9%)
 | mcframes | 0 | 6 | ░░░░░░░░░░ 0% |
 | metalbarrels | 0 | 47 | ░░░░░░░░░░ 0% |
 | microblock | 0 | 5 | ░░░░░░░░░░ 0% |
-| minecraft | 1723 | 1956 | ████████░░ 88.09% |
+| minecraft | 1770 | 1956 | █████████░ 90.49% |
 | minetweaker | 0 | 1 | ░░░░░░░░░░ 0% |
 | miscutils | 27 | 1460 | ░░░░░░░░░░ 1.85% |
 | mobsinfo | 0 | 5 | ░░░░░░░░░░ 0% |
