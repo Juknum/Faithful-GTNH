@@ -9,8 +9,8 @@
 	if textures are actually fully transparent by analyzing pixel data.
 
 .PARAMETER AssetFolder
-	The name of the asset folder to analyze (e.g., "minecraft", "gregtech"). This folder must exist under both 
-	.default and assets directories in the repository root.
+	Optional, the name of the asset folder to analyze (e.g., "minecraft", "gregtech"). This folder must exist under both 
+	.default and assets directories in the repository root. If not specified, defaults to the root asset folder (".").
 
 .PARAMETER Hide
 	Optional array of categories to hide from the output. Valid options are: "done", "missing", "blacklisted", 
@@ -43,11 +43,14 @@
 #>
 
 param(
-	[Parameter(Mandatory=$true)]
-	[string]$AssetFolder,
+	[Parameter(Mandatory=$false)]
+	[string]$AssetFolder = ".",
 	
 	[Parameter(Mandatory=$false)]
-	[string[]]$Hide = @()
+	[string[]]$Hide = @(),
+
+	[Parameter(Mandatory=$false)]
+	[switch]$PruneExtra = $false
 )
 
 # Script to compare assets and .default folders and report texture status
@@ -157,7 +160,7 @@ function Test-FullyTransparent {
 # Get all texture files from .default directory
 Write-Host "Scanning for textures in .default directory..."
 
-$defaultTextures = Get-ChildItem -Path $defaultDir -Filter "*.png" -Recurse -File
+$defaultTextures = Get-ChildItem -Path $defaultDir -Recurse -File
 
 Write-Host "Found $($defaultTextures.Count) textures in .default directory"
 
@@ -214,7 +217,7 @@ Write-Progress -Activity "Analyzing textures" -Completed
 # Now scan assets for files not present in .default (Extras)
 if (Test-Path $assetsDir) {
 	Write-Host "Scanning for textures in assets directory..."
-	$assetsTextures = Get-ChildItem -Path $assetsDir -Filter "*.png" -Recurse -File
+	$assetsTextures = Get-ChildItem -Path $assetsDir -Recurse -File
 	Write-Host "Found $($assetsTextures.Count) textures in assets directory"
 
 	# Build a HashSet of default relative paths for quick lookup
@@ -232,16 +235,22 @@ if (Test-Path $assetsDir) {
 
 	foreach ($assetTexture in $assetsTextures) {
 		$relativePath = $assetTexture.FullName.Substring($assetsDir.Length + 1).Replace('\', '/')
-		if (-not $defaultSet.Contains($relativePath)) {
+
+		if ((-not $defaultSet.Contains($relativePath)) -and ($relativePath.Contains('.mcmeta') -eq $false)) {
 			$fullRelativePath = "$AssetFolder/$relativePath"
 			$status = @{
-				Path = $relativePath
+				Path = $assetTexture.FullName.Substring($assetsDir.Length - 1).Replace('\', '/')
 				FullPath = $fullRelativePath
 				IsBlacklisted = $fullRelativePath -in $blacklistedTextures
 				IsTransparent = $fullRelativePath -in $transparentTextures
 				ExistsInAssets = $true
 				ActuallyTransparent = Test-FullyTransparent -imagePath $assetTexture.FullName
 			}
+
+			if ($AssetFolder -ne ".") {
+				$status.Path = $relativePath
+			}
+
 			$results.Extra += $status
 		}
 	}
@@ -292,6 +301,16 @@ if ("extra" -notin $Hide) {
 	}
 }
 
+if ($PruneExtra.IsPresent -and $results.Extra.Count -gt 0) {
+	Write-Host "`nPruning extra textures from assets directory..." -ForegroundColor Cyan
+	foreach ($extra in $results.Extra) {
+		$extraPath = Join-Path -Path $assetsDir -ChildPath $extra.Path
+		if (Test-Path $extraPath) {
+			Remove-Item -Path $extraPath -Force
+		}
+	}
+}
+
 # Summary
 Write-Host "`n=== SUMMARY ===" -ForegroundColor Cyan
 Write-Host "Asset Folder: $AssetFolder"
@@ -302,6 +321,8 @@ Write-Host " ✗ Missing     : $($results.Missing.Count) $(if ("missing" -in $Hi
 Write-Host " ! Blacklisted : $($results.Blacklisted.Count) $(if ("blacklisted" -in $Hide) { "(hidden)" })" -ForegroundColor Yellow
 Write-Host " ◯ Transparent : $($results.Transparents.Count) $(if ("transparents" -in $Hide) { "(hidden)" })" -ForegroundColor Magenta
 Write-Host " ▶ Extra       : $($results.Extra.Count) $(if ("extra" -in $Hide) { "(hidden)" })" -ForegroundColor Cyan
+
+Write-Host "Pruned Extra Textures: $($PruneExtra.IsPresent -and $results.Extra.Count)" -ForegroundColor Cyan
 
 $completionPercentage = if ($defaultTextures.Count -gt 0) { 
 	[math]::Round(($results.Done.Count / ($defaultTextures.Count - $results.Blacklisted.Count - $results.Transparents.Count)) * 100, 2) 

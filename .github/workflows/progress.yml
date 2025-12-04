@@ -54,7 +54,12 @@ jobs:
         shell: pwsh
         run: |
           .\.github\scripts\extract.ps1
-          
+
+      - name: Prune Extra Textures
+        shell: pwsh
+        run: |
+          .\.github\scripts\status.ps1 -PruneExtra
+
       - name: Generate Progress Statistics
         shell: pwsh
         run: |

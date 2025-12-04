@@ -29,6 +29,12 @@ jobs:
         run: |
           .\.github\scripts\sync.ps1
 
+      - name: Prune Extra Textures
+        shell: pwsh
+        run: |
+          .\.github\scripts\extract.ps1;
+          .\.github\scripts\status.ps1 -PruneExtra
+
       - name: Commit and push changes
         shell: pwsh
         run: |
