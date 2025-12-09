@@ -1,0 +1,12 @@
+{
+	"origin": "minecraft/textures/blocks/sapling_jungle.png",
+	"targets": [
+		"forestry/textures/blocks/germlings/sapling.treeZebrawood.png",
+		"forestry/textures/blocks/germlings/sapling.treeEbony.png",
+		"forestry/textures/blocks/germlings/sapling.treeKapok.png",
+		"forestry/textures/blocks/germlings/sapling.treeLime.png",
+		"forestry/textures/blocks/germlings/sapling.treeMahogony.png",
+		"forestry/textures/blocks/germlings/sapling.treeSipiri.png",
+		"thaumcraft/textures/blocks/silverwoodsapling.png"
+	]
+}

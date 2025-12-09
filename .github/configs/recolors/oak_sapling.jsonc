@@ -1,7 +1,30 @@
 {
 	"origin": "minecraft/textures/blocks/sapling_oak.png",
 	"targets": [
-		"thaumicbases/textures/blocks/goldenOak/sapling.png",
-		"miscutils/textures/blocks/trees/saplings/sapling_rainforest.png"
+		"biomesoplenty/textures/blocks/sapling_dead.png",
+		"biomesoplenty/textures/blocks/sapling_gold.png",
+		"biomesoplenty/textures/blocks/sapling_jacaranda.png",
+		"biomesoplenty/textures/blocks/sapling_magic.png",
+		"biomesoplenty/textures/blocks/sapling_maple.png",
+		"biomesoplenty/textures/blocks/sapling_orangeautumn.png",
+		"biomesoplenty/textures/blocks/sapling_origin.png",
+		"forestry/textures/blocks/germlings/sapling.treeChestnut.png",
+		"forestry/textures/blocks/germlings/sapling.treeIpe.png",
+		"forestry/textures/blocks/germlings/sapling.treeLarch.png",
+		"forestry/textures/blocks/germlings/sapling.treeMahoe.png",
+		"forestry/textures/blocks/germlings/sapling.treePadauk.png",
+		"forestry/textures/blocks/germlings/sapling.treeTeak.png",
+		"forestry/textures/blocks/germlings/sapling.treeWalnut.png",
+		"forestry/textures/blocks/germlings/sapling.treeWenge.png",
+		"forestry/textures/blocks/germlings/sapling.treeWillow.png",
+		"forestry/textures/blocks/germlings/sapling.treeBalsa.png",
+		"natura/textures/blocks/silverbell_sapling.png",
+		"natura/textures/blocks/darkwood_sapling.png",
+		"natura/textures/blocks/ghostwood_sapling.png",
+		"natura/textures/blocks/purpleheart_sapling.png",
+		"natura/textures/blocks/sakura_sapling.png",
+		"miscutils/textures/blocks/trees/saplings/sapling_rainforest.png",
+		"thaumcraft/textures/blocks/greatwoodsapling.png",
+		"thaumicbases/textures/blocks/goldenOak/sapling.png"
 	]
 }

@@ -1,6 +1,7 @@
 {
 	"origin": "minecraft/textures/blocks/sapling_birch.png",
 	"targets": [
-		"thaumicbases/textures/blocks/peacefullTree/sapling.png"
+		"thaumicbases/textures/blocks/peacefullTree/sapling.png",
+		"biomesoplenty/textures/blocks/sapling_yellowautumn.png"
 	]
 }

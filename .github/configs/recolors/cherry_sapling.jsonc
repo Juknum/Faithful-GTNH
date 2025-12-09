@@ -1,0 +1,8 @@
+{
+	"origin": "minecraft/textures/blocks/cherry_sapling.png",
+	"targets": [
+		"biomesoplenty/textures/blocks/sapling_pinkcherry.png",
+		"biomesoplenty/textures/blocks/sapling_whitecherry.png",
+		"forestry/textures/blocks/germlings/sapling.treeCherry.png"
+	]
+}
