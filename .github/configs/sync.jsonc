@@ -150,7 +150,8 @@
 				"gregtech/textures/items/materialicons/SHINY/bottle.png",
 				"gregtech/textures/items/materialicons/WOOD/bottle.png"
 			],
-			"minecraft/textures/block/grass_block_top.png": ["natura/textures/blocks/grass_top.png"]
+			"minecraft/textures/block/grass_block_top.png": ["natura/textures/blocks/grass_top.png"],
+			"minecraft/textures/entity/enchanting_table_book.png": ["akashictome/textures/models/book.png"]
 		},
 		"1.20.1": {
 			"minecraft/textures/entity/cow/brown_mooshroom.png": ["minecraft/textures/entity/cow/brown_mooshroom.png"],
