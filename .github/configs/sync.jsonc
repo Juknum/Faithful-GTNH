@@ -48,7 +48,9 @@
 			"minecraft/mcpatcher/ctm/glass/glass/43.png": ["minecraft/mcpatcher/ctm/glass/43.png"],
 			"minecraft/mcpatcher/ctm/glass/glass/44.png": ["minecraft/mcpatcher/ctm/glass/44.png"],
 			"minecraft/mcpatcher/ctm/glass/glass/45.png": ["minecraft/mcpatcher/ctm/glass/45.png"],
-			"minecraft/mcpatcher/ctm/glass/glass/46.png": ["minecraft/mcpatcher/ctm/glass/46.png"]
+			"minecraft/mcpatcher/ctm/glass/glass/46.png": ["minecraft/mcpatcher/ctm/glass/46.png"],
+			"minecraft/textures/entity/enchanting_table_book.png": ["akashictome/textures/models/book.png"],
+			"minecraft/textures/blocks/planks_oak.png": ["architecturecraft/textures/blocks/sawbench-wood.png"],
 		},
 		"1.13.2": {
 			"minecraft/textures/entity/zombie_villager/zombie_butcher.png": ["minecraft/textures/entity/zombie_villager/zombie_butcher.png"],
@@ -70,7 +72,8 @@
 			],
 			"minecraft/textures/block/iron_block.png": [
 				"tinker/textures/blocks/toolforge_iron.png",
-				"extrautils/textures/blocks/spike_base.png"
+				"extrautils/textures/blocks/spike_base.png",
+				"architecturecraft/textures/blocks/sawbench-metal.png"
 			],
 			"minecraft/textures/block/birch_planks.png": ["tinker/textures/blocks/stenciltable_birch_bottom.png"],
 			"minecraft/textures/block/jungle_planks.png": ["tinker/textures/blocks/stenciltable_jungle_bottom.png"],
@@ -151,7 +154,7 @@
 				"gregtech/textures/items/materialicons/WOOD/bottle.png"
 			],
 			"minecraft/textures/block/grass_block_top.png": ["natura/textures/blocks/grass_top.png"],
-			"minecraft/textures/entity/enchanting_table_book.png": ["akashictome/textures/models/book.png"]
+			"minecraft/textures/block/grass_block_top.png": ["natura/textures/blocks/grass_top.png"]
 		},
 		"1.20.1": {
 			"minecraft/textures/entity/cow/brown_mooshroom.png": ["minecraft/textures/entity/cow/brown_mooshroom.png"],
