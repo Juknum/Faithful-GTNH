@@ -50,6 +50,7 @@
 	System.String
 	Accepts a file path string parameter for single file processing.
 #>
+
 param(
 	[Parameter(Mandatory = $false)]
 	[string]$file = $null

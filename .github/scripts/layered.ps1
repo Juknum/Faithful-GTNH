@@ -33,6 +33,11 @@
 	Progress messages indicating the processing status of each layer combination.
 #>
 
+param(
+	[Parameter(Mandatory = $true)]
+	[string]$file
+)
+
 # Define paths
 $configDir    = Join-Path -Path $PSScriptRoot -ChildPath "../configs/layers"
 $layerScript  = Join-Path -Path $PSScriptRoot -ChildPath "layer.ps1"
