@@ -75,8 +75,16 @@ $ZipFile      = "$PSScriptRoot\..\..\GTNH_${VERSION}.zip"
 $MinecraftJar = "$PSScriptRoot\..\..\client.jar"
 $OutputPath   = "$PSScriptRoot\..\..\.default"
 
-## Vanilla Minecraft assets
+# Clean output directory before extraction
+if (Test-Path $OutputPath) {
+	Write-Host "Cleaning existing output directory..."
+	Remove-Item -Path $OutputPath -Recurse -Force
+}
 
+New-Item -ItemType Directory -Path $OutputPath -Force | Out-Null
+Write-Host "Output directory prepared at $OutputPath"
+
+## Vanilla Minecraft assets
 if (-Not (Test-Path $MinecraftJar)) {
 	Write-Host "Downloading Minecraft client jar..."
 	Invoke-WebRequest -Uri $MinecraftUrl -OutFile $MinecraftJar
@@ -85,6 +93,7 @@ if (-Not (Test-Path $MinecraftJar)) {
 }
 
 Add-Type -AssemblyName System.IO.Compression.FileSystem
+
 Write-Host "Opening Minecraft jar..."
 $mcZip = [System.IO.Compression.ZipFile]::OpenRead($MinecraftJar)
 # Filter for assets folder .png and .mcmeta files
@@ -153,8 +162,6 @@ if (-Not (Test-Path $ZipFile)) {
 		}
 	}
 }
-
-Add-Type -AssemblyName System.IO.Compression.FileSystem
 
 Write-Host "Opening main archive..."
 $gtZip = [System.IO.Compression.ZipFile]::OpenRead($ZipFile)

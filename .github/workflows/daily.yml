@@ -24,6 +24,16 @@ jobs:
           git config --global user.name "Github Actions"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
+      - name: Extract default textures
+        shell: pwsh
+        run: |
+          .\.github\scripts\extract.ps1
+
+      - name: Ignore unwanted files
+        shell: pwsh
+        run: |
+          .\.github\scripts\ignore.ps1
+
       - name: Sync assets from Faithful 32x repository
         shell: pwsh
         run: |
@@ -33,11 +43,6 @@ jobs:
         shell: pwsh
         run: |
           .\.github\scripts\watcher.ps1
-
-      - name: Extract default textures
-        shell: pwsh
-        run: |
-          .\.github\scripts\extract.ps1
 
       - name: Prune extra textures
         shell: pwsh
