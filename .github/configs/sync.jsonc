@@ -53,6 +53,7 @@
 			"minecraft/textures/blocks/furnace_top.png": ["thaumcraft/textures/blocks/al_furnace_side.png"],
 			"minecraft/textures/blocks/brewing_stand_base.png": ["thaumicbases/textures/blocks/bloodyBrewingStand/brewing_stand_base.png"],
 			"minecraft/textures/blocks/planks_oak.png": ["architecturecraft/textures/blocks/sawbench-wood.png"],
+			"minecraft/textures/items/minecart_normal.png": ["stevescarts/textures/items/standard_hull_icon.png"]
 		},
 		"1.13.2": {
 			"minecraft/textures/entity/zombie_villager/zombie_butcher.png": ["minecraft/textures/entity/zombie_villager/zombie_butcher.png"],
@@ -155,7 +156,6 @@
 				"gregtech/textures/items/materialicons/SHINY/bottle.png",
 				"gregtech/textures/items/materialicons/WOOD/bottle.png"
 			],
-			"minecraft/textures/block/grass_block_top.png": ["natura/textures/blocks/grass_top.png"],
 			"minecraft/textures/block/grass_block_top.png": ["natura/textures/blocks/grass_top.png"]
 		},
 		"1.20.1": {

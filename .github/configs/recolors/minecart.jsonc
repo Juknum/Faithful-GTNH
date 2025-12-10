@@ -1,0 +1,7 @@
+{
+	"origin": "minecraft/textures/items/minecart_normal.png",
+	"targets": [
+		"stevescarts/textures/items/galgadorian_hull_icon.png",
+		"stevescarts/textures/items/mechanical_pig_icon.png",
+	]
+}

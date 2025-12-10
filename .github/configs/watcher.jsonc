@@ -906,6 +906,16 @@
 			}
 		]
 	},
+	"assets/minecraft/textures/items/minecart_normal.png": {
+		"scripts": [
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "railcraft/creative_icons.jsonc"
+				}
+			}
+		]
+	},
 	"assets/minecraft/textures/blocks/coarse_dirt.png": {
 		"scripts": [
 			{

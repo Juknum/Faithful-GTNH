@@ -1,0 +1,7 @@
+[
+	{
+		"layer0Path": "assets/minecraft/textures/items/minecart_normal.png",
+		"layer1Path": ".work/.assets/railcraft/creative_icon.png",
+		"outPath":    "assets/stevescarts/textures/items/creative_hull_icon.png"
+	}
+]
