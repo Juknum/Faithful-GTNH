@@ -16,7 +16,7 @@ Feel free to open issues or PRs for suggestions, bug reports or contributions.
 
 ## Resource Pack Progress
 
-Overall Progress: 5284/52917 (9.99%)
+Overall Progress: 5555/52917 (10.5%)
 
 | Namespace | Completed | Total | Percentage |
 |-----------|-----------|-------|------------|
@@ -26,16 +26,16 @@ Overall Progress: 5284/52917 (9.99%)
 | ae2stuff | 0 | 85 | ░░░░░░░░░░ 0% |
 | ae2wct | 2 | 16 | █░░░░░░░░░ 12.5% |
 | afsu | 30 | 32 | █████████░ 93.75% |
-| akashictome | 0 | 2 | ░░░░░░░░░░ 0% |
+| akashictome | 2 | 2 | ██████████ 100% |
 | alchemicalwizardry | 65 | 418 | █░░░░░░░░░ 15.55% |
 | alchgrate | 0 | 1 | ░░░░░░░░░░ 0% |
 | amazingtrophies | 1 | 1 | ██████████ 100% |
 | amunra | 63 | 206 | ███░░░░░░░ 30.58% |
-| angelica | 0 | 5 | ░░░░░░░░░░ 0% |
+| angelica | 5 | 5 | ██████████ 100% |
 | angermod | 1 | 1 | ██████████ 100% |
 | applecore | 1 | 1 | ██████████ 100% |
 | appliedenergistics2 | 11 | 547 | ░░░░░░░░░░ 2.01% |
-| architecturecraft | 4 | 12 | ███░░░░░░░ 33.33% |
+| architecturecraft | 12 | 12 | ██████████ 100% |
 | asielib | 0 | 2 | ░░░░░░░░░░ 0% |
 | automagy | 26 | 223 | █░░░░░░░░░ 11.66% |
 | avaritia | 15 | 168 | ░░░░░░░░░░ 8.93% |
@@ -54,7 +54,7 @@ Overall Progress: 5284/52917 (9.99%)
 | betterquesting | 4 | 16 | ██░░░░░░░░ 25% |
 | bibliocraft | 44 | 420 | █░░░░░░░░░ 10.48% |
 | binniecore | 0 | 80 | ░░░░░░░░░░ 0% |
-| biomesoplenty | 47 | 572 | ░░░░░░░░░░ 8.22% |
+| biomesoplenty | 57 | 572 | ░░░░░░░░░░ 9.97% |
 | blockrenderer6343 | 1 | 1 | ██████████ 100% |
 | bloodarsenal | 8 | 206 | ░░░░░░░░░░ 3.88% |
 | bogosorter | 6 | 6 | ██████████ 100% |
@@ -99,7 +99,7 @@ Overall Progress: 5284/52917 (9.99%)
 | findit | 0 | 1 | ░░░░░░░░░░ 0% |
 | floodlights | 1 | 28 | ░░░░░░░░░░ 3.57% |
 | forbidden | 20 | 146 | █░░░░░░░░░ 13.7% |
-| forestry | 50 | 723 | ░░░░░░░░░░ 6.92% |
+| forestry | 67 | 723 | ░░░░░░░░░░ 9.27% |
 | gadomancy | 23 | 70 | ███░░░░░░░ 32.86% |
 | galacticgreg | 1 | 1 | ██████████ 100% |
 | galacticraftasteroids | 68 | 142 | ████░░░░░░ 47.89% |
@@ -157,7 +157,7 @@ Overall Progress: 5284/52917 (9.99%)
 | modularui | 29 | 29 | ██████████ 100% |
 | modularui2 | 0 | 31 | ░░░░░░░░░░ 0% |
 | mrtjpcore | 2 | 3 | ██████░░░░ 66.67% |
-| natura | 44 | 493 | ░░░░░░░░░░ 8.92% |
+| natura | 49 | 493 | ░░░░░░░░░░ 9.94% |
 | naturescompass | 0 | 32 | ░░░░░░░░░░ 0% |
 | navigator | 0 | 1 | ░░░░░░░░░░ 0% |
 | neenergistics | 0 | 4 | ░░░░░░░░░░ 0% |
@@ -186,11 +186,11 @@ Overall Progress: 5284/52917 (9.99%)
 | serverutilities | 0 | 111 | ░░░░░░░░░░ 0% |
 | sgcraft | 3 | 57 | ░░░░░░░░░░ 5.26% |
 | sleepingbag | 0 | 7 | ░░░░░░░░░░ 0% |
-| sodium | 0 | 1 | ░░░░░░░░░░ 0% |
+| sodium | 1 | 1 | ██████████ 100% |
 | specialmobs | 0 | 141 | ░░░░░░░░░░ 0% |
 | spiceoflife | 9 | 12 | ███████░░░ 75% |
 | stevesaddons | 0 | 9 | ░░░░░░░░░░ 0% |
-| stevescarts | 0 | 421 | ░░░░░░░░░░ 0% |
+| stevescarts | 4 | 421 | ░░░░░░░░░░ 0.95% |
 | stevesfactory | 0 | 32 | ░░░░░░░░░░ 0% |
 | storagedrawers | 0 | 171 | ░░░░░░░░░░ 0% |
 | storagedrawersbop | 0 | 138 | ░░░░░░░░░░ 0% |
@@ -202,11 +202,11 @@ Overall Progress: 5284/52917 (9.99%)
 | supersolarpanel | 0 | 17 | ░░░░░░░░░░ 0% |
 | taintedmagic | 0 | 99 | ░░░░░░░░░░ 0% |
 | tcneiadditions | 0 | 1 | ░░░░░░░░░░ 0% |
-| tcnodetracker | 0 | 7 | ░░░░░░░░░░ 0% |
+| tcnodetracker | 7 | 7 | ██████████ 100% |
 | tectech | 0 | 220 | ░░░░░░░░░░ 0% |
 | tgregworks | 0 | 1 | ░░░░░░░░░░ 0% |
-| thaumcraft | 2 | 921 | ░░░░░░░░░░ 0.22% |
-| thaumicbases | 6 | 339 | ░░░░░░░░░░ 1.77% |
+| thaumcraft | 212 | 921 | ██░░░░░░░░ 23.02% |
+| thaumicbases | 8 | 339 | ░░░░░░░░░░ 2.36% |
 | thaumicboots | 0 | 184 | ░░░░░░░░░░ 0% |
 | thaumicenergistics | 0 | 115 | ░░░░░░░░░░ 0% |
 | thaumicexploration | 0 | 189 | ░░░░░░░░░░ 0% |
