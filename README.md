@@ -16,7 +16,7 @@ Feel free to open issues or PRs for suggestions, bug reports or contributions.
 
 ## Resource Pack Progress
 
-Overall Progress: 5595/52917 (10.57%)
+Overall Progress: 5601/52917 (10.58%)
 
 | Namespace | Completed | Total | Percentage |
 |-----------|-----------|-------|------------|
@@ -48,7 +48,7 @@ Overall Progress: 5595/52917 (10.57%)
 | baubles | 20 | 20 | ██████████ 100% |
 | beebetteratbees | 1 | 1 | ██████████ 100% |
 | betterachievements | 2 | 2 | ██████████ 100% |
-| betterbuilderswands | 0 | 5 | ░░░░░░░░░░ 0% |
+| betterbuilderswands | 5 | 5 | ██████████ 100% |
 | betterloadingscreen | 10 | 10 | ██████████ 100% |
 | betterp2p | 0 | 2 | ░░░░░░░░░░ 0% |
 | betterquesting | 4 | 16 | ██░░░░░░░░ 25% |
@@ -63,7 +63,7 @@ Overall Progress: 5595/52917 (10.57%)
 | botany | 1 | 982 | ░░░░░░░░░░ 0.1% |
 | bpp | 0 | 253 | ░░░░░░░░░░ 0% |
 | bq_standard | 3 | 3 | ██████████ 100% |
-| brandonscore | 0 | 1 | ░░░░░░░░░░ 0% |
+| brandonscore | 1 | 1 | ██████████ 100% |
 | buildcraft | 1 | 1 | ██████████ 100% |
 | buildcraftbuilders | 0 | 70 | ░░░░░░░░░░ 0% |
 | buildcraftcompat | 0 | 29 | ░░░░░░░░░░ 0% |
