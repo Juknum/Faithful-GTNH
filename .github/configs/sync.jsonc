@@ -49,6 +49,7 @@
 			"minecraft/mcpatcher/ctm/glass/glass/44.png": ["minecraft/mcpatcher/ctm/glass/44.png"],
 			"minecraft/mcpatcher/ctm/glass/glass/45.png": ["minecraft/mcpatcher/ctm/glass/45.png"],
 			"minecraft/mcpatcher/ctm/glass/glass/46.png": ["minecraft/mcpatcher/ctm/glass/46.png"],
+			"minecraft/textures/gui/achievement/achievement_background.png": ["betterachievements/textures/gui/sprites.png"],
 			"minecraft/textures/entity/enchanting_table_book.png": ["akashictome/textures/models/book.png"],
 			"minecraft/textures/blocks/furnace_top.png": ["thaumcraft/textures/blocks/al_furnace_side.png"],
 			"minecraft/textures/blocks/brewing_stand_base.png": ["thaumicbases/textures/blocks/bloodyBrewingStand/brewing_stand_base.png"],

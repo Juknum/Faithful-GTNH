@@ -16,7 +16,7 @@ Feel free to open issues or PRs for suggestions, bug reports or contributions.
 
 ## Resource Pack Progress
 
-Overall Progress: 5555/52917 (10.5%)
+Overall Progress: 5580/52917 (10.54%)
 
 | Namespace | Completed | Total | Percentage |
 |-----------|-----------|-------|------------|
@@ -36,7 +36,7 @@ Overall Progress: 5555/52917 (10.5%)
 | applecore | 1 | 1 | ██████████ 100% |
 | appliedenergistics2 | 11 | 547 | ░░░░░░░░░░ 2.01% |
 | architecturecraft | 12 | 12 | ██████████ 100% |
-| asielib | 0 | 2 | ░░░░░░░░░░ 0% |
+| asielib | 2 | 2 | ██████████ 100% |
 | automagy | 26 | 223 | █░░░░░░░░░ 11.66% |
 | avaritia | 15 | 168 | ░░░░░░░░░░ 8.93% |
 | avaritiaddons | 0 | 18 | ░░░░░░░░░░ 0% |
@@ -45,9 +45,9 @@ Overall Progress: 5555/52917 (10.5%)
 | bartworks | 17 | 158 | █░░░░░░░░░ 10.76% |
 | bartworkscrossmod | 0 | 4 | ░░░░░░░░░░ 0% |
 | battlegear2 | 0 | 232 | ░░░░░░░░░░ 0% |
-| baubles | 0 | 20 | ░░░░░░░░░░ 0% |
-| beebetteratbees | 0 | 1 | ░░░░░░░░░░ 0% |
-| betterachievements | 0 | 2 | ░░░░░░░░░░ 0% |
+| baubles | 20 | 20 | ██████████ 100% |
+| beebetteratbees | 1 | 1 | ██████████ 100% |
+| betterachievements | 2 | 2 | ██████████ 100% |
 | betterbuilderswands | 0 | 5 | ░░░░░░░░░░ 0% |
 | betterloadingscreen | 10 | 10 | ██████████ 100% |
 | betterp2p | 0 | 2 | ░░░░░░░░░░ 0% |
