@@ -16,7 +16,7 @@ Feel free to open issues or PRs for suggestions, bug reports or contributions.
 
 ## Resource Pack Progress
 
-Overall Progress: 5580/52917 (10.54%)
+Overall Progress: 5595/52917 (10.57%)
 
 | Namespace | Completed | Total | Percentage |
 |-----------|-----------|-------|------------|
@@ -121,10 +121,10 @@ Overall Progress: 5580/52917 (10.54%)
 | hardcoreenderexpansion | 20 | 306 | ░░░░░░░░░░ 6.54% |
 | harvestcraft | 0 | 1437 | ░░░░░░░░░░ 0% |
 | harvestthenether | 0 | 54 | ░░░░░░░░░░ 0% |
-| holoinventory | 2 | 3 | ██████░░░░ 66.67% |
+| holoinventory | 3 | 3 | ██████████ 100% |
 | hydroenergy | 0 | 2 | ░░░░░░░░░░ 0% |
 | ic2 | 32 | 1211 | ░░░░░░░░░░ 2.64% |
-| ic2nei | 0 | 2 | ░░░░░░░░░░ 0% |
+| ic2nei | 2 | 2 | ██████████ 100% |
 | ifu | 0 | 6 | ░░░░░░░░░░ 0% |
 | iguanatweakstconstruct | 0 | 77 | ░░░░░░░░░░ 0% |
 | infernalmobs | 2 | 2 | ██████████ 100% |
@@ -150,9 +150,9 @@ Overall Progress: 5580/52917 (10.54%)
 | metalbarrels | 0 | 47 | ░░░░░░░░░░ 0% |
 | microblock | 0 | 5 | ░░░░░░░░░░ 0% |
 | minecraft | 1770 | 1956 | █████████░ 90.49% |
-| minetweaker | 0 | 1 | ░░░░░░░░░░ 0% |
+| minetweaker | 1 | 1 | ██████████ 100% |
 | miscutils | 27 | 1460 | ░░░░░░░░░░ 1.85% |
-| mobsinfo | 0 | 5 | ░░░░░░░░░░ 0% |
+| mobsinfo | 5 | 5 | ██████████ 100% |
 | modernmarkings | 0 | 148 | ░░░░░░░░░░ 0% |
 | modularui | 29 | 29 | ██████████ 100% |
 | modularui2 | 0 | 31 | ░░░░░░░░░░ 0% |
@@ -161,8 +161,8 @@ Overall Progress: 5580/52917 (10.54%)
 | naturescompass | 0 | 32 | ░░░░░░░░░░ 0% |
 | navigator | 0 | 1 | ░░░░░░░░░░ 0% |
 | neenergistics | 0 | 4 | ░░░░░░░░░░ 0% |
-| nei | 7 | 8 | ████████░░ 87.5% |
-| neiaddons | 0 | 5 | ░░░░░░░░░░ 0% |
+| nei | 8 | 8 | ██████████ 100% |
+| neiaddons | 5 | 5 | ██████████ 100% |
 | neicustomdiagram | 1 | 1 | ██████████ 100% |
 | neiintegration | 7 | 9 | ███████░░░ 77.78% |
 | nodalmechanics | 0 | 1 | ░░░░░░░░░░ 0% |
