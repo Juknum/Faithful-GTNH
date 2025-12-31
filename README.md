@@ -1,7 +1,16 @@
-## Faithful-GTNH Resource Pack
+## Faithful for GregTech: New Horizons
+
+<img src="./pack.png" alt="Faithful-GTNH Logo" width="128" align="left" />
 
 A modern 32x Faithful resource pack tailored for the GT: New Horizons modpack.  
 This pack aims to enhance the visual experience while maintaining the 1.20+ Minecraft aesthetic (AKA Jappa textures) while following the [Faithful guidelines](https://docs.faithfulpack.net/pages/textures/f32-texturing-guidelines).
+
+<a href="https://juknum.fr/api/github/download-zip?owner=Juknum&repo=Faithful-GTNH&paths=README.md,pack.mcmeta,pack.png,LICENSE.txt,assets" target="_blank" >
+	<img src="https://img.shields.io/badge/download%20latest-lightblue?style=for-the-badge" align="left" />
+</a>
+
+<br />
+<br />
 
 ## License
 
