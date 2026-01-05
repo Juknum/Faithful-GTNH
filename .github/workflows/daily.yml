@@ -39,15 +39,20 @@ jobs:
         run: |
           .\.github\scripts\sync.ps1
 
-      - name: Update Assets under Watch
-        shell: pwsh
-        run: |
-          .\.github\scripts\watcher.ps1
-
       - name: Prune extra textures
         shell: pwsh
         run: |
           .\.github\scripts\status.ps1 -PruneExtra
+
+      - name: Commit synced assets
+        shell: pwsh
+        run: |
+          .\.github\scripts\git.ps1 -CommitMessage "daily sync assets from Faithful 32x" -NoPush
+
+      - name: Update Assets under Watch
+        shell: pwsh
+        run: |
+          .\.github\scripts\watcher.ps1
 
       - name: Update progression in README
         shell: pwsh
@@ -57,4 +62,4 @@ jobs:
       - name: Commit and push changes
         shell: pwsh
         run: |
-          .\.github\scripts\push.ps1 -CommitMessage "daily synchronization and updates"
+          .\.github\scripts\git.ps1 -CommitMessage "daily synchronization and updates"

@@ -64,5 +64,5 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          .\.github\scripts\push.ps1 -CommitMessage "update progression bars on README"
+          .\.github\scripts\git.ps1 -CommitMessage "update progression bars on README"
 

@@ -36,4 +36,4 @@ jobs:
       - name: Commit and push changes
         shell: pwsh
         run: |
-          .\.github\scripts\push.ps1 -CommitMessage "sync assets from Faithful 32x"
+          .\.github\scripts\git.ps1 -CommitMessage "sync assets from Faithful 32x"

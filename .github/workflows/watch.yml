@@ -55,4 +55,4 @@ jobs:
       - name: Commit and push changes
         shell: pwsh
         run: |
-          .\.github\scripts\push.ps1 -CommitMessage "update assets under watch"
+          .\.github\scripts\git.ps1 -CommitMessage "update assets under watch"
