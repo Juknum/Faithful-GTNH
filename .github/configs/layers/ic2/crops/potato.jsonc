@@ -1,0 +1,22 @@
+[
+	{
+		"layer0Path": "assets/ic2/textures/blocks/crop/stick.png",
+		"layer1Path": "assets/minecraft/textures/blocks/potatoes_stage_0.png",
+		"outPath": "assets/ic2/textures/blocks/crop/potato.1.png"
+	},
+	{
+		"layer0Path": "assets/ic2/textures/blocks/crop/stick.png",
+		"layer1Path": "assets/minecraft/textures/blocks/potatoes_stage_1.png",
+		"outPath": "assets/ic2/textures/blocks/crop/potato.2.png"
+	},
+	{
+		"layer0Path": "assets/ic2/textures/blocks/crop/stick.png",
+		"layer1Path": "assets/minecraft/textures/blocks/potatoes_stage_2.png",
+		"outPath": "assets/ic2/textures/blocks/crop/potato.3.png"
+	},
+	{
+		"layer0Path": "assets/ic2/textures/blocks/crop/stick.png",
+		"layer1Path": "assets/minecraft/textures/blocks/potatoes_stage_3.png",
+		"outPath": "assets/ic2/textures/blocks/crop/potato.4.png"
+	}
+]

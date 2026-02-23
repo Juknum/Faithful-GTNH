@@ -1,0 +1,17 @@
+[
+	{
+		"layer0Path": "assets/ic2/textures/blocks/crop/stick.png",
+		"layer1Path": "assets/minecraft/textures/blocks/nether_wart_stage_0.png",
+		"outPath": "assets/ic2/textures/blocks/crop/netherWart.1.png"
+	},
+	{
+		"layer0Path": "assets/ic2/textures/blocks/crop/stick.png",
+		"layer1Path": "assets/minecraft/textures/blocks/nether_wart_stage_1.png",
+		"outPath": "assets/ic2/textures/blocks/crop/netherWart.2.png"
+	},
+	{
+		"layer0Path": "assets/ic2/textures/blocks/crop/stick.png",
+		"layer1Path": "assets/minecraft/textures/blocks/nether_wart_stage_2.png",
+		"outPath": "assets/ic2/textures/blocks/crop/netherWart.3.png"
+	}
+]

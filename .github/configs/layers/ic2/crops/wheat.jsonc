@@ -1,0 +1,54 @@
+[
+	{
+		"layer0Path": "assets/ic2/textures/blocks/crop/stick.png",
+		"layer1Path": "assets/minecraft/textures/blocks/wheat_stage_0.png",
+		"outPath": "assets/ic2/textures/blocks/crop/wheat.1.png"
+	},
+	{
+		"layer0Path": "assets/ic2/textures/blocks/crop/stick.png",
+		"layer1Path": "assets/minecraft/textures/blocks/wheat_stage_2.png",
+		"outPath": "assets/ic2/textures/blocks/crop/wheat.2.png"
+	},
+	{
+		"layer0Path": "assets/ic2/textures/blocks/crop/stick.png",
+		"layer1Path": "assets/minecraft/textures/blocks/wheat_stage_3.png",
+		"outPath": "assets/ic2/textures/blocks/crop/wheat.3.png"
+	},
+	{
+		"layer0Path": "assets/ic2/textures/blocks/crop/stick.png",
+		"layer1Path": "assets/minecraft/textures/blocks/wheat_stage_4.png",
+		"outPath": "assets/ic2/textures/blocks/crop/wheat.4.png"
+	},
+	{
+		"layer0Path": "assets/ic2/textures/blocks/crop/stick.png",
+		"layer1Path": "assets/minecraft/textures/blocks/wheat_stage_5.png",
+		"outPath": "assets/ic2/textures/blocks/crop/wheat.5.png"
+	},
+	{
+		"layer0Path": "assets/ic2/textures/blocks/crop/stick.png",
+		"layer1Path": "assets/minecraft/textures/blocks/wheat_stage_6.png",
+		"outPath": "assets/ic2/textures/blocks/crop/wheat.6.png"
+	},
+	{
+		"layer0Path": "assets/ic2/textures/blocks/crop/stick.png",
+		"layer1Path": "assets/minecraft/textures/blocks/wheat_stage_7.png",
+		"outPath": "assets/ic2/textures/blocks/crop/wheat.7.png"
+	},
+
+	// redwheat
+	{
+		"layer0Path": "assets/ic2/textures/blocks/crop/stick.png",
+		"layer1Path": "assets/minecraft/textures/blocks/wheat_stage_0.png",
+		"outPath": "assets/ic2/textures/blocks/crop/redwheat.1.png"
+	},
+	{
+		"layer0Path": "assets/ic2/textures/blocks/crop/stick.png",
+		"layer1Path": "assets/minecraft/textures/blocks/wheat_stage_2.png",
+		"outPath": "assets/ic2/textures/blocks/crop/redwheat.2.png"
+	},
+	{
+		"layer0Path": "assets/ic2/textures/blocks/crop/stick.png",
+		"layer1Path": "assets/minecraft/textures/blocks/wheat_stage_3.png",
+		"outPath": "assets/ic2/textures/blocks/crop/redwheat.3.png"
+	}
+]

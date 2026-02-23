@@ -1047,5 +1047,185 @@
 				}
 			}
 		]
+	},
+	"assets/minecraft/textures/blocks/potatoes_stage_0.png": {
+		"scripts": [
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "ic2/crops/potato.jsonc"
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/potatoes_stage_1.png": {
+		"scripts": [
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "ic2/crops/potato.jsonc"
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/potatoes_stage_2.png": {
+		"scripts": [
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "ic2/crops/potato.jsonc"
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/potatoes_stage_3.png": {
+		"scripts": [
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "ic2/crops/potato.jsonc"
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/carrots_stage_1.png": {
+		"scripts": [
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "ic2/crops/carrot.jsonc"
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/carrots_stage_2.png": {
+		"scripts": [
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "ic2/crops/carrot.jsonc"
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/carrots_stage_3.png": {
+		"scripts": [
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "ic2/crops/carrot.jsonc"
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/wheat_stage_0.png": {
+		"scripts": [
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "ic2/crops/wheat.jsonc"
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/wheat_stage_1.png": {
+		"scripts": [
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "ic2/crops/wheat.jsonc"
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/wheat_stage_2.png": {
+		"scripts": [
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "ic2/crops/wheat.jsonc"
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/wheat_stage_3.png": {
+		"scripts": [
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "ic2/crops/wheat.jsonc"
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/wheat_stage_4.png": {
+		"scripts": [
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "ic2/crops/wheat.jsonc"
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/wheat_stage_5.png": {
+		"scripts": [
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "ic2/crops/wheat.jsonc"
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/wheat_stage_6.png": {
+		"scripts": [
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "ic2/crops/wheat.jsonc"
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/wheat_stage_7.png": {
+		"scripts": [
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "ic2/crops/wheat.jsonc"
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/nether_wart_stage_1.png": {
+		"scripts": [
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "ic2/crops/nether_wart.jsonc"
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/nether_wart_stage_2.png": {
+		"scripts": [
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "ic2/crops/nether_wart.jsonc"
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/nether_wart_stage_3.png": {
+		"scripts": [
+			{
+				"name": "layered.ps1",
+				"args": {
+					"file": "ic2/crops/nether_wart.jsonc"
+				}
+			}
+		]
 	}
 }

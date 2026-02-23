@@ -1,0 +1,17 @@
+[
+	{
+		"layer0Path": "assets/ic2/textures/blocks/crop/stick.png",
+		"layer1Path": "assets/minecraft/textures/blocks/carrots_stage_1.png",
+		"outPath": "assets/ic2/textures/blocks/crop/carrots.1.png"
+	},
+	{
+		"layer0Path": "assets/ic2/textures/blocks/crop/stick.png",
+		"layer1Path": "assets/minecraft/textures/blocks/carrots_stage_2.png",
+		"outPath": "assets/ic2/textures/blocks/crop/carrots.2.png"
+	},
+	{
+		"layer0Path": "assets/ic2/textures/blocks/crop/stick.png",
+		"layer1Path": "assets/minecraft/textures/blocks/carrots_stage_3.png",
+		"outPath": "assets/ic2/textures/blocks/crop/carrots.3.png"
+	}
+]
