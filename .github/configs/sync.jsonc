@@ -2,7 +2,10 @@
 	// format: "path/to/1.20.1/minecraft/asset": "path/to/current/asset"
 	"files": {
 		"1.7.10": {
-			"minecraft/mcpatcher/ctm/glass/glass/0.png": ["minecraft/mcpatcher/ctm/glass/0.png"],
+			"minecraft/mcpatcher/ctm/glass/glass/0.png": [
+				"minecraft/mcpatcher/ctm/glass/0.png",
+				"minecraft/openblocks/textures/blocks/canvasglass.png"
+			],
 			"minecraft/mcpatcher/ctm/glass/glass/1.png": ["minecraft/mcpatcher/ctm/glass/1.png"],
 			"minecraft/mcpatcher/ctm/glass/glass/2.png": ["minecraft/mcpatcher/ctm/glass/2.png"],
 			"minecraft/mcpatcher/ctm/glass/glass/3.png": ["minecraft/mcpatcher/ctm/glass/3.png"],
@@ -54,7 +57,8 @@
 			"minecraft/textures/blocks/furnace_top.png": ["thaumcraft/textures/blocks/al_furnace_side.png"],
 			"minecraft/textures/blocks/brewing_stand_base.png": ["thaumicbases/textures/blocks/bloodyBrewingStand/brewing_stand_base.png"],
 			"minecraft/textures/blocks/planks_oak.png": ["architecturecraft/textures/blocks/sawbench-wood.png"],
-			"minecraft/textures/items/minecart_normal.png": ["stevescarts/textures/items/standard_hull_icon.png"]
+			"minecraft/textures/items/minecart_normal.png": ["stevescarts/textures/items/standard_hull_icon.png"],
+			"minecraft/textures/blocks/enchanting_table_bottom.png": ["openblocks/textures/blocks/autoenchantmenttable_bottom.png"]
 		},
 		"1.13.2": {
 			"minecraft/textures/entity/zombie_villager/zombie_butcher.png": ["minecraft/textures/entity/zombie_villager/zombie_butcher.png"],
@@ -96,7 +100,11 @@
 			"minecraft/textures/block/spruce_log.png": ["tinker/textures/blocks/partbuilder_spruce_bottom.png"],
 			"minecraft/textures/item/spawn_egg.png": ["miscutils/textures/items/spawn_egg.png"],
 			"minecraft/textures/item/spawn_egg_overlay.png": ["miscutils/textures/items/spawn_egg_overlay.png"],
-			"minecraft/textures/block/stone.png": ["miscutils/textures/blocks/blockStone.png"],
+			"minecraft/textures/block/stone.png": [
+				"miscutils/textures/blocks/blockStone.png",
+				"openblocks/textures/blocks/bigbutton.png",
+				"openblocks/textures/blocks/path.png"
+			],
 			"minecraft/textures/item/glass_bottle.png": [
 				"forestry/textures/items/liquids/glass.bottle.png",
 				"gregtech/textures/items/materialicons/DIAMOND/bottle_OVERLAY.png",

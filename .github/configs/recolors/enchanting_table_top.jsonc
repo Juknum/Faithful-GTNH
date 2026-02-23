@@ -1,0 +1,6 @@
+{
+	"origin": "minecraft/textures/blocks/enchanting_table_top.png",
+	"targets": [
+		"openblocks/textures/blocks/autoenchantmenttable_top.png"
+	]
+}

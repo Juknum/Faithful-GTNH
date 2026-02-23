@@ -1014,5 +1014,38 @@
 				}
 			}
 		]
+	},
+	"assets/minecraft/textures/blocks/sponge.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["sponge.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/enchanting_table_side.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["enchanting_table_side.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
+	},
+	"assets/minecraft/textures/blocks/enchanting_table_top.png": {
+		"scripts": [
+			{
+				"name": "recolors.ps1",
+				"args": {
+					"files": ["enchanting_table_top.jsonc"],
+					"forceRecolor": true
+				}
+			}
+		]
 	}
 }

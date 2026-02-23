@@ -1,0 +1,6 @@
+{
+	"origin": "minecraft/textures/blocks/sponge.png",
+	"targets": [
+		"openblocks/textures/blocks/sponge.png"
+	]
+}
