@@ -25,7 +25,7 @@ Feel free to open issues or PRs for suggestions, bug reports or contributions.
 
 ## Resource Pack Progress
 
-Overall Progress: 5601/52917 (10.58%)
+Overall Progress: 5651/52917 (10.68%)
 
 | Namespace | Completed | Total | Percentage |
 |-----------|-----------|-------|------------|
@@ -123,7 +123,7 @@ Overall Progress: 5601/52917 (10.58%)
 | goodgenerator | 12 | 206 | ░░░░░░░░░░ 5.83% |
 | gravisuite | 3 | 32 | ░░░░░░░░░░ 9.38% |
 | gravisuiteneo | 0 | 108 | ░░░░░░░░░░ 0% |
-| gregtech | 674 | 11472 | ░░░░░░░░░░ 5.88% |
+| gregtech | 680 | 11472 | ░░░░░░░░░░ 5.93% |
 | gtneioreplugin | 258 | 266 | █████████░ 96.99% |
 | gtnhintergalactic | 0 | 238 | ░░░░░░░░░░ 0% |
 | gtnhlanth | 0 | 56 | ░░░░░░░░░░ 0% |
@@ -132,7 +132,7 @@ Overall Progress: 5601/52917 (10.58%)
 | harvestthenether | 0 | 54 | ░░░░░░░░░░ 0% |
 | holoinventory | 3 | 3 | ██████████ 100% |
 | hydroenergy | 0 | 2 | ░░░░░░░░░░ 0% |
-| ic2 | 32 | 1211 | ░░░░░░░░░░ 2.64% |
+| ic2 | 58 | 1211 | ░░░░░░░░░░ 4.79% |
 | ic2nei | 2 | 2 | ██████████ 100% |
 | ifu | 0 | 6 | ░░░░░░░░░░ 0% |
 | iguanatweakstconstruct | 0 | 77 | ░░░░░░░░░░ 0% |
@@ -177,7 +177,7 @@ Overall Progress: 5601/52917 (10.58%)
 | nodalmechanics | 0 | 1 | ░░░░░░░░░░ 0% |
 | nuclearcontrol | 0 | 574 | ░░░░░░░░░░ 0% |
 | nutrition | 4 | 4 | ██████████ 100% |
-| openblocks | 0 | 249 | ░░░░░░░░░░ 0% |
+| openblocks | 18 | 249 | ░░░░░░░░░░ 7.23% |
 | opencomputers | 0 | 372 | ░░░░░░░░░░ 0% |
 | openglasses | 0 | 5 | ░░░░░░░░░░ 0% |
 | openmodslib | 0 | 2 | ░░░░░░░░░░ 0% |
